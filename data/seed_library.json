@@ -1,0 +1,1093 @@
+{
+ "source": "seed_demo — hand-written placeholder rows; replace with data/library.json from scripts/build_library.py",
+ "dishes": [
+  {
+   "id": "m01",
+   "name": "蒸肉餅",
+   "category": "meat",
+   "method": "steam",
+   "cooking_time": 20,
+   "servings": 4,
+   "description": "家常蒸肉餅",
+   "ingredients": [
+    {
+     "name": "免治豬肉",
+     "amount": "300克"
+    },
+    {
+     "name": "馬蹄",
+     "amount": "4粒"
+    },
+    {
+     "name": "生抽",
+     "amount": "1湯匙"
+    },
+    {
+     "name": "生粉",
+     "amount": "1茶匙"
+    },
+    {
+     "name": "油",
+     "amount": "少許"
+    }
+   ],
+   "steps": [
+    "馬蹄去皮切碎。",
+    "豬肉加馬蹄、生抽、生粉拌勻，攪至起膠。",
+    "平鋪碟上，大火蒸12分鐘。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "m02",
+   "name": "豉汁蒸排骨",
+   "category": "meat",
+   "method": "steam",
+   "cooking_time": 25,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "排骨",
+     "amount": "400克"
+    },
+    {
+     "name": "豆豉",
+     "amount": "1湯匙"
+    },
+    {
+     "name": "蒜蓉",
+     "amount": "1湯匙"
+    },
+    {
+     "name": "生抽",
+     "amount": "1湯匙"
+    },
+    {
+     "name": "生粉",
+     "amount": "1茶匙"
+    }
+   ],
+   "steps": [
+    "排骨洗淨瀝乾。",
+    "加豆豉、蒜蓉、生抽、生粉醃15分鐘。",
+    "大火蒸15分鐘。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "m03",
+   "name": "薑蔥炒牛肉",
+   "category": "meat",
+   "method": "stir",
+   "cooking_time": 15,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "牛肉片",
+     "amount": "250克"
+    },
+    {
+     "name": "薑片",
+     "amount": "6片"
+    },
+    {
+     "name": "蔥",
+     "amount": "3條"
+    },
+    {
+     "name": "生抽",
+     "amount": "1湯匙"
+    },
+    {
+     "name": "生粉",
+     "amount": "1茶匙"
+    },
+    {
+     "name": "油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "牛肉用生抽、生粉醃10分鐘。",
+    "熱油爆香薑片。",
+    "下牛肉大火炒至七成熟，加蔥段兜勻。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "m04",
+   "name": "白切雞",
+   "category": "meat",
+   "method": "blanch",
+   "cooking_time": 45,
+   "servings": 6,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "光雞",
+     "amount": "1隻"
+    },
+    {
+     "name": "薑",
+     "amount": "1塊"
+    },
+    {
+     "name": "蔥",
+     "amount": "3條"
+    },
+    {
+     "name": "鹽",
+     "amount": "少許"
+    }
+   ],
+   "steps": [
+    "大煲水加薑蔥煮滾。",
+    "放雞入水，熄火浸30分鐘。",
+    "取出過冷河，斬件上碟。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "m05",
+   "name": "冬菇蒸雞",
+   "category": "meat",
+   "method": "steam",
+   "cooking_time": 30,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "雞髀肉",
+     "amount": "400克"
+    },
+    {
+     "name": "冬菇",
+     "amount": "6隻"
+    },
+    {
+     "name": "薑絲",
+     "amount": "少許"
+    },
+    {
+     "name": "生抽",
+     "amount": "1湯匙"
+    },
+    {
+     "name": "生粉",
+     "amount": "1茶匙"
+    }
+   ],
+   "steps": [
+    "冬菇浸軟切絲。",
+    "雞肉切件，加調味醃15分鐘。",
+    "雞肉鋪冬菇薑絲，大火蒸15分鐘。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "m06",
+   "name": "青椒番茄炒肉絲",
+   "category": "meat",
+   "method": "stir",
+   "cooking_time": 10,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "豬肉絲",
+     "amount": "200克"
+    },
+    {
+     "name": "青椒",
+     "amount": "2個"
+    },
+    {
+     "name": "番茄",
+     "amount": "2個"
+    },
+    {
+     "name": "蒜",
+     "amount": "2粒"
+    },
+    {
+     "name": "生抽",
+     "amount": "1湯匙"
+    },
+    {
+     "name": "油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "肉絲用生抽醃5分鐘。",
+    "青椒番茄切塊。",
+    "爆香蒜，下肉絲炒至變色，加青椒番茄炒勻。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "m07",
+   "name": "西蘭花炒雞柳",
+   "category": "meat",
+   "method": "stir",
+   "cooking_time": 15,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "雞柳",
+     "amount": "250克"
+    },
+    {
+     "name": "西蘭花",
+     "amount": "1個"
+    },
+    {
+     "name": "蒜",
+     "amount": "2粒"
+    },
+    {
+     "name": "生抽",
+     "amount": "1湯匙"
+    },
+    {
+     "name": "油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "西蘭花切小朵，灼1分鐘。",
+    "雞柳醃5分鐘後炒至熟。",
+    "加西蘭花兜勻。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "m08",
+   "name": "節瓜蒸肉碎",
+   "category": "meat",
+   "method": "steam",
+   "cooking_time": 20,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "節瓜",
+     "amount": "1個"
+    },
+    {
+     "name": "免治豬肉",
+     "amount": "150克"
+    },
+    {
+     "name": "生抽",
+     "amount": "1茶匙"
+    },
+    {
+     "name": "生粉",
+     "amount": "1茶匙"
+    }
+   ],
+   "steps": [
+    "節瓜去皮切厚片。",
+    "肉碎調味，鋪在節瓜上。",
+    "蒸12分鐘。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "s01",
+   "name": "清蒸魚",
+   "category": "seafood",
+   "method": "steam",
+   "cooking_time": 15,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "鱸魚",
+     "amount": "1條"
+    },
+    {
+     "name": "薑絲",
+     "amount": "少許"
+    },
+    {
+     "name": "蔥絲",
+     "amount": "少許"
+    },
+    {
+     "name": "蒸魚豉油",
+     "amount": "2湯匙"
+    },
+    {
+     "name": "油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "魚洗淨抹乾，鋪薑絲。",
+    "大火蒸8至10分鐘。",
+    "倒去碟水，放蔥絲，淋熱油及豉油。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "s02",
+   "name": "白灼蝦",
+   "category": "seafood",
+   "method": "blanch",
+   "cooking_time": 10,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "中蝦",
+     "amount": "400克"
+    },
+    {
+     "name": "薑片",
+     "amount": "3片"
+    },
+    {
+     "name": "豉油",
+     "amount": "2湯匙"
+    }
+   ],
+   "steps": [
+    "水加薑片煮滾。",
+    "下蝦灼至轉紅捲起。",
+    "撈起上碟，豉油另上。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "s03",
+   "name": "蒜蓉蒸扇貝",
+   "category": "seafood",
+   "method": "steam",
+   "cooking_time": 15,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "扇貝",
+     "amount": "8隻"
+    },
+    {
+     "name": "粉絲",
+     "amount": "1紮"
+    },
+    {
+     "name": "蒜蓉",
+     "amount": "2湯匙"
+    },
+    {
+     "name": "生抽",
+     "amount": "1湯匙"
+    },
+    {
+     "name": "油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "粉絲浸軟鋪在扇貝上。",
+    "蒜蓉用油炒香，鋪面。",
+    "大火蒸6分鐘，淋生抽。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "s04",
+   "name": "蝦仁炒蛋",
+   "category": "seafood",
+   "method": "stir",
+   "cooking_time": 10,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "蝦仁",
+     "amount": "150克"
+    },
+    {
+     "name": "雞蛋",
+     "amount": "4隻"
+    },
+    {
+     "name": "蔥",
+     "amount": "1條"
+    },
+    {
+     "name": "鹽",
+     "amount": "少許"
+    },
+    {
+     "name": "油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "蛋打勻加鹽。",
+    "蝦仁炒至轉色盛起。",
+    "倒蛋液，半凝固時加蝦仁蔥花兜勻。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "s05",
+   "name": "西芹炒魷魚",
+   "category": "seafood",
+   "method": "stir",
+   "cooking_time": 15,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "魷魚",
+     "amount": "1隻"
+    },
+    {
+     "name": "西芹",
+     "amount": "3條"
+    },
+    {
+     "name": "薑片",
+     "amount": "3片"
+    },
+    {
+     "name": "蒜",
+     "amount": "2粒"
+    },
+    {
+     "name": "油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "魷魚切花，汆水。",
+    "西芹切段。",
+    "爆香薑蒜，下西芹及魷魚炒勻。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "s06",
+   "name": "豉椒炒蜆",
+   "category": "seafood",
+   "method": "stir",
+   "cooking_time": 15,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "蜆",
+     "amount": "600克"
+    },
+    {
+     "name": "青椒",
+     "amount": "1個"
+    },
+    {
+     "name": "豆豉",
+     "amount": "1湯匙"
+    },
+    {
+     "name": "蒜",
+     "amount": "3粒"
+    },
+    {
+     "name": "油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "蜆浸水吐沙。",
+    "爆香豆豉蒜及青椒。",
+    "下蜆炒至開口。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "s07",
+   "name": "薑蔥蒸魚片",
+   "category": "seafood",
+   "method": "steam",
+   "cooking_time": 12,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "魚片",
+     "amount": "300克"
+    },
+    {
+     "name": "薑絲",
+     "amount": "少許"
+    },
+    {
+     "name": "蔥",
+     "amount": "2條"
+    },
+    {
+     "name": "生抽",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "魚片抹乾鋪碟。",
+    "鋪薑絲，蒸6分鐘。",
+    "加蔥花，淋生抽。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "v01",
+   "name": "白灼菜心",
+   "category": "veg",
+   "method": "blanch",
+   "cooking_time": 8,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "菜心",
+     "amount": "600克"
+    },
+    {
+     "name": "油",
+     "amount": "1茶匙"
+    },
+    {
+     "name": "蠔油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "水滾加少許油。",
+    "菜心灼2分鐘至軟。",
+    "上碟，蠔油另上。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "v02",
+   "name": "蒜蓉炒西蘭花",
+   "category": "veg",
+   "method": "stir",
+   "cooking_time": 10,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "西蘭花",
+     "amount": "1個"
+    },
+    {
+     "name": "蒜蓉",
+     "amount": "1湯匙"
+    },
+    {
+     "name": "鹽",
+     "amount": "少許"
+    },
+    {
+     "name": "油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "西蘭花切小朵。",
+    "爆香蒜蓉。",
+    "下西蘭花加少許水炒熟，下鹽。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "v03",
+   "name": "上湯莧菜",
+   "category": "veg",
+   "method": "blanch",
+   "cooking_time": 12,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "莧菜",
+     "amount": "500克"
+    },
+    {
+     "name": "皮蛋",
+     "amount": "1隻"
+    },
+    {
+     "name": "蒜",
+     "amount": "4粒"
+    },
+    {
+     "name": "上湯",
+     "amount": "250毫升"
+    }
+   ],
+   "steps": [
+    "蒜炸至金黃。",
+    "上湯加皮蛋、蒜煮滾。",
+    "下莧菜煮2分鐘。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "v04",
+   "name": "蒜蓉炒菠菜",
+   "category": "veg",
+   "method": "stir",
+   "cooking_time": 8,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "菠菜",
+     "amount": "500克"
+    },
+    {
+     "name": "蒜蓉",
+     "amount": "1湯匙"
+    },
+    {
+     "name": "鹽",
+     "amount": "少許"
+    },
+    {
+     "name": "油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "菠菜洗淨切段。",
+    "爆香蒜蓉。",
+    "大火炒菠菜至軟身，下鹽。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "v05",
+   "name": "蒸釀豆腐",
+   "category": "veg",
+   "method": "steam",
+   "cooking_time": 25,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "布包豆腐",
+     "amount": "4件"
+    },
+    {
+     "name": "鯪魚肉",
+     "amount": "150克"
+    },
+    {
+     "name": "蔥",
+     "amount": "1條"
+    },
+    {
+     "name": "生抽",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "豆腐中間挖小洞。",
+    "釀入鯪魚肉。",
+    "蒸10分鐘，灑蔥花，淋生抽。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "v06",
+   "name": "清炒荷蘭豆",
+   "category": "veg",
+   "method": "stir",
+   "cooking_time": 8,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "荷蘭豆",
+     "amount": "300克"
+    },
+    {
+     "name": "蒜",
+     "amount": "2粒"
+    },
+    {
+     "name": "鹽",
+     "amount": "少許"
+    },
+    {
+     "name": "油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "荷蘭豆撕筋。",
+    "爆香蒜。",
+    "大火炒2分鐘，下鹽。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "v07",
+   "name": "白灼生菜",
+   "category": "veg",
+   "method": "blanch",
+   "cooking_time": 6,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "生菜",
+     "amount": "1個"
+    },
+    {
+     "name": "油",
+     "amount": "1茶匙"
+    },
+    {
+     "name": "蠔油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "水滾加油。",
+    "生菜灼30秒。",
+    "上碟，蠔油另上。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "v08",
+   "name": "蒸茄子",
+   "category": "veg",
+   "method": "steam",
+   "cooking_time": 20,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "茄子",
+     "amount": "2條"
+    },
+    {
+     "name": "蒜蓉",
+     "amount": "1湯匙"
+    },
+    {
+     "name": "生抽",
+     "amount": "1湯匙"
+    },
+    {
+     "name": "油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "茄子切條。",
+    "大火蒸10分鐘。",
+    "鋪蒜蓉，淋熱油及生抽。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "v09",
+   "name": "清炒椰菜",
+   "category": "veg",
+   "method": "stir",
+   "cooking_time": 10,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "椰菜",
+     "amount": "半個"
+    },
+    {
+     "name": "蒜",
+     "amount": "2粒"
+    },
+    {
+     "name": "鹽",
+     "amount": "少許"
+    },
+    {
+     "name": "油",
+     "amount": "1湯匙"
+    }
+   ],
+   "steps": [
+    "椰菜撕小塊。",
+    "爆香蒜。",
+    "大火炒軟，下鹽。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "t01",
+   "name": "番茄豆腐湯",
+   "category": "soup",
+   "method": "soup",
+   "cooking_time": 20,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "番茄",
+     "amount": "3個"
+    },
+    {
+     "name": "豆腐",
+     "amount": "1盒"
+    },
+    {
+     "name": "蔥",
+     "amount": "1條"
+    },
+    {
+     "name": "鹽",
+     "amount": "少許"
+    },
+    {
+     "name": "水",
+     "amount": "1公升"
+    }
+   ],
+   "steps": [
+    "番茄切塊炒出汁。",
+    "加水煮滾10分鐘。",
+    "下豆腐煮5分鐘，下鹽及蔥花。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "t02",
+   "name": "冬瓜瘦肉湯",
+   "category": "soup",
+   "method": "soup",
+   "cooking_time": 60,
+   "servings": 6,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "冬瓜",
+     "amount": "600克"
+    },
+    {
+     "name": "瘦肉",
+     "amount": "200克"
+    },
+    {
+     "name": "薑",
+     "amount": "2片"
+    },
+    {
+     "name": "鹽",
+     "amount": "少許"
+    },
+    {
+     "name": "水",
+     "amount": "2公升"
+    }
+   ],
+   "steps": [
+    "瘦肉汆水。",
+    "冬瓜連皮切件。",
+    "全部材料煲50分鐘，下鹽。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "t03",
+   "name": "粟米紅蘿蔔豬骨湯",
+   "category": "soup",
+   "method": "soup",
+   "cooking_time": 90,
+   "servings": 6,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "豬骨",
+     "amount": "500克"
+    },
+    {
+     "name": "粟米",
+     "amount": "2條"
+    },
+    {
+     "name": "紅蘿蔔",
+     "amount": "2條"
+    },
+    {
+     "name": "鹽",
+     "amount": "少許"
+    },
+    {
+     "name": "水",
+     "amount": "2.5公升"
+    }
+   ],
+   "steps": [
+    "豬骨汆水。",
+    "粟米紅蘿蔔切段。",
+    "全部材料大火滾後轉小火煲80分鐘，下鹽。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "t04",
+   "name": "菠菜豆腐魚片湯",
+   "category": "soup",
+   "method": "soup",
+   "cooking_time": 15,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "菠菜",
+     "amount": "300克"
+    },
+    {
+     "name": "豆腐",
+     "amount": "1盒"
+    },
+    {
+     "name": "魚片",
+     "amount": "200克"
+    },
+    {
+     "name": "薑",
+     "amount": "2片"
+    },
+    {
+     "name": "鹽",
+     "amount": "少許"
+    },
+    {
+     "name": "水",
+     "amount": "1公升"
+    }
+   ],
+   "steps": [
+    "水加薑煮滾。",
+    "下豆腐及魚片煮3分鐘。",
+    "下菠菜煮滾，下鹽。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "t05",
+   "name": "紫菜蛋花湯",
+   "category": "soup",
+   "method": "soup",
+   "cooking_time": 10,
+   "servings": 4,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "紫菜",
+     "amount": "1片"
+    },
+    {
+     "name": "雞蛋",
+     "amount": "2隻"
+    },
+    {
+     "name": "蔥",
+     "amount": "1條"
+    },
+    {
+     "name": "鹽",
+     "amount": "少許"
+    },
+    {
+     "name": "水",
+     "amount": "1公升"
+    }
+   ],
+   "steps": [
+    "水滾下紫菜。",
+    "慢慢倒入蛋液成蛋花。",
+    "下鹽及蔥花。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  },
+  {
+   "id": "t06",
+   "name": "節瓜瘦肉湯",
+   "category": "soup",
+   "method": "soup",
+   "cooking_time": 60,
+   "servings": 6,
+   "description": "",
+   "ingredients": [
+    {
+     "name": "節瓜",
+     "amount": "2個"
+    },
+    {
+     "name": "瘦肉",
+     "amount": "200克"
+    },
+    {
+     "name": "蜜棗",
+     "amount": "1粒"
+    },
+    {
+     "name": "鹽",
+     "amount": "少許"
+    },
+    {
+     "name": "水",
+     "amount": "2公升"
+    }
+   ],
+   "steps": [
+    "瘦肉汆水。",
+    "節瓜去皮切件。",
+    "全部材料煲50分鐘，下鹽。"
+   ],
+   "cover_url": null,
+   "source_url": null
+  }
+ ]
+}
