@@ -20,6 +20,10 @@ DEFAULT_P1_MODEL = "MoritzLaurer/mDeBERTa-v3-base-mnli-xnli"  # multilingual zer
 DEFAULT_P1_TASK = "zero-shot-classification"
 DEFAULT_P2_MODEL = "BAAI/bge-small-zh-v1.5"  # small Chinese sentence encoder
 DEFAULT_P2_POOLING = "cls"  # bge uses CLS pooling; use "mean" for most sentence-transformers
+# The untuned bge model expects this instruction in front of short queries. Our fine-tune is trained
+# on plain queries, so the prefix is used only with the untuned default model.
+BGE_QUERY_PREFIX = "为这个句子生成表示以用于检索相关文章："
+DEFAULT_P2_HYBRID_WEIGHT = 3.0  # tuned on 600 development queries in notebooks/Model2_experiments.ipynb
 
 
 def _read(name: str, default: str) -> str:
@@ -47,6 +51,8 @@ class Settings:
     p1_threshold: float
     p2_model_id: str
     p2_pooling: str
+    p2_query_prefix: str
+    p2_hybrid_weight: float  # weight of the character-match score added to the cosine similarity
     library_path: Path
     offline: bool  # skip model downloads, use keyword/char-gram fallbacks
     demo_mode: bool  # show one unlabeled demo dish on the menu
@@ -62,12 +68,15 @@ class Settings:
         pooling = _read("P2_POOLING", DEFAULT_P2_POOLING)
         if pooling not in {"cls", "mean"}:
             raise ValueError(f"P2_POOLING must be cls or mean, got {pooling!r}")
+        p2_model = _read("P2_MODEL_ID", DEFAULT_P2_MODEL)
         return cls(
             p1_model_id=_read("P1_MODEL_ID", DEFAULT_P1_MODEL),
             p1_task=task,
             p1_threshold=float(_read("P1_THRESHOLD", "0.5" if task == "text-classification" else "0.7")),
-            p2_model_id=_read("P2_MODEL_ID", DEFAULT_P2_MODEL),
+            p2_model_id=p2_model,
             p2_pooling=pooling,
+            p2_query_prefix=_read("P2_QUERY_PREFIX", BGE_QUERY_PREFIX if p2_model == DEFAULT_P2_MODEL else ""),
+            p2_hybrid_weight=float(_read("P2_HYBRID_WEIGHT", str(DEFAULT_P2_HYBRID_WEIGHT))),
             library_path=library,
             offline=_flag("SAME_TABLE_OFFLINE", False),
             demo_mode=_flag("SAME_TABLE_DEMO", True),

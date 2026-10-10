@@ -1,0 +1,727 @@
+{
+ "dataset": {
+  "labels": 8,
+  "training": 3000,
+  "evaluation": 600,
+  "testing": 108
+ },
+ "settings": {
+  "epochs": 3,
+  "learning_rate": 5e-05,
+  "batch_size": 16,
+  "device": "cpu"
+ },
+ "candidates": {
+  "Model 1": "hfl/rbt3",
+  "Model 2": "hfl/rbt6",
+  "Model 3": "hfl/chinese-roberta-wwm-ext"
+ },
+ "results": {
+  "hfl/rbt3": {
+   "eval_accuracy": 0.5783333333333334,
+   "eval_tag_accuracy": 0.9222916666666666,
+   "eval_macro_f1": 0.7799778347714142,
+   "eval_seconds": 2.9747024540001803,
+   "train_seconds": 214.9456324419998,
+   "test_accuracy": 0.8518518518518519,
+   "test_tag_accuracy": 0.9768518518518519,
+   "test_macro_f1": 0.9314184754034378,
+   "cpu_seconds_per_100_requests": 0.8877224555556461,
+   "params_M": 38.482952
+  },
+  "hfl/rbt6": {
+   "eval_accuracy": 0.6416666666666667,
+   "eval_tag_accuracy": 0.9297916666666667,
+   "eval_macro_f1": 0.8091660676037302,
+   "eval_seconds": 5.608711300000323,
+   "train_seconds": 395.00289748399973,
+   "test_accuracy": 0.8888888888888888,
+   "test_tag_accuracy": 0.9837962962962963,
+   "test_macro_f1": 0.9553928867168336,
+   "cpu_seconds_per_100_requests": 1.7548121962961347,
+   "params_M": 59.746568
+  },
+  "hfl/chinese-roberta-wwm-ext": {
+   "eval_accuracy": 0.6533333333333333,
+   "eval_tag_accuracy": 0.935,
+   "eval_macro_f1": 0.8260525660460205,
+   "eval_seconds": 10.998389494000548,
+   "train_seconds": 774.7817279179999,
+   "test_accuracy": 0.8055555555555556,
+   "test_tag_accuracy": 0.96875,
+   "test_macro_f1": 0.9092964953255214,
+   "cpu_seconds_per_100_requests": 4.335889697222228,
+   "params_M": 102.2738
+  }
+ },
+ "baselines": {
+  "keyword lexicon (no model)": {
+   "eval_accuracy": 0.3983333333333333,
+   "eval_tag_accuracy": 0.90875,
+   "eval_macro_f1": 0.6599535138265898,
+   "test_accuracy": 0.6481481481481481,
+   "test_tag_accuracy": 0.9537037037037037,
+   "test_macro_f1": 0.8214080723671517,
+   "params_M": 0.0,
+   "eval_seconds": 0.025338785999338143
+  },
+  "zero-shot mDeBERTa (no training)": {
+   "test_accuracy": 0.28703703703703703,
+   "test_tag_accuracy": 0.8287037037037037,
+   "test_macro_f1": 0.544992953384615,
+   "params_M": 278.811651,
+   "test_seconds": 100.55802842000048
+  }
+ },
+ "chosen": "hfl/rbt6",
+ "test_detail": [
+  {
+   "sentence": "阿爸牙唔好，想食啲軟熟嘅蒸餸，唔好太甜",
+   "expected": "steam, less_sweet",
+   "predicted": "steam, less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "今晚好趕，求其炒兩個餸就算",
+   "expected": "stir, quick",
+   "predicted": "stir, quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "想煲湯，另外加個白灼菜",
+   "expected": "blanch, soup",
+   "predicted": "blanch, soup",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "屋企有三個男仔，肉要多",
+   "expected": "more_meat",
+   "predicted": "more_meat",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "最近食得好油，想清清地",
+   "expected": "more_veg",
+   "predicted": "more_veg",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "可唔可以蒸魚加個湯",
+   "expected": "steam, soup",
+   "predicted": "steam, soup",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "七點先放工，要十五分鐘搞得掂",
+   "expected": "quick",
+   "predicted": "quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "婆婆糖尿，醬汁唔可以甜",
+   "expected": "less_sweet",
+   "predicted": "less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "今晚想吃清蒸的，配一個燙青菜",
+   "expected": "steam, blanch",
+   "predicted": "steam, blanch",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "我想喝湯，還要一個快炒",
+   "expected": "soup, stir",
+   "predicted": "soup, stir",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "something steamed and not sweet",
+   "expected": "steam, less_sweet",
+   "predicted": "steam, less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "quick stir fry with lots of veggies",
+   "expected": "stir, more_veg, quick",
+   "predicted": "stir, more_veg",
+   "correct": "Incorrect"
+  },
+  {
+   "sentence": "we want more meat tonight and a soup",
+   "expected": "soup, more_meat",
+   "predicted": "soup, more_meat",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "冇特別要求",
+   "expected": "(none)",
+   "predicted": "(none)",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "今晚五個人食",
+   "expected": "(none)",
+   "predicted": "(none)",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "跟平時一樣就可以",
+   "expected": "(none)",
+   "predicted": "(none)",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "唔知食乜",
+   "expected": "(none)",
+   "predicted": "(none)",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "天氣熱冇胃口，想食得清啲，灼菜就夠",
+   "expected": "blanch, more_veg",
+   "predicted": "blanch, more_veg",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "個仔打完波好肚餓，要多啲肉，快啲有得食",
+   "expected": "more_meat, quick",
+   "predicted": "more_meat, quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "唔想成身油煙，用蒸嘅",
+   "expected": "steam",
+   "predicted": "steam",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "落雨天想飲啖熱湯",
+   "expected": "soup",
+   "predicted": "soup",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "醫生叫佢控制血糖，啲餸唔好落糖",
+   "expected": "less_sweet",
+   "predicted": "less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "想食得有鑊氣，炒牛肉都好",
+   "expected": "stir",
+   "predicted": "stir",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "青菜白灼，蝦都白灼",
+   "expected": "blanch",
+   "predicted": "blanch",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "要有菜有湯，菜要多",
+   "expected": "soup, more_veg",
+   "predicted": "soup, more_veg",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "半個鐘內要開飯，蒸啲嘢最方便",
+   "expected": "steam, quick",
+   "predicted": "steam, quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "唔要甜酸排骨嗰類，改做蒸嘅",
+   "expected": "steam, less_sweet",
+   "predicted": "steam, less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "老人家同小朋友都食，煲個湯，炒個菜",
+   "expected": "soup, stir",
+   "predicted": "soup, stir",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "多菜少肉，唔好甜",
+   "expected": "more_veg, less_sweet",
+   "predicted": "more_veg, less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "食肉獸，冇肉唔得",
+   "expected": "more_meat",
+   "predicted": "more_meat",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "不想太油膩，蔬菜多一點",
+   "expected": "more_veg",
+   "predicted": "more_veg",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "時間不多，簡單炒一炒",
+   "expected": "stir, quick",
+   "predicted": "stir, quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "想吃水煮的青菜和蒸蛋",
+   "expected": "steam, blanch",
+   "predicted": "steam, blanch",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "今晚要控糖，不要加糖",
+   "expected": "less_sweet",
+   "predicted": "less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "來一鍋湯，肉多一點",
+   "expected": "soup, more_meat",
+   "predicted": "soup, more_meat",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "light dinner, mostly vegetables, no sugar",
+   "expected": "more_veg, less_sweet",
+   "predicted": "more_veg, less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "I only have 20 minutes",
+   "expected": "quick",
+   "predicted": "quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "poached chicken and a clear soup",
+   "expected": "blanch, soup",
+   "predicted": "blanch, soup",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "six people coming over",
+   "expected": "(none)",
+   "predicted": "(none)",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "surprise me",
+   "expected": "(none)",
+   "predicted": "(none)",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "唔好煎炸，蒸同灼就好",
+   "expected": "steam, blanch",
+   "predicted": "steam, blanch",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "返到屋企都八點，要快手，有湯更好",
+   "expected": "soup, quick",
+   "predicted": "soup, quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "呢排肥咗，想食多啲菜",
+   "expected": "more_veg",
+   "predicted": "more_veg",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "阿女減肥，唔食甜嘢，多菜",
+   "expected": "more_veg, less_sweet",
+   "predicted": "more_veg, less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "想整個滾湯，十分鐘嗰種",
+   "expected": "soup, quick",
+   "predicted": "soup, quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "蒸肉餅啦，再炒個菜",
+   "expected": "steam, stir",
+   "predicted": "steam, stir",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "大家都想食肉，炒嘅",
+   "expected": "stir, more_meat",
+   "predicted": "stir, more_meat",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "淨係想食灼菜",
+   "expected": "blanch",
+   "predicted": "blanch",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "有冇唔使落糖嘅蒸餸",
+   "expected": "steam, less_sweet",
+   "predicted": "steam, less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "公公咬唔到硬嘢，煲湯同蒸水蛋",
+   "expected": "steam, soup",
+   "predicted": "steam, soup",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "好攰，唔想諗，快就得",
+   "expected": "quick",
+   "predicted": "quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "想食啲惹味小炒，但唔好甜",
+   "expected": "stir, less_sweet",
+   "predicted": "stir, less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "今晚吃素一點",
+   "expected": "more_veg",
+   "predicted": "more_veg",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "三菜一湯",
+   "expected": "soup",
+   "predicted": "soup",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "要有魚有菜",
+   "expected": "(none)",
+   "predicted": "more_veg",
+   "correct": "Incorrect"
+  },
+  {
+   "sentence": "阿媽鍾意食魚",
+   "expected": "(none)",
+   "predicted": "(none)",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "唔食辣",
+   "expected": "(none)",
+   "predicted": "(none)",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "兩個大人一個小朋友",
+   "expected": "(none)",
+   "predicted": "(none)",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "想要白灼海鮮，唔好落醬",
+   "expected": "blanch",
+   "predicted": "blanch",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "蛋白質要夠，啲仔要長高",
+   "expected": "more_meat",
+   "predicted": "more_meat",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "急，蒸",
+   "expected": "steam, quick",
+   "predicted": "steam",
+   "correct": "Incorrect"
+  },
+  {
+   "sentence": "炒，多肉，快",
+   "expected": "stir, more_meat, quick",
+   "predicted": "stir, more_meat, quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "湯，菜多，少甜",
+   "expected": "soup, more_veg, less_sweet",
+   "predicted": "soup, more_veg, less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "唔想食得太膩，清蒸或者白灼都得",
+   "expected": "steam, blanch, more_veg",
+   "predicted": "steam, blanch, more_veg",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "收工遲，淥個菜炒個蛋算",
+   "expected": "blanch, stir, quick",
+   "predicted": "stir, quick",
+   "correct": "Incorrect"
+  },
+  {
+   "sentence": "no sweet sauces, steamed fish would be great",
+   "expected": "steam, less_sweet",
+   "predicted": "steam, less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "lots of protein, stir fried",
+   "expected": "stir, more_meat",
+   "predicted": "stir, more_meat",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "a warm broth and blanched greens",
+   "expected": "blanch, soup",
+   "predicted": "blanch, more_veg",
+   "correct": "Incorrect"
+  },
+  {
+   "sentence": "想吃有肉的，不要甜",
+   "expected": "more_meat, less_sweet",
+   "predicted": "more_meat, less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "下班晚了，快點煮好，清淡一點",
+   "expected": "more_veg, quick",
+   "predicted": "more_veg, quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "蒸的炒的都可以，要有湯",
+   "expected": "steam, soup, stir",
+   "predicted": "steam, soup, stir",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "唔該整返啲家常小菜",
+   "expected": "(none)",
+   "predicted": "more_veg",
+   "correct": "Incorrect"
+  },
+  {
+   "sentence": "阿嫲想飲老火湯",
+   "expected": "soup",
+   "predicted": "soup",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "兩餸一湯，炒嘅",
+   "expected": "soup, stir",
+   "predicted": "soup, stir",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "白烚雞同烚菜",
+   "expected": "blanch",
+   "predicted": "blanch",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "想要蒸水蛋同埋灼生菜",
+   "expected": "steam, blanch",
+   "predicted": "steam, blanch",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "八點半先開飯，快炒算",
+   "expected": "stir, quick",
+   "predicted": "stir, quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "唔好甜，唔好炒，蒸就得",
+   "expected": "steam, less_sweet",
+   "predicted": "steam, stir, less_sweet",
+   "correct": "Incorrect"
+  },
+  {
+   "sentence": "肉少啲，菜多啲",
+   "expected": "more_veg",
+   "predicted": "more_veg",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "啲男仔話要多肉少菜",
+   "expected": "more_meat",
+   "predicted": "more_veg",
+   "correct": "Incorrect"
+  },
+  {
+   "sentence": "阿爸要戒糖，煲個清湯",
+   "expected": "soup, less_sweet",
+   "predicted": "soup, less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "十五分鐘煮好，灼個菜蒸條魚",
+   "expected": "steam, blanch, quick",
+   "predicted": "steam, blanch, quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "想食住家菜",
+   "expected": "(none)",
+   "predicted": "more_veg",
+   "correct": "Incorrect"
+  },
+  {
+   "sentence": "今晚有客人",
+   "expected": "(none)",
+   "predicted": "(none)",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "老婆大肚，想食得清淡",
+   "expected": "more_veg",
+   "predicted": "more_veg",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "我想要有汁撈飯嘅餸",
+   "expected": "(none)",
+   "predicted": "less_sweet",
+   "correct": "Incorrect"
+  },
+  {
+   "sentence": "唔想洗咁多碗",
+   "expected": "(none)",
+   "predicted": "(none)",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "蒸魚，炒菜，再加個湯",
+   "expected": "steam, soup, stir",
+   "predicted": "steam, soup, stir",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "湯要足料，肉要多",
+   "expected": "soup, more_meat",
+   "predicted": "soup, more_meat",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "用最快嘅方法整餐飯",
+   "expected": "quick",
+   "predicted": "quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "唔好落糖同蜜糖",
+   "expected": "less_sweet",
+   "predicted": "less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "淨係想食菜，灼就得",
+   "expected": "blanch, more_veg",
+   "predicted": "blanch",
+   "correct": "Incorrect"
+  },
+  {
+   "sentence": "今晚簡單吃，燙個青菜煮個湯",
+   "expected": "blanch, soup",
+   "predicted": "blanch, soup",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "想吃肉多一點的熱炒",
+   "expected": "stir, more_meat",
+   "predicted": "stir, more_meat",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "沒什麼時間，蒸的比較方便",
+   "expected": "steam, quick",
+   "predicted": "steam, quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "長輩血糖高，不要甜的",
+   "expected": "less_sweet",
+   "predicted": "less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "多一點蔬菜，再來個湯",
+   "expected": "soup, more_veg",
+   "predicted": "soup, more_veg",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "隨便煮都可以",
+   "expected": "(none)",
+   "predicted": "(none)",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "steamed egg and stir-fried greens",
+   "expected": "steam, stir",
+   "predicted": "steam, stir, more_veg",
+   "correct": "Incorrect"
+  },
+  {
+   "sentence": "need dinner ready fast, soup is fine",
+   "expected": "soup, quick",
+   "predicted": "soup, quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "more veggies, less meat",
+   "expected": "more_veg",
+   "predicted": "more_veg",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "no sugar in anything please",
+   "expected": "less_sweet",
+   "predicted": "less_sweet",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "meat lovers tonight",
+   "expected": "more_meat",
+   "predicted": "more_meat",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "just the usual",
+   "expected": "(none)",
+   "predicted": "(none)",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "blanched prawns and steamed fish",
+   "expected": "steam, blanch",
+   "predicted": "steam, blanch",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "好肚餓，快啲有得食就得",
+   "expected": "quick",
+   "predicted": "quick",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "想食啲鑊氣小炒，多啲肉",
+   "expected": "stir, more_meat",
+   "predicted": "stir, more_meat",
+   "correct": "Correct"
+  },
+  {
+   "sentence": "湯水唔好甜",
+   "expected": "soup, less_sweet",
+   "predicted": "soup, less_sweet",
+   "correct": "Correct"
+  }
+ ]
+}

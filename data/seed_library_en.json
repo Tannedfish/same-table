@@ -1,0 +1,913 @@
+{
+ "source": "English text for the dish library, keyed by dish id. Prepared offline with AI assistance from the Chinese recipes (not generated at run time; no model call in the app). Spot-check before submission.",
+ "dishes": [
+  {
+   "id": "m01",
+   "name": "Steamed Minced Pork Patty",
+   "description": "A classic home-style steamed pork patty.",
+   "ingredients": [
+    {
+     "name": "minced pork",
+     "amount": "300 g"
+    },
+    {
+     "name": "water chestnuts",
+     "amount": "4"
+    },
+    {
+     "name": "light soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "potato starch",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "oil",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Peel and finely chop the water chestnuts.",
+    "Mix the pork with the water chestnuts, light soy sauce and potato starch, and stir until sticky.",
+    "Spread flat on a plate and steam over high heat for 12 minutes."
+   ]
+  },
+  {
+   "id": "m02",
+   "name": "Steamed Pork Ribs with Black Bean Sauce",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "pork ribs",
+     "amount": "400 g"
+    },
+    {
+     "name": "fermented black beans",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "light soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "potato starch",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Rinse the pork ribs and drain well.",
+    "Marinate with the fermented black beans, minced garlic, light soy sauce and potato starch for 15 minutes.",
+    "Steam over high heat for 15 minutes."
+   ]
+  },
+  {
+   "id": "m03",
+   "name": "Stir-fried Beef with Ginger and Spring Onion",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "sliced beef",
+     "amount": "250 g"
+    },
+    {
+     "name": "sliced ginger",
+     "amount": "6 slices"
+    },
+    {
+     "name": "spring onion",
+     "amount": "3 stalks"
+    },
+    {
+     "name": "light soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "potato starch",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Marinate the beef with light soy sauce and potato starch for 10 minutes.",
+    "Heat the oil and fry the sliced ginger until fragrant.",
+    "Add the beef and stir-fry over high heat until about 70% cooked, then add the spring onion sections and toss well."
+   ]
+  },
+  {
+   "id": "m04",
+   "name": "White Cut Chicken",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "whole chicken",
+     "amount": "1"
+    },
+    {
+     "name": "ginger",
+     "amount": "1 knob"
+    },
+    {
+     "name": "spring onion",
+     "amount": "3 stalks"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Bring a large pot of water to the boil with the ginger and spring onion.",
+    "Put the chicken in, turn off the heat and let it poach for 30 minutes.",
+    "Remove, plunge into cold water, then chop into pieces and plate."
+   ]
+  },
+  {
+   "id": "m05",
+   "name": "Steamed Chicken with Shiitake Mushrooms",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "boneless chicken thigh",
+     "amount": "400 g"
+    },
+    {
+     "name": "dried shiitake mushrooms",
+     "amount": "6"
+    },
+    {
+     "name": "shredded ginger",
+     "amount": "a little"
+    },
+    {
+     "name": "light soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "potato starch",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Soak the dried shiitake mushrooms until soft, then slice into strips.",
+    "Cut the chicken into pieces and marinate with the seasonings for 15 minutes.",
+    "Top the chicken with the mushrooms and shredded ginger, and steam over high heat for 15 minutes."
+   ]
+  },
+  {
+   "id": "m06",
+   "name": "Stir-fried Pork with Green Pepper and Tomato",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "shredded pork",
+     "amount": "200 g"
+    },
+    {
+     "name": "green peppers",
+     "amount": "2"
+    },
+    {
+     "name": "tomatoes",
+     "amount": "2"
+    },
+    {
+     "name": "garlic",
+     "amount": "2 cloves"
+    },
+    {
+     "name": "light soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Marinate the pork with light soy sauce for 5 minutes.",
+    "Cut the green peppers and tomatoes into chunks.",
+    "Fry the garlic until fragrant, add the pork and stir-fry until it changes colour, then add the peppers and tomatoes and toss well."
+   ]
+  },
+  {
+   "id": "m07",
+   "name": "Stir-fried Chicken with Broccoli",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "chicken tenders",
+     "amount": "250 g"
+    },
+    {
+     "name": "broccoli",
+     "amount": "1 head"
+    },
+    {
+     "name": "garlic",
+     "amount": "2 cloves"
+    },
+    {
+     "name": "light soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Cut the broccoli into small florets and blanch for 1 minute.",
+    "Marinate the chicken for 5 minutes, then stir-fry until cooked.",
+    "Add the broccoli and toss well."
+   ]
+  },
+  {
+   "id": "m08",
+   "name": "Steamed Hairy Gourd with Minced Pork",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "hairy gourd",
+     "amount": "1"
+    },
+    {
+     "name": "minced pork",
+     "amount": "150 g"
+    },
+    {
+     "name": "light soy sauce",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "potato starch",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Peel the hairy gourd and cut into thick slices.",
+    "Season the minced pork and spread it over the gourd slices.",
+    "Steam for 12 minutes."
+   ]
+  },
+  {
+   "id": "s01",
+   "name": "Steamed Whole Fish",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "sea bass",
+     "amount": "1"
+    },
+    {
+     "name": "shredded ginger",
+     "amount": "a little"
+    },
+    {
+     "name": "shredded spring onion",
+     "amount": "a little"
+    },
+    {
+     "name": "seasoned soy sauce for fish",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Rinse the fish, pat dry and top with shredded ginger.",
+    "Steam over high heat for 8 to 10 minutes.",
+    "Pour off the liquid from the plate, add the shredded spring onion, then drizzle with hot oil and the soy sauce."
+   ]
+  },
+  {
+   "id": "s02",
+   "name": "Poached Prawns",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "medium prawns",
+     "amount": "400 g"
+    },
+    {
+     "name": "sliced ginger",
+     "amount": "3 slices"
+    },
+    {
+     "name": "light soy sauce",
+     "amount": "2 tbsp"
+    }
+   ],
+   "steps": [
+    "Bring water to the boil with the sliced ginger.",
+    "Add the prawns and poach until they turn red and curl.",
+    "Drain and plate, with the soy sauce on the side for dipping."
+   ]
+  },
+  {
+   "id": "s03",
+   "name": "Steamed Scallops with Garlic and Glass Noodles",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "scallops",
+     "amount": "8"
+    },
+    {
+     "name": "glass noodles",
+     "amount": "1 bundle"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "light soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Soak the glass noodles until soft and lay them on the scallops.",
+    "Fry the minced garlic in the oil until fragrant and spoon it on top.",
+    "Steam over high heat for 6 minutes, then drizzle with light soy sauce."
+   ]
+  },
+  {
+   "id": "s04",
+   "name": "Scrambled Eggs with Shrimp",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "shelled shrimp",
+     "amount": "150 g"
+    },
+    {
+     "name": "eggs",
+     "amount": "4"
+    },
+    {
+     "name": "spring onion",
+     "amount": "1 stalk"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Beat the eggs with the salt.",
+    "Stir-fry the shrimp until they change colour, then set aside.",
+    "Pour in the egg; when half set, add the shrimp and chopped spring onion and fold together."
+   ]
+  },
+  {
+   "id": "s05",
+   "name": "Stir-fried Squid with Celery",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "squid",
+     "amount": "1"
+    },
+    {
+     "name": "celery",
+     "amount": "3 stalks"
+    },
+    {
+     "name": "sliced ginger",
+     "amount": "3 slices"
+    },
+    {
+     "name": "garlic",
+     "amount": "2 cloves"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Score the squid and blanch briefly.",
+    "Cut the celery into sections.",
+    "Fry the ginger and garlic until fragrant, then add the celery and squid and stir-fry well."
+   ]
+  },
+  {
+   "id": "s06",
+   "name": "Stir-fried Clams with Black Bean and Pepper",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "clams",
+     "amount": "600 g"
+    },
+    {
+     "name": "green pepper",
+     "amount": "1"
+    },
+    {
+     "name": "fermented black beans",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "garlic",
+     "amount": "3 cloves"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Soak the clams in water to purge the sand.",
+    "Fry the fermented black beans, garlic and green pepper until fragrant.",
+    "Add the clams and stir-fry until they open."
+   ]
+  },
+  {
+   "id": "s07",
+   "name": "Steamed Fish Fillet with Ginger and Spring Onion",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "fish fillet",
+     "amount": "300 g"
+    },
+    {
+     "name": "shredded ginger",
+     "amount": "a little"
+    },
+    {
+     "name": "spring onion",
+     "amount": "2 stalks"
+    },
+    {
+     "name": "light soy sauce",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Pat the fish fillet dry and lay on a plate.",
+    "Top with shredded ginger and steam for 6 minutes.",
+    "Add chopped spring onion and drizzle with light soy sauce."
+   ]
+  },
+  {
+   "id": "v01",
+   "name": "Blanched Choy Sum",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "choy sum",
+     "amount": "600 g"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "oyster sauce",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Bring water to the boil and add a little oil.",
+    "Blanch the choy sum for 2 minutes until tender.",
+    "Plate, with the oyster sauce on the side."
+   ]
+  },
+  {
+   "id": "v02",
+   "name": "Stir-fried Broccoli with Garlic",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "broccoli",
+     "amount": "1 head"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Cut the broccoli into small florets.",
+    "Fry the minced garlic until fragrant.",
+    "Add the broccoli with a splash of water and stir-fry until cooked, then season with salt."
+   ]
+  },
+  {
+   "id": "v03",
+   "name": "Chinese Spinach in Stock",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "Chinese spinach (amaranth)",
+     "amount": "500 g"
+    },
+    {
+     "name": "century egg",
+     "amount": "1"
+    },
+    {
+     "name": "garlic",
+     "amount": "4 cloves"
+    },
+    {
+     "name": "stock",
+     "amount": "250 ml"
+    }
+   ],
+   "steps": [
+    "Fry the garlic until golden.",
+    "Bring the stock to the boil with the century egg and garlic.",
+    "Add the Chinese spinach and cook for 2 minutes."
+   ]
+  },
+  {
+   "id": "v04",
+   "name": "Stir-fried Spinach with Garlic",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "spinach",
+     "amount": "500 g"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Wash the spinach and cut into sections.",
+    "Fry the minced garlic until fragrant.",
+    "Stir-fry the spinach over high heat until wilted, then season with salt."
+   ]
+  },
+  {
+   "id": "v05",
+   "name": "Steamed Stuffed Tofu",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "firm tofu",
+     "amount": "4 pieces"
+    },
+    {
+     "name": "dace fish paste",
+     "amount": "150 g"
+    },
+    {
+     "name": "spring onion",
+     "amount": "1 stalk"
+    },
+    {
+     "name": "light soy sauce",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Scoop a small hollow in the centre of each tofu piece.",
+    "Fill with the dace fish paste.",
+    "Steam for 10 minutes, sprinkle with chopped spring onion and drizzle with light soy sauce."
+   ]
+  },
+  {
+   "id": "v06",
+   "name": "Stir-fried Snow Peas",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "snow peas",
+     "amount": "300 g"
+    },
+    {
+     "name": "garlic",
+     "amount": "2 cloves"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "String the snow peas.",
+    "Fry the garlic until fragrant.",
+    "Stir-fry over high heat for 2 minutes, then season with salt."
+   ]
+  },
+  {
+   "id": "v07",
+   "name": "Blanched Lettuce",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "lettuce",
+     "amount": "1 head"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "oyster sauce",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Bring water to the boil and add the oil.",
+    "Blanch the lettuce for 30 seconds.",
+    "Plate, with the oyster sauce on the side."
+   ]
+  },
+  {
+   "id": "v08",
+   "name": "Steamed Aubergine",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "aubergines",
+     "amount": "2"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "light soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Cut the aubergines into strips.",
+    "Steam over high heat for 10 minutes.",
+    "Top with minced garlic, then drizzle with hot oil and light soy sauce."
+   ]
+  },
+  {
+   "id": "v09",
+   "name": "Stir-fried Cabbage",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "cabbage",
+     "amount": "half a head"
+    },
+    {
+     "name": "garlic",
+     "amount": "2 cloves"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Tear the cabbage into small pieces.",
+    "Fry the garlic until fragrant.",
+    "Stir-fry over high heat until softened, then season with salt."
+   ]
+  },
+  {
+   "id": "t01",
+   "name": "Tomato and Tofu Soup",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "tomatoes",
+     "amount": "3"
+    },
+    {
+     "name": "tofu",
+     "amount": "1 box"
+    },
+    {
+     "name": "spring onion",
+     "amount": "1 stalk"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    },
+    {
+     "name": "water",
+     "amount": "1 litre"
+    }
+   ],
+   "steps": [
+    "Cut the tomatoes into chunks and stir-fry until juicy.",
+    "Add the water, bring to the boil and simmer for 10 minutes.",
+    "Add the tofu and cook for 5 minutes, then add salt and chopped spring onion."
+   ]
+  },
+  {
+   "id": "t02",
+   "name": "Winter Melon and Lean Pork Soup",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "winter melon",
+     "amount": "600 g"
+    },
+    {
+     "name": "lean pork",
+     "amount": "200 g"
+    },
+    {
+     "name": "ginger",
+     "amount": "2 slices"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    },
+    {
+     "name": "water",
+     "amount": "2 litres"
+    }
+   ],
+   "steps": [
+    "Blanch the lean pork.",
+    "Cut the winter melon into chunks, skin on.",
+    "Simmer all the ingredients for 50 minutes, then add salt."
+   ]
+  },
+  {
+   "id": "t03",
+   "name": "Sweetcorn, Carrot and Pork Bone Soup",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "pork bones",
+     "amount": "500 g"
+    },
+    {
+     "name": "sweetcorn",
+     "amount": "2 cobs"
+    },
+    {
+     "name": "carrots",
+     "amount": "2"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    },
+    {
+     "name": "water",
+     "amount": "2.5 litres"
+    }
+   ],
+   "steps": [
+    "Blanch the pork bones.",
+    "Cut the sweetcorn and carrots into sections.",
+    "Bring all the ingredients to the boil over high heat, then simmer on low for 80 minutes and add salt."
+   ]
+  },
+  {
+   "id": "t04",
+   "name": "Spinach, Tofu and Fish Fillet Soup",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "spinach",
+     "amount": "300 g"
+    },
+    {
+     "name": "tofu",
+     "amount": "1 box"
+    },
+    {
+     "name": "fish fillet",
+     "amount": "200 g"
+    },
+    {
+     "name": "ginger",
+     "amount": "2 slices"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    },
+    {
+     "name": "water",
+     "amount": "1 litre"
+    }
+   ],
+   "steps": [
+    "Bring the water to the boil with the ginger.",
+    "Add the tofu and fish fillet and cook for 3 minutes.",
+    "Add the spinach, bring back to the boil and add salt."
+   ]
+  },
+  {
+   "id": "t05",
+   "name": "Seaweed and Egg Drop Soup",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "dried seaweed (nori)",
+     "amount": "1 sheet"
+    },
+    {
+     "name": "eggs",
+     "amount": "2"
+    },
+    {
+     "name": "spring onion",
+     "amount": "1 stalk"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    },
+    {
+     "name": "water",
+     "amount": "1 litre"
+    }
+   ],
+   "steps": [
+    "Bring the water to the boil and add the seaweed.",
+    "Slowly pour in the beaten egg to form ribbons.",
+    "Add salt and chopped spring onion."
+   ]
+  },
+  {
+   "id": "t06",
+   "name": "Hairy Gourd and Lean Pork Soup",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "hairy gourd",
+     "amount": "2"
+    },
+    {
+     "name": "lean pork",
+     "amount": "200 g"
+    },
+    {
+     "name": "candied dates",
+     "amount": "1"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    },
+    {
+     "name": "water",
+     "amount": "2 litres"
+    }
+   ],
+   "steps": [
+    "Blanch the lean pork.",
+    "Peel the hairy gourd and cut into chunks.",
+    "Simmer all the ingredients for 50 minutes, then add salt."
+   ]
+  }
+ ]
+}

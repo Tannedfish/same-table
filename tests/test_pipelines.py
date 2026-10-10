@@ -105,7 +105,8 @@ def test_model_retrieval_uses_embeddings(settings, library):
     scores = r.rank("蒸魚")
     top = sorted(scores, key=scores.get, reverse=True)[:3]
     assert "s01" in top
-    assert all(-1.001 <= v <= 1.001 for v in scores.values())
+    bound = 1.001 + settings.p2_hybrid_weight  # cosine + weight x lexical (both at most 1)
+    assert all(-1.001 <= v <= bound for v in scores.values())
 
 
 # ------------------------------------------------------------------ end to end
@@ -122,3 +123,12 @@ def test_plan_tonight_end_to_end(settings, library):
 
 def test_build_query():
     assert build_query("  想食魚 ", Tags(methods={"steam"}, quick=True)) == "想食魚 蒸 快手"
+
+
+def test_hybrid_weight_zero_is_pure_cosine(settings, library):
+    from dataclasses import replace
+    dense_only = Retriever(replace(settings, p2_hybrid_weight=0.0), library, pipeline_factory=FakeEncoder).load()
+    mixed = Retriever(replace(settings, p2_hybrid_weight=2.0), library, pipeline_factory=FakeEncoder).load()
+    a, b = dense_only.rank("蒸魚"), mixed.rank("蒸魚")
+    lexical = mixed._fallback.scores("蒸魚")
+    assert all(abs(b[i] - (a[i] + 2.0 * lexical[i])) < 1e-6 for i in a)

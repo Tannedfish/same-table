@@ -247,7 +247,7 @@ _SEAFOOD = ("魚", "蝦", "蟹", "蜆", "蠔", "扇貝", "帶子", "魷", "墨�
 _MEAT = ("豬", "牛", "雞", "鴨", "羊", "肉", "排骨", "骨", "蛋", "火腿", "臘")
 MAYBE_AT_HOME = {
     "油", "食油", "生油", "花生油", "粟米油", "橄欖油", "植物油",
-    "鹽", "幼鹽", "糖", "砂糖", "白糖", "冰糖",
+    "鹽", "鹽巴", "幼鹽", "糖", "砂糖", "白糖", "冰糖",
     "蒜", "蒜頭", "蒜蓉", "蒜片", "薑", "薑片", "薑絲", "薑蓉", "老薑",
 }
 
@@ -274,8 +274,9 @@ def classify_ingredient(name: str) -> str | None:
 
 @dataclass
 class ShoppingItem:
-    name: str
+    name: str  # normalized Chinese name: the merge key
     group: str
+    label: str = ""  # what the cook sees, in the chosen language
     amounts: list[str] = field(default_factory=list)
     dishes: list[str] = field(default_factory=list)
     maybe_at_home: bool = False
@@ -290,15 +291,20 @@ class ShoppingList:
         return not any(self.groups.values())
 
 
-def build_shopping_list(dishes: Iterable[Dish]) -> ShoppingList:
-    """Merge the ingredients of the chosen dishes. Never invent missing ones."""
+def build_shopping_list(dishes: Iterable[Dish], lang: str = "zh") -> ShoppingList:
+    """Merge the ingredients of the chosen dishes. Never invent missing ones.
+
+    Ingredients are merged and grouped on their Chinese names (the source of truth);
+    `label`, amounts and dish names are shown in `lang` when a translation exists."""
     items: dict[str, ShoppingItem] = {}
     no_list: list[str] = []
     for dish in dishes:
         if not dish.ingredients:
-            no_list.append(dish.name)
+            no_list.append(dish.display_name(lang))
             continue
-        for ing in dish.ingredients:
+        shown = dish.display_ingredients(lang)
+        dish_label = dish.display_name(lang)
+        for ing, show in zip(dish.ingredients, shown):
             key = normalize_ingredient(ing.name)
             if not key:
                 continue
@@ -307,16 +313,25 @@ def build_shopping_list(dishes: Iterable[Dish]) -> ShoppingList:
                 continue
             item = items.get(key)
             if item is None:
+                label = key if show is ing else (show.name[:1].upper() + show.name[1:])
                 item = items[key] = ShoppingItem(
-                    name=key, group=group, maybe_at_home=group == "pantry" and key in MAYBE_AT_HOME
+                    name=key, group=group, label=label, maybe_at_home=group == "pantry" and key in MAYBE_AT_HOME
                 )
-            if ing.amount:
-                item.amounts.append(ing.amount)
-            if dish.name not in item.dishes:
-                item.dishes.append(dish.name)
+            if show.amount:
+                item.amounts.append(show.amount)
+            if dish_label not in item.dishes:
+                item.dishes.append(dish_label)
     groups = {g: [] for g in GROUPS}
+    seen: dict[tuple[str, str], ShoppingItem] = {}
     for item in items.values():
-        groups[item.group].append(item)
+        twin = seen.get((item.group, item.label.casefold()))
+        if twin is None:                       # different source spellings (鹽 / 鹽巴) that read the same: one line
+            seen[(item.group, item.label.casefold())] = item
+            groups[item.group].append(item)
+            continue
+        twin.amounts += item.amounts
+        twin.dishes += [d for d in item.dishes if d not in twin.dishes]
+        twin.maybe_at_home = twin.maybe_at_home or item.maybe_at_home
     for g in groups:
-        groups[g].sort(key=lambda it: (it.maybe_at_home, -len(it.dishes), it.name))
+        groups[g].sort(key=lambda it: (it.maybe_at_home, -len(it.dishes), it.label))
     return ShoppingList(groups=groups, no_list=no_list)

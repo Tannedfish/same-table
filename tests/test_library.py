@@ -49,3 +49,43 @@ def test_unlabeled_dish():
         make_unlabeled("   ")
     with pytest.raises(LibraryError):
         make_unlabeled("x" * 41)
+
+
+# ---------------------------------------------------------------- English text
+def test_translations_attach(library):
+    assert all(d.has_english() for d in library)
+    d = library.get("s01")
+    assert d.display_name("en") != d.name and d.display_name("zh") == d.name
+    assert len(d.display_ingredients("en")) == len(d.ingredients)
+    assert len(d.display_steps("en")) == len(d.steps)
+    assert library.by_name(d.display_name("en").upper()) is d     # English lookup ignores case
+
+
+def _write(tmp_path, dishes, english):
+    (tmp_path / "lib.json").write_text(json.dumps(dishes, ensure_ascii=False), encoding="utf-8")
+    if english is not None:
+        (tmp_path / "lib_en.json").write_text(english, encoding="utf-8")
+    return load_library(tmp_path / "lib.json")
+
+
+ROW = {"id": "a", "name": "炒菜心", "category": "veg", "method": "stir",
+       "ingredients": [{"name": "菜心", "amount": "1斤"}], "steps": ["洗菜", "炒"]}
+
+
+def test_mismatched_translation_is_ignored(tmp_path):
+    bad = json.dumps([{"id": "a", "name": "Choy sum", "ingredients": [], "steps": ["Wash", "Fry"]}])
+    assert not _write(tmp_path, [ROW], bad).get("a").has_english()
+
+
+def test_broken_or_missing_translation_file(tmp_path):
+    assert not _write(tmp_path, [ROW], "{not json").get("a").has_english()
+    (tmp_path / "lib_en.json").unlink()
+    assert not _write(tmp_path, [ROW], None).get("a").has_english()
+
+
+def test_invisible_characters_are_stripped(tmp_path):
+    row = dict(ROW, steps=["洗菜", "\U000e0020\U000e0020", "炒​"])
+    good = json.dumps([{"id": "a", "name": "Choy sum", "ingredients": [{"name": "choy sum", "amount": "600 g"}],
+                        "steps": ["Wash", "", "Fry"]}])
+    dish = _write(tmp_path, [row], good).get("a")
+    assert dish.steps == ("洗菜", "炒") and dish.display_steps("en") == ("Wash", "Fry")

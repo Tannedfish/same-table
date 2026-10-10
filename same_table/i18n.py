@@ -91,6 +91,8 @@ STRINGS: dict[str, dict[str, str]] = {
     "patient_box": {"zh": "糖友嗰碟", "en": "Patient's plate"},
     "image_caption": {"zh": "圖片來自菜式庫，非生成。", "en": "Image from the library, not generated."},
     "source": {"zh": "來源", "en": "Source"},
+    "no_translation": {"zh": "", "en": "No English version of this recipe yet; shown in Chinese."},
+    "translated_note": {"zh": "", "en": "English text translated from the original Chinese recipe."},
     "back_menu": {"zh": "返回菜單", "en": "Back to Menu"},
     # patient actions
     "act_sauce_aside": {"zh": "醬汁另上，唔好淋落飯", "en": "Sauce on the side, not on the rice"},

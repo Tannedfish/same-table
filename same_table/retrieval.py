@@ -1,7 +1,8 @@
 """Pipeline 2 — retrieve dishes from the labeled library.
 
 Embeds every library dish once with a Hugging Face `feature-extraction`
-pipeline, then ranks dishes by cosine similarity to the cook's request.
+pipeline, then ranks dishes by cosine similarity to the cook's request, plus a
+small exact-match bonus (hybrid retrieval).
 The fine-tune (notebook) teaches the encoder which requests match which
 dishes; it never writes new recipes.
 
@@ -23,8 +24,7 @@ from .library import Library
 
 log = logging.getLogger(__name__)
 
-# bge-zh recommends this instruction for short queries against passages.
-BGE_QUERY_PREFIX = "为这个句子生成表示以用于检索相关文章："
+from .config import BGE_QUERY_PREFIX  # noqa: F401  (re-exported for the notebook)
 
 
 def _pool(output, pooling: str) -> np.ndarray:
@@ -67,6 +67,12 @@ class CharTfidf:
         return {i: sum(w * v.get(g, 0.0) for g, w in q.items()) for i, v in zip(self.ids, self.vecs)}
 
 
+def hybrid(dense: np.ndarray, lexical: np.ndarray, weight: float) -> np.ndarray:
+    """Dense meaning + exact character overlap. The encoder handles paraphrases and English;
+    the lexical part rewards a literal ingredient match (it is what a cook expects to see first)."""
+    return np.asarray(dense) + weight * np.asarray(lexical)
+
+
 class Retriever:
     def __init__(self, settings, library: Library, pipeline_factory: Callable | None = None):
         self.settings = settings
@@ -107,9 +113,9 @@ class Retriever:
         query = (query or "").strip() or "家常晚餐"
         if self._matrix is not None:
             try:
-                prefix = BGE_QUERY_PREFIX if "bge" in self.settings.p2_model_id.lower() else ""
-                q = self._embed([prefix + query])[0]
-                sims = self._matrix @ q
+                q = self._embed([self.settings.p2_query_prefix + query])[0]
+                lexical = self._fallback.scores(query)
+                sims = hybrid(self._matrix @ q, [lexical[i] for i in self._ids], self.settings.p2_hybrid_weight)
                 return {i: float(s) for i, s in zip(self._ids, sims)}
             except Exception as exc:
                 log.warning("Pipeline 2 call failed, using char TF-IDF: %s", exc)

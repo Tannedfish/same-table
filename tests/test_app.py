@@ -68,3 +68,20 @@ def test_remove_unlabeled_and_add_library_dish(library):
     at.button(key="add_unlabeled_btn").click().run()
     assert at.session_state["menu_ids"] == menu + [extra.id]  # library hit -> labeled, not unlabeled
     assert at.session_state["addons"] == []
+
+
+def test_english_mode_shows_translated_dishes(library):
+    at = run_app()
+    at.radio(key="lang").set_value("en").run()
+    at.button(key="plan").click().run()
+    first = library.get(at.session_state["menu_ids"][0])
+    page_html = " ".join(m.value for m in at.markdown)
+    assert first.display_name("en") in page_html and first.name in page_html   # English name + Chinese under it
+    at.button(key=f"cook_{first.id}").click().run()
+    page_html = " ".join(m.value for m in at.markdown)
+    assert first.display_steps("en")[0] in page_html
+    at.button(key="back_menu").click().run()
+    at.button(key="use_table").click().run()
+    at.button(key="go_list").click().run()
+    labels = [c.label for c in at.checkbox]
+    assert labels and not any(any("\u4e00" <= ch <= "\u9fff" for ch in label) for label in labels)

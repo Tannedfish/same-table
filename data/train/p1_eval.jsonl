@@ -1,0 +1,600 @@
+{"text": "今晚爆炒。lots of meat。沒時間，得唔得", "tags": ["more_meat", "quick", "stir"]}
+{"text": "tonight 怕甜，仲有今晚要有湯", "tags": ["less_sweet", "soup"]}
+{"text": "阿媽話今晚要有湯", "tags": ["soup"]}
+{"text": "我哋唔夠肉唔飽 and 想飲啲熱辣辣嘅，謝謝", "tags": ["more_meat", "soup"]}
+{"text": "屋企四個人，清蒸就最好 and 滾水拖一拖", "tags": ["blanch", "steam"]}
+{"text": "今晚是但，得唔得", "tags": []}
+{"text": "我哋肉食為主，今晚要有湯呀", "tags": ["more_meat", "soup"]}
+{"text": "今晚少肉多菜，得唔得", "tags": ["more_veg"]}
+{"text": "屋企四個人，20分鐘內搞掂，仲有不要加糖呀", "tags": ["less_sweet", "quick"]}
+{"text": "有咩建議 please", "tags": []}
+{"text": "阿爸有糖尿，趕時間，同埋blanch the veg，唔該", "tags": ["blanch", "quick"]}
+{"text": "tonight 食得健康啲啦", "tags": ["more_veg"]}
+{"text": "煲老火湯，仲有淥熟就算啦", "tags": ["blanch", "soup"]}
+{"text": "婆婆嚟食飯，炒個肉 and 肉食為主，謝謝", "tags": ["more_meat", "stir"]}
+{"text": "婆婆嚟食飯，怕甜。用電鍋蒸，幫我諗下", "tags": ["less_sweet", "steam"]}
+{"text": "屋企四個人，少糖，另外steam some fish，同埋some broth", "tags": ["less_sweet", "soup", "steam"]}
+{"text": "越快越好", "tags": ["quick"]}
+{"text": "阿媽話some broth please", "tags": ["soup"]}
+{"text": "wok-fried，烚菜。skip the sweet sauce", "tags": ["blanch", "less_sweet", "stir"]}
+{"text": "今晚同屋企人食飯，幫我諗下", "tags": []}
+{"text": "今晚清蒸就最好", "tags": ["steam"]}
+{"text": "今晚多啲肉類呀", "tags": ["more_meat"]}
+{"text": "我哋蒸條魚，水煮的，得唔得", "tags": ["blanch", "steam"]}
+{"text": "今日不要加糖，得唔得", "tags": ["less_sweet"]}
+{"text": "大啖肉啦", "tags": ["more_meat"]}
+{"text": "我哋滾個湯，另外爆炒，幫我諗下", "tags": ["soup", "stir"]}
+{"text": "阿媽話爆炒，有碗湯就好啦", "tags": ["soup", "stir"]}
+{"text": "老公想冇時間煮", "tags": ["quick"]}
+{"text": "今晚少糖", "tags": ["less_sweet"]}
+{"text": "阿爸有糖尿，大啖肉，同埋滾個湯", "tags": ["more_meat", "soup"]}
+{"text": "婆婆嚟食飯，lots of meat，仲有不要加糖，唔該", "tags": ["less_sweet", "more_meat"]}
+{"text": "婆婆嚟食飯，同屋企人食飯，幫我諗下", "tags": []}
+{"text": "tonight what should I cook tonight", "tags": []}
+{"text": "阿爸有糖尿，清炒，仲有沒時間，蒸條魚，幫我諗下", "tags": ["quick", "steam", "stir"]}
+{"text": "我哋水煮的，謝謝", "tags": ["blanch"]}
+{"text": "多點青菜 and 水煮的，幫我諗下", "tags": ["blanch", "more_veg"]}
+{"text": "阿媽話是但", "tags": []}
+{"text": "爆炒", "tags": ["stir"]}
+{"text": "阿爸有糖尿，唔要甜，想食齋啲，仲有越快越好，唔該", "tags": ["less_sweet", "more_veg", "quick"]}
+{"text": "tonight 淥熟就算，謝謝", "tags": ["blanch"]}
+{"text": "今晚想食齋啲，另外爆炒", "tags": ["more_veg", "stir"]}
+{"text": "老公想steamed please。烚菜 please", "tags": ["blanch", "steam"]}
+{"text": "婆婆嚟食飯，skip the sweet sauce", "tags": ["less_sweet"]}
+{"text": "今晚wok-fried呀", "tags": ["stir"]}
+{"text": "婆婆嚟食飯，blanched vegetables。肉食為主", "tags": ["blanch", "more_meat"]}
+{"text": "老公想四個人食飯，謝謝", "tags": []}
+{"text": "婆婆嚟食飯，唔好太甜，另外I'd like it steamed，淥熟就算啦", "tags": ["blanch", "less_sweet", "steam"]}
+{"text": "婆婆嚟食飯，越快越好，唔該", "tags": ["quick"]}
+{"text": "今日用電鍋蒸，唔該", "tags": ["steam"]}
+{"text": "老公想滾水拖一拖，同埋wok-fried", "tags": ["blanch", "stir"]}
+{"text": "阿爸有糖尿，阿仔話唔夠飽，同埋沒時間，得唔得", "tags": ["more_meat", "quick"]}
+{"text": "今晚蒸條魚 and 想飲啲熱辣辣嘅，謝謝", "tags": ["soup", "steam"]}
+{"text": "阿媽話steam some fish。唔好太甜，水煮的，唔該", "tags": ["blanch", "less_sweet", "steam"]}
+{"text": "wok-fried", "tags": ["stir"]}
+{"text": "婆婆嚟食飯，lots of meat please", "tags": ["more_meat"]}
+{"text": "今晚多點青菜。20分鐘內搞掂，淥熟就算呀", "tags": ["blanch", "more_veg", "quick"]}
+{"text": "tonight 水煮的", "tags": ["blanch"]}
+{"text": "tonight 快炒一碟，唔該", "tags": ["stir"]}
+{"text": "婆婆嚟食飯，唔要甜酸嗰類，多食菜", "tags": ["less_sweet", "more_veg"]}
+{"text": "阿爸有糖尿，blanched vegetables", "tags": ["blanch"]}
+{"text": "快炒一碟，得唔得", "tags": ["stir"]}
+{"text": "今晚阿仔話唔夠飽，幫我諗下", "tags": ["more_meat"]}
+{"text": "少糖 and steamed please，謝謝", "tags": ["less_sweet", "steam"]}
+{"text": "屋企四個人，清蒸就最好 and 得半個鐘煮 and 唔要甜", "tags": ["less_sweet", "quick", "steam"]}
+{"text": "steam some fish and 大啖肉，得唔得", "tags": ["more_meat", "steam"]}
+{"text": "我哋用電鍋蒸，唔該", "tags": ["steam"]}
+{"text": "清淡啲，同埋水煮的", "tags": ["blanch", "more_veg"]}
+{"text": "得半個鐘煮啦", "tags": ["quick"]}
+{"text": "阿爸有糖尿，滾個湯，幫我諗下", "tags": ["soup"]}
+{"text": "多啲肉類，少糖 and 爆炒，唔該", "tags": ["less_sweet", "more_meat", "stir"]}
+{"text": "今日烚菜，仲有今晚要有湯，得唔得", "tags": ["blanch", "soup"]}
+{"text": "沒時間", "tags": ["quick"]}
+{"text": "dinner for three，得唔得", "tags": []}
+{"text": "阿媽話blanched vegetables，得唔得", "tags": ["blanch"]}
+{"text": "清炒啦", "tags": ["stir"]}
+{"text": "tonight 少糖，烚菜呀", "tags": ["blanch", "less_sweet"]}
+{"text": "老公想多點青菜，謝謝", "tags": ["more_veg"]}
+{"text": "今晚清蒸就最好呀", "tags": ["steam"]}
+{"text": "屋企四個人，有碗湯就好，怕甜", "tags": ["less_sweet", "soup"]}
+{"text": "想飲啲熱辣辣嘅啦", "tags": ["soup"]}
+{"text": "屋企四個人，青菜多啲，同埋用電鍋蒸，仲有細路等緊食", "tags": ["more_veg", "quick", "steam"]}
+{"text": "tonight 是但，唔該", "tags": []}
+{"text": "今晚20分鐘內搞掂 please", "tags": ["quick"]}
+{"text": "蒜蓉炒。清蒸就最好，謝謝", "tags": ["steam", "stir"]}
+{"text": "今晚是但", "tags": []}
+{"text": "阿爸有糖尿，快炒一碟，食得健康啲", "tags": ["more_veg", "stir"]}
+{"text": "我哋隨便啦 please", "tags": []}
+{"text": "今日今晚要有湯。趕時間", "tags": ["quick", "soup"]}
+{"text": "我哋今晚要有湯，滾水拖一拖 please", "tags": ["blanch", "soup"]}
+{"text": "今晚烚菜，肉食為主，同埋爆炒，謝謝", "tags": ["blanch", "more_meat", "stir"]}
+{"text": "今晚有咩建議 please", "tags": []}
+{"text": "阿媽話清蒸就最好，另外唔夠肉唔飽", "tags": ["more_meat", "steam"]}
+{"text": "今日大啖肉，仲有skip the sweet sauce", "tags": ["less_sweet", "more_meat"]}
+{"text": "婆婆嚟食飯，多點青菜呀", "tags": ["more_veg"]}
+{"text": "有碗湯就好啦", "tags": ["soup"]}
+{"text": "老公想唔好太甜", "tags": ["less_sweet"]}
+{"text": "隨便啦 please", "tags": []}
+{"text": "今日lots of meat，用電鍋蒸，得半個鐘煮", "tags": ["more_meat", "quick", "steam"]}
+{"text": "今晚what should I cook tonight", "tags": []}
+{"text": "我哋爆炒，另外多點青菜，唔該", "tags": ["more_veg", "stir"]}
+{"text": "tonight dinner for three呀", "tags": []}
+{"text": "老公想滾水拖一拖，得唔得", "tags": ["blanch"]}
+{"text": "some broth，唔夠肉唔飽，幫我諗下", "tags": ["more_meat", "soup"]}
+{"text": "老公想食得健康啲", "tags": ["more_veg"]}
+{"text": "老公想滾水拖一拖 and 清淡啲", "tags": ["blanch", "more_veg"]}
+{"text": "阿爸有糖尿，快炒一碟，同埋steamed please，幫我諗下", "tags": ["steam", "stir"]}
+{"text": "阿爸有糖尿，唔要甜酸嗰類，用電鍋蒸 and 蒜蓉炒啦", "tags": ["less_sweet", "steam", "stir"]}
+{"text": "阿爸有糖尿，少肉多菜", "tags": ["more_veg"]}
+{"text": "今晚水煮的。肉食為主", "tags": ["blanch", "more_meat"]}
+{"text": "多啲肉類 and 烚菜，得唔得", "tags": ["blanch", "more_meat"]}
+{"text": "阿媽話唔夠肉唔飽", "tags": ["more_meat"]}
+{"text": "淥熟就算，仲有煲老火湯。多啲肉類，得唔得", "tags": ["blanch", "more_meat", "soup"]}
+{"text": "lots of meat，另外steam some fish", "tags": ["more_meat", "steam"]}
+{"text": "老公想唔夠肉唔飽，唔好太甜。越快越好，謝謝", "tags": ["less_sweet", "more_meat", "quick"]}
+{"text": "老公想清淡啲，另外淥熟就算", "tags": ["blanch", "more_veg"]}
+{"text": "tonight 20分鐘內搞掂，快炒一碟呀", "tags": ["quick", "stir"]}
+{"text": "tonight I'd like it steamed please", "tags": ["steam"]}
+{"text": "我哋I'd like it steamed and 清炒，唔該", "tags": ["steam", "stir"]}
+{"text": "有碗湯就好，另外肉食為主，仲有用電鍋蒸", "tags": ["more_meat", "soup", "steam"]}
+{"text": "tonight 爆炒，同埋阿仔話唔夠飽呀", "tags": ["more_meat", "stir"]}
+{"text": "今晚有咩建議呀", "tags": []}
+{"text": "阿媽話唔好太甜，唔該", "tags": ["less_sweet"]}
+{"text": "老公想用電鍋蒸 and 快炒一碟，幫我諗下", "tags": ["steam", "stir"]}
+{"text": "屋企四個人，多食菜，同埋烚菜，謝謝", "tags": ["blanch", "more_veg"]}
+{"text": "細路等緊食，同埋多點青菜", "tags": ["more_veg", "quick"]}
+{"text": "今日蒜蓉炒，some broth，多食菜，幫我諗下", "tags": ["more_veg", "soup", "stir"]}
+{"text": "老公想阿仔話唔夠飽，另外少糖呀", "tags": ["less_sweet", "more_meat"]}
+{"text": "今晚滾水拖一拖 please", "tags": ["blanch"]}
+{"text": "lots of meat", "tags": ["more_meat"]}
+{"text": "今晚what should I cook tonight啦", "tags": []}
+{"text": "屋企四個人，是但 please", "tags": []}
+{"text": "屋企四個人，蒸條魚", "tags": ["steam"]}
+{"text": "阿媽話多啲肉類 and 得半個鐘煮，幫我諗下", "tags": ["more_meat", "quick"]}
+{"text": "多啲肉類 please", "tags": ["more_meat"]}
+{"text": "阿媽話lots of meat", "tags": ["more_meat"]}
+{"text": "屋企四個人，skip the sweet sauce，仲有阿仔話唔夠飽，謝謝", "tags": ["less_sweet", "more_meat"]}
+{"text": "tonight I'd like it steamed，得唔得", "tags": ["steam"]}
+{"text": "今晚blanch the veg呀", "tags": ["blanch"]}
+{"text": "今晚青菜多啲", "tags": ["more_veg"]}
+{"text": "今晚同屋企人食飯啦", "tags": []}
+{"text": "我哋blanch the veg", "tags": ["blanch"]}
+{"text": "阿媽話唔要甜，水煮的啦", "tags": ["blanch", "less_sweet"]}
+{"text": "滾水拖一拖啦", "tags": ["blanch"]}
+{"text": "老公想what should I cook tonight", "tags": []}
+{"text": "tonight 今晚要有湯，得唔得", "tags": ["soup"]}
+{"text": "今晚越快越好", "tags": ["quick"]}
+{"text": "阿媽話烚菜呀", "tags": ["blanch"]}
+{"text": "屋企四個人，多食菜，想飲啲熱辣辣嘅，謝謝", "tags": ["more_veg", "soup"]}
+{"text": "我哋怕甜", "tags": ["less_sweet"]}
+{"text": "今晚滾個湯", "tags": ["soup"]}
+{"text": "沒時間，同埋some broth", "tags": ["quick", "soup"]}
+{"text": "今日清蒸就最好呀", "tags": ["steam"]}
+{"text": "今日清炒。多啲肉類，得唔得", "tags": ["more_meat", "stir"]}
+{"text": "我哋想飲啲熱辣辣嘅啦", "tags": ["soup"]}
+{"text": "清淡啲 please", "tags": ["more_veg"]}
+{"text": "今日lots of meat，另外wok-fried，得唔得", "tags": ["more_meat", "stir"]}
+{"text": "滾個湯，謝謝", "tags": ["soup"]}
+{"text": "阿爸有糖尿，炒個肉 please", "tags": ["stir"]}
+{"text": "婆婆嚟食飯，煲老火湯。多食菜，水煮的呀", "tags": ["blanch", "more_veg", "soup"]}
+{"text": "阿媽話用電鍋蒸，另外blanched vegetables呀", "tags": ["blanch", "steam"]}
+{"text": "what should I cook tonight，幫我諗下", "tags": []}
+{"text": "今晚dinner for three，唔該", "tags": []}
+{"text": "多點青菜 and 越快越好，唔該", "tags": ["more_veg", "quick"]}
+{"text": "阿媽話blanch the veg，幫我諗下", "tags": ["blanch"]}
+{"text": "阿爸有糖尿，阿仔話唔夠飽，幫我諗下", "tags": ["more_meat"]}
+{"text": "越快越好，另外清淡啲 please", "tags": ["more_veg", "quick"]}
+{"text": "tonight 食得健康啲，另外少糖，快炒一碟呀", "tags": ["less_sweet", "more_veg", "stir"]}
+{"text": "屋企四個人，唔夠肉唔飽，同埋steamed please", "tags": ["more_meat", "steam"]}
+{"text": "今日多點青菜，唔該", "tags": ["more_veg"]}
+{"text": "今晚想飲啲熱辣辣嘅，得唔得", "tags": ["soup"]}
+{"text": "少肉多菜 please", "tags": ["more_veg"]}
+{"text": "屋企四個人，想飲啲熱辣辣嘅，幫我諗下", "tags": ["soup"]}
+{"text": "今晚沒時間，少肉多菜", "tags": ["more_veg", "quick"]}
+{"text": "今日I'd like it steamed，blanched vegetables，另外阿仔話唔夠飽", "tags": ["blanch", "more_meat", "steam"]}
+{"text": "tonight 多食菜 and steamed please，blanch the veg", "tags": ["blanch", "more_veg", "steam"]}
+{"text": "屋企四個人，淥熟就算，同埋清淡啲", "tags": ["blanch", "more_veg"]}
+{"text": "阿爸有糖尿，skip the sweet sauce啦", "tags": ["less_sweet"]}
+{"text": "婆婆嚟食飯，dinner for three", "tags": []}
+{"text": "今晚唔要甜，另外細路等緊食 please", "tags": ["less_sweet", "quick"]}
+{"text": "blanched vegetables，幫我諗下", "tags": ["blanch"]}
+{"text": "我哋唔要甜。淥熟就算", "tags": ["blanch", "less_sweet"]}
+{"text": "three of us tonight", "tags": []}
+{"text": "我哋少肉多菜，得唔得", "tags": ["more_veg"]}
+{"text": "tonight 滾個湯", "tags": ["soup"]}
+{"text": "我哋煲老火湯，清淡啲啦", "tags": ["more_veg", "soup"]}
+{"text": "煲老火湯呀", "tags": ["soup"]}
+{"text": "阿媽話冇時間煮", "tags": ["quick"]}
+{"text": "婆婆嚟食飯，滾個湯。蒸條魚。阿仔話唔夠飽啦", "tags": ["more_meat", "soup", "steam"]}
+{"text": "今晚steam some fish，幫我諗下", "tags": ["steam"]}
+{"text": "老公想some broth", "tags": ["soup"]}
+{"text": "同屋企人食飯啦", "tags": []}
+{"text": "我哋蒜蓉炒", "tags": ["stir"]}
+{"text": "tonight 快炒一碟，仲有少糖，唔該", "tags": ["less_sweet", "stir"]}
+{"text": "婆婆嚟食飯，skip the sweet sauce，蒸條魚，另外lots of meat呀", "tags": ["less_sweet", "more_meat", "steam"]}
+{"text": "肉食為主，仲有不要加糖", "tags": ["less_sweet", "more_meat"]}
+{"text": "tonight 唔要甜，有碗湯就好 please", "tags": ["less_sweet", "soup"]}
+{"text": "屋企四個人，食得健康啲啦", "tags": ["more_veg"]}
+{"text": "今日食得健康啲啦", "tags": ["more_veg"]}
+{"text": "我哋清淡啲", "tags": ["more_veg"]}
+{"text": "四個人食飯 please", "tags": []}
+{"text": "大啖肉，唔該", "tags": ["more_meat"]}
+{"text": "屋企四個人，想食齋啲，另外有碗湯就好，幫我諗下", "tags": ["more_veg", "soup"]}
+{"text": "今晚不要加糖啦", "tags": ["less_sweet"]}
+{"text": "tonight 今晚要有湯，肉食為主", "tags": ["more_meat", "soup"]}
+{"text": "阿爸有糖尿，沒時間呀", "tags": ["quick"]}
+{"text": "老公想唔要甜，另外多點青菜，謝謝", "tags": ["less_sweet", "more_veg"]}
+{"text": "滾個湯，同埋lots of meat please", "tags": ["more_meat", "soup"]}
+{"text": "爆炒 and 滾個湯啦", "tags": ["soup", "stir"]}
+{"text": "我哋唔好太甜", "tags": ["less_sweet"]}
+{"text": "水煮的，趕時間，幫我諗下", "tags": ["blanch", "quick"]}
+{"text": "阿爸有糖尿，唔要甜，另外肉食為主", "tags": ["less_sweet", "more_meat"]}
+{"text": "我哋快炒一碟，lots of meat，幫我諗下", "tags": ["more_meat", "stir"]}
+{"text": "老公想細路等緊食", "tags": ["quick"]}
+{"text": "阿爸有糖尿，唔要甜酸嗰類，另外青菜多啲，謝謝", "tags": ["less_sweet", "more_veg"]}
+{"text": "阿媽話多食菜，同埋steamed please", "tags": ["more_veg", "steam"]}
+{"text": "今晚想食齋啲，蒜蓉炒，清蒸就最好 please", "tags": ["more_veg", "steam", "stir"]}
+{"text": "blanch the veg and steamed please，另外怕甜，得唔得", "tags": ["blanch", "less_sweet", "steam"]}
+{"text": "tonight blanch the veg and 唔好太甜，謝謝", "tags": ["blanch", "less_sweet"]}
+{"text": "屋企四個人，blanch the veg，仲有skip the sweet sauce and 細路等緊食", "tags": ["blanch", "less_sweet", "quick"]}
+{"text": "快炒一碟", "tags": ["stir"]}
+{"text": "今日大啖肉啦", "tags": ["more_meat"]}
+{"text": "沒時間，少糖，謝謝", "tags": ["less_sweet", "quick"]}
+{"text": "three of us tonight please", "tags": []}
+{"text": "屋企四個人，隨便啦，謝謝", "tags": []}
+{"text": "阿爸有糖尿，three of us tonight，得唔得", "tags": []}
+{"text": "阿爸有糖尿，steam some fish，仲有有碗湯就好啦", "tags": ["soup", "steam"]}
+{"text": "今日有碗湯就好，另外越快越好，少糖呀", "tags": ["less_sweet", "quick", "soup"]}
+{"text": "阿媽話怕甜，炒個肉 and steamed please，得唔得", "tags": ["less_sweet", "steam", "stir"]}
+{"text": "skip the sweet sauce，得唔得", "tags": ["less_sweet"]}
+{"text": "屋企四個人，唔要甜。趕時間，幫我諗下", "tags": ["less_sweet", "quick"]}
+{"text": "what should I cook tonight", "tags": []}
+{"text": "我哋blanch the veg，多食菜，另外唔要甜酸嗰類，謝謝", "tags": ["blanch", "less_sweet", "more_veg"]}
+{"text": "今晚steam some fish please", "tags": ["steam"]}
+{"text": "屋企四個人，唔要甜酸嗰類 and I'd like it steamed，幫我諗下", "tags": ["less_sweet", "steam"]}
+{"text": "阿媽話steam some fish，20分鐘內搞掂，唔夠肉唔飽，唔該", "tags": ["more_meat", "quick", "steam"]}
+{"text": "屋企四個人，阿仔話唔夠飽，得唔得", "tags": ["more_meat"]}
+{"text": "阿爸有糖尿，趕時間", "tags": ["quick"]}
+{"text": "不要加糖，唔該", "tags": ["less_sweet"]}
+{"text": "tonight 大啖肉 and some broth", "tags": ["more_meat", "soup"]}
+{"text": "tonight lots of meat", "tags": ["more_meat"]}
+{"text": "老公想沒時間，另外今晚要有湯，謝謝", "tags": ["quick", "soup"]}
+{"text": "今晚three of us tonight，唔該", "tags": []}
+{"text": "婆婆嚟食飯，唔要甜，wok-fried", "tags": ["less_sweet", "stir"]}
+{"text": "屋企四個人，淥熟就算，得唔得", "tags": ["blanch"]}
+{"text": "阿爸有糖尿，滾個湯，不要加糖", "tags": ["less_sweet", "soup"]}
+{"text": "老公想少肉多菜，同埋冇時間煮", "tags": ["more_veg", "quick"]}
+{"text": "今晚lots of meat", "tags": ["more_meat"]}
+{"text": "今日blanch the veg and 用電鍋蒸，lots of meat", "tags": ["blanch", "more_meat", "steam"]}
+{"text": "阿爸有糖尿，少糖。肉食為主，另外冇時間煮，唔該", "tags": ["less_sweet", "more_meat", "quick"]}
+{"text": "我哋清蒸就最好 and 唔好太甜呀", "tags": ["less_sweet", "steam"]}
+{"text": "tonight steam some fish，blanch the veg，同埋滾個湯呀", "tags": ["blanch", "soup", "steam"]}
+{"text": "阿媽話少糖 please", "tags": ["less_sweet"]}
+{"text": "我哋清炒。some broth，謝謝", "tags": ["soup", "stir"]}
+{"text": "越快越好呀", "tags": ["quick"]}
+{"text": "阿媽話淥熟就算。清蒸就最好，有碗湯就好", "tags": ["blanch", "soup", "steam"]}
+{"text": "tonight blanch the veg。今晚要有湯呀", "tags": ["blanch", "soup"]}
+{"text": "食得健康啲 and 唔好太甜", "tags": ["less_sweet", "more_veg"]}
+{"text": "屋企四個人，快炒一碟，幫我諗下", "tags": ["stir"]}
+{"text": "今晚怕甜呀", "tags": ["less_sweet"]}
+{"text": "今晚要有湯 please", "tags": ["soup"]}
+{"text": "屋企四個人，煲老火湯，另外清蒸就最好，謝謝", "tags": ["soup", "steam"]}
+{"text": "婆婆嚟食飯，不要加糖", "tags": ["less_sweet"]}
+{"text": "阿爸有糖尿，四個人食飯 please", "tags": []}
+{"text": "唔好太甜", "tags": ["less_sweet"]}
+{"text": "我哋清蒸就最好，同埋水煮的", "tags": ["blanch", "steam"]}
+{"text": "今晚唔夠肉唔飽，同埋少糖 please", "tags": ["less_sweet", "more_meat"]}
+{"text": "冇時間煮，lots of meat，仲有唔要甜酸嗰類呀", "tags": ["less_sweet", "more_meat", "quick"]}
+{"text": "今晚what should I cook tonight，得唔得", "tags": []}
+{"text": "屋企四個人，食得健康啲，得唔得", "tags": ["more_veg"]}
+{"text": "阿爸有糖尿，I'd like it steamed，同埋快炒一碟，另外肉食為主呀", "tags": ["more_meat", "steam", "stir"]}
+{"text": "blanch the veg，另外少肉多菜，唔該", "tags": ["blanch", "more_veg"]}
+{"text": "今晚水煮的，仲有想飲啲熱辣辣嘅，steamed please please", "tags": ["blanch", "soup", "steam"]}
+{"text": "老公想冇時間煮 and 多啲肉類，得唔得", "tags": ["more_meat", "quick"]}
+{"text": "tonight 冇時間煮，另外多食菜呀", "tags": ["more_veg", "quick"]}
+{"text": "tonight 隨便啦，唔該", "tags": []}
+{"text": "阿媽話趕時間，幫我諗下", "tags": ["quick"]}
+{"text": "阿媽話多啲肉類，另外唔好太甜", "tags": ["less_sweet", "more_meat"]}
+{"text": "越快越好，同埋滾水拖一拖啦", "tags": ["blanch", "quick"]}
+{"text": "青菜多啲 please", "tags": ["more_veg"]}
+{"text": "屋企四個人，快炒一碟，唔該", "tags": ["stir"]}
+{"text": "今日淥熟就算啦", "tags": ["blanch"]}
+{"text": "我哋多點青菜，同埋煲老火湯，得唔得", "tags": ["more_veg", "soup"]}
+{"text": "屋企四個人，隨便啦", "tags": []}
+{"text": "今晚冇時間煮，唔該", "tags": ["quick"]}
+{"text": "tonight 今晚要有湯，另外食得健康啲，另外不要加糖 please", "tags": ["less_sweet", "more_veg", "soup"]}
+{"text": "阿媽話skip the sweet sauce啦", "tags": ["less_sweet"]}
+{"text": "今晚蒜蓉炒，仲有some broth，幫我諗下", "tags": ["soup", "stir"]}
+{"text": "我哋冇時間煮啦", "tags": ["quick"]}
+{"text": "屋企四個人，淥熟就算。大啖肉，幫我諗下", "tags": ["blanch", "more_meat"]}
+{"text": "婆婆嚟食飯，多啲肉類，同埋wok-fried啦", "tags": ["more_meat", "stir"]}
+{"text": "今晚四個人食飯，謝謝", "tags": []}
+{"text": "阿媽話有碗湯就好啦", "tags": ["soup"]}
+{"text": "我哋趕時間，幫我諗下", "tags": ["quick"]}
+{"text": "今晚skip the sweet sauce。細路等緊食 please", "tags": ["less_sweet", "quick"]}
+{"text": "今晚趕時間，唔該", "tags": ["quick"]}
+{"text": "阿爸有糖尿，滾個湯，另外少肉多菜。不要加糖呀", "tags": ["less_sweet", "more_veg", "soup"]}
+{"text": "今晚three of us tonight，謝謝", "tags": []}
+{"text": "婆婆嚟食飯，水煮的。食得健康啲，得唔得", "tags": ["blanch", "more_veg"]}
+{"text": "屋企四個人，steamed please，同埋少糖 and 快炒一碟", "tags": ["less_sweet", "steam", "stir"]}
+{"text": "tonight 煲老火湯，同埋細路等緊食，得唔得", "tags": ["quick", "soup"]}
+{"text": "用電鍋蒸 and 少糖，另外滾水拖一拖，得唔得", "tags": ["blanch", "less_sweet", "steam"]}
+{"text": "老公想滾水拖一拖", "tags": ["blanch"]}
+{"text": "老公想想飲啲熱辣辣嘅啦", "tags": ["soup"]}
+{"text": "老公想阿仔話唔夠飽", "tags": ["more_meat"]}
+{"text": "屋企四個人，有碗湯就好，趕時間", "tags": ["quick", "soup"]}
+{"text": "今晚唔夠肉唔飽呀", "tags": ["more_meat"]}
+{"text": "今晚多點青菜。炒個肉", "tags": ["more_veg", "stir"]}
+{"text": "青菜多啲，唔要甜，得唔得", "tags": ["less_sweet", "more_veg"]}
+{"text": "tonight 清蒸就最好，滾水拖一拖 and 多點青菜", "tags": ["blanch", "more_veg", "steam"]}
+{"text": "我哋some broth，仲有滾水拖一拖，唔該", "tags": ["blanch", "soup"]}
+{"text": "冇時間煮，幫我諗下", "tags": ["quick"]}
+{"text": "阿媽話怕甜", "tags": ["less_sweet"]}
+{"text": "有碗湯就好，另外滾水拖一拖，得唔得", "tags": ["blanch", "soup"]}
+{"text": "今晚沒時間，另外蒜蓉炒", "tags": ["quick", "stir"]}
+{"text": "屋企四個人，blanch the veg啦", "tags": ["blanch"]}
+{"text": "屋企四個人，lots of meat，同埋用電鍋蒸，謝謝", "tags": ["more_meat", "steam"]}
+{"text": "是但 please", "tags": []}
+{"text": "今日wok-fried，烚菜，skip the sweet sauce", "tags": ["blanch", "less_sweet", "stir"]}
+{"text": "清炒，仲有趕時間，蒸條魚啦", "tags": ["quick", "steam", "stir"]}
+{"text": "滾水拖一拖，謝謝", "tags": ["blanch"]}
+{"text": "今晚滾水拖一拖，大啖肉", "tags": ["blanch", "more_meat"]}
+{"text": "老公想食得健康啲 please", "tags": ["more_veg"]}
+{"text": "老公想three of us tonight啦", "tags": []}
+{"text": "少肉多菜。細路等緊食 please", "tags": ["more_veg", "quick"]}
+{"text": "我哋滾水拖一拖，唔要甜酸嗰類，幫我諗下", "tags": ["blanch", "less_sweet"]}
+{"text": "阿媽話隨便啦", "tags": []}
+{"text": "阿媽話冇時間煮。blanch the veg", "tags": ["blanch", "quick"]}
+{"text": "屋企四個人，唔要甜，另外趕時間 please", "tags": ["less_sweet", "quick"]}
+{"text": "阿媽話I'd like it steamed", "tags": ["steam"]}
+{"text": "blanched vegetables。想食齋啲，I'd like it steamed，得唔得", "tags": ["blanch", "more_veg", "steam"]}
+{"text": "阿爸有糖尿，wok-fried，仲有steamed please，同埋青菜多啲 please", "tags": ["more_veg", "steam", "stir"]}
+{"text": "蒜蓉炒，lots of meat，另外淥熟就算 please", "tags": ["blanch", "more_meat", "stir"]}
+{"text": "tonight steamed please，肉食為主", "tags": ["more_meat", "steam"]}
+{"text": "我哋20分鐘內搞掂，wok-fried，得唔得", "tags": ["quick", "stir"]}
+{"text": "水煮的，同埋怕甜呀", "tags": ["blanch", "less_sweet"]}
+{"text": "多點青菜 please", "tags": ["more_veg"]}
+{"text": "阿爸有糖尿，想食齋啲，同埋冇時間煮 please", "tags": ["more_veg", "quick"]}
+{"text": "阿爸有糖尿，dinner for three，得唔得", "tags": []}
+{"text": "我哋唔要甜，同埋blanch the veg", "tags": ["blanch", "less_sweet"]}
+{"text": "我哋隨便啦", "tags": []}
+{"text": "阿媽話四個人食飯，唔該", "tags": []}
+{"text": "婆婆嚟食飯，青菜多啲，唔該", "tags": ["more_veg"]}
+{"text": "今日四個人食飯", "tags": []}
+{"text": "今晚炒個肉，得唔得", "tags": ["stir"]}
+{"text": "今日唔要甜 please", "tags": ["less_sweet"]}
+{"text": "dinner for three", "tags": []}
+{"text": "阿媽話肉食為主啦", "tags": ["more_meat"]}
+{"text": "今晚清淡啲，同埋爆炒，唔該", "tags": ["more_veg", "stir"]}
+{"text": "skip the sweet sauce", "tags": ["less_sweet"]}
+{"text": "婆婆嚟食飯，四個人食飯 please", "tags": []}
+{"text": "今晚烚菜，唔該", "tags": ["blanch"]}
+{"text": "隨便啦", "tags": []}
+{"text": "烚菜，另外skip the sweet sauce please", "tags": ["blanch", "less_sweet"]}
+{"text": "tonight 清蒸就最好，唔該", "tags": ["steam"]}
+{"text": "今晚what should I cook tonight，唔該", "tags": []}
+{"text": "今日青菜多啲", "tags": ["more_veg"]}
+{"text": "今晚肉食為主，得唔得", "tags": ["more_meat"]}
+{"text": "婆婆嚟食飯，大啖肉，得唔得", "tags": ["more_meat"]}
+{"text": "煲老火湯", "tags": ["soup"]}
+{"text": "滾水拖一拖，另外冇時間煮", "tags": ["blanch", "quick"]}
+{"text": "阿媽話阿仔話唔夠飽，同埋今晚要有湯，幫我諗下", "tags": ["more_meat", "soup"]}
+{"text": "屋企四個人，清炒，仲有blanched vegetables，得唔得", "tags": ["blanch", "stir"]}
+{"text": "今晚食得健康啲 please", "tags": ["more_veg"]}
+{"text": "tonight 不要加糖，淥熟就算，I'd like it steamed", "tags": ["blanch", "less_sweet", "steam"]}
+{"text": "怕甜", "tags": ["less_sweet"]}
+{"text": "阿爸有糖尿，烚菜啦", "tags": ["blanch"]}
+{"text": "老公想唔要甜酸嗰類，仲有想食齋啲 please", "tags": ["less_sweet", "more_veg"]}
+{"text": "skip the sweet sauce please", "tags": ["less_sweet"]}
+{"text": "tonight what should I cook tonight啦", "tags": []}
+{"text": "屋企四個人，滾水拖一拖，謝謝", "tags": ["blanch"]}
+{"text": "老公想細路等緊食。wok-fried，steam some fish呀", "tags": ["quick", "steam", "stir"]}
+{"text": "婆婆嚟食飯，lots of meat，唔要甜酸嗰類", "tags": ["less_sweet", "more_meat"]}
+{"text": "屋企四個人，唔要甜酸嗰類，大啖肉，幫我諗下", "tags": ["less_sweet", "more_meat"]}
+{"text": "我哋炒個肉呀", "tags": ["stir"]}
+{"text": "阿媽話多食菜呀", "tags": ["more_veg"]}
+{"text": "阿爸有糖尿，steam some fish", "tags": ["steam"]}
+{"text": "我哋some broth，仲有肉食為主，謝謝", "tags": ["more_meat", "soup"]}
+{"text": "清淡啲", "tags": ["more_veg"]}
+{"text": "唔要甜酸嗰類，唔該", "tags": ["less_sweet"]}
+{"text": "阿爸有糖尿，唔好太甜，多啲肉類，炒個肉呀", "tags": ["less_sweet", "more_meat", "stir"]}
+{"text": "今日水煮的，多食菜", "tags": ["blanch", "more_veg"]}
+{"text": "婆婆嚟食飯，清炒，唔該", "tags": ["stir"]}
+{"text": "老公想少肉多菜 and 水煮的，幫我諗下", "tags": ["blanch", "more_veg"]}
+{"text": "tonight I'd like it steamed", "tags": ["steam"]}
+{"text": "今晚不要加糖，謝謝", "tags": ["less_sweet"]}
+{"text": "今晚趕時間呀", "tags": ["quick"]}
+{"text": "阿媽話有碗湯就好，同埋沒時間，仲有用電鍋蒸", "tags": ["quick", "soup", "steam"]}
+{"text": "今晚steamed please and 少肉多菜，some broth呀", "tags": ["more_veg", "soup", "steam"]}
+{"text": "我哋steam some fish，多啲肉類，謝謝", "tags": ["more_meat", "steam"]}
+{"text": "今晚three of us tonight", "tags": []}
+{"text": "我哋不要加糖，煲老火湯，謝謝", "tags": ["less_sweet", "soup"]}
+{"text": "tonight 今晚要有湯，食得健康啲，另外blanch the veg", "tags": ["blanch", "more_veg", "soup"]}
+{"text": "今晚I'd like it steamed，唔要甜酸嗰類", "tags": ["less_sweet", "steam"]}
+{"text": "阿媽話同屋企人食飯啦", "tags": []}
+{"text": "阿媽話蒸條魚", "tags": ["steam"]}
+{"text": "屋企四個人，烚菜，仲有得半個鐘煮 please", "tags": ["blanch", "quick"]}
+{"text": "婆婆嚟食飯，steam some fish，另外煲老火湯，幫我諗下", "tags": ["soup", "steam"]}
+{"text": "老公想不要加糖，今晚要有湯，幫我諗下", "tags": ["less_sweet", "soup"]}
+{"text": "屋企四個人，skip the sweet sauce，另外冇時間煮呀", "tags": ["less_sweet", "quick"]}
+{"text": "多食菜，幫我諗下", "tags": ["more_veg"]}
+{"text": "tonight 快炒一碟。skip the sweet sauce呀", "tags": ["less_sweet", "stir"]}
+{"text": "蒜蓉炒 and 唔夠肉唔飽。蒸條魚 please", "tags": ["more_meat", "steam", "stir"]}
+{"text": "阿爸有糖尿，有咩建議呀", "tags": []}
+{"text": "老公想唔夠肉唔飽，謝謝", "tags": ["more_meat"]}
+{"text": "阿媽話多點青菜，另外蒜蓉炒，謝謝", "tags": ["more_veg", "stir"]}
+{"text": "some broth，同埋skip the sweet sauce，得唔得", "tags": ["less_sweet", "soup"]}
+{"text": "今日少糖，同埋烚菜啦", "tags": ["blanch", "less_sweet"]}
+{"text": "婆婆嚟食飯，四個人食飯呀", "tags": []}
+{"text": "婆婆嚟食飯，wok-fried，唔該", "tags": ["stir"]}
+{"text": "老公想炒個肉啦", "tags": ["stir"]}
+{"text": "烚菜，趕時間，另外阿仔話唔夠飽，謝謝", "tags": ["blanch", "more_meat", "quick"]}
+{"text": "屋企四個人，冇時間煮，得唔得", "tags": ["quick"]}
+{"text": "婆婆嚟食飯，隨便啦", "tags": []}
+{"text": "婆婆嚟食飯，怕甜 and blanched vegetables", "tags": ["blanch", "less_sweet"]}
+{"text": "老公想隨便啦，唔該", "tags": []}
+{"text": "今日想食齋啲，另外淥熟就算，謝謝", "tags": ["blanch", "more_veg"]}
+{"text": "肉食為主，得唔得", "tags": ["more_meat"]}
+{"text": "tonight 得半個鐘煮，唔該", "tags": ["quick"]}
+{"text": "屋企四個人，想飲啲熱辣辣嘅，唔要甜，幫我諗下", "tags": ["less_sweet", "soup"]}
+{"text": "今晚同屋企人食飯", "tags": []}
+{"text": "今晚steam some fish，唔該", "tags": ["steam"]}
+{"text": "今日同屋企人食飯", "tags": []}
+{"text": "今日怕甜，謝謝", "tags": ["less_sweet"]}
+{"text": "屋企四個人，烚菜，蒸條魚，仲有少糖，謝謝", "tags": ["blanch", "less_sweet", "steam"]}
+{"text": "阿爸有糖尿，唔要甜，得唔得", "tags": ["less_sweet"]}
+{"text": "屋企四個人，lots of meat，同埋淥熟就算啦", "tags": ["blanch", "more_meat"]}
+{"text": "老公想快炒一碟啦", "tags": ["stir"]}
+{"text": "阿爸有糖尿，少糖 and 沒時間，仲有青菜多啲，幫我諗下", "tags": ["less_sweet", "more_veg", "quick"]}
+{"text": "今晚水煮的。青菜多啲。steam some fish", "tags": ["blanch", "more_veg", "steam"]}
+{"text": "steam some fish，另外越快越好，仲有多點青菜", "tags": ["more_veg", "quick", "steam"]}
+{"text": "阿爸有糖尿，炒個肉", "tags": ["stir"]}
+{"text": "四個人食飯，得唔得", "tags": []}
+{"text": "今日沒時間 and 青菜多啲啦", "tags": ["more_veg", "quick"]}
+{"text": "what should I cook tonight呀", "tags": []}
+{"text": "婆婆嚟食飯，20分鐘內搞掂，仲有青菜多啲，爆炒啦", "tags": ["more_veg", "quick", "stir"]}
+{"text": "今日多食菜，仲有清炒呀", "tags": ["more_veg", "stir"]}
+{"text": "唔要甜酸嗰類。淥熟就算 please", "tags": ["blanch", "less_sweet"]}
+{"text": "滾個湯 and 烚菜，得唔得", "tags": ["blanch", "soup"]}
+{"text": "阿媽話隨便啦，唔該", "tags": []}
+{"text": "今晚清淡啲呀", "tags": ["more_veg"]}
+{"text": "我哋沒時間", "tags": ["quick"]}
+{"text": "蒸條魚 please", "tags": ["steam"]}
+{"text": "lots of meat and 唔要甜酸嗰類呀", "tags": ["less_sweet", "more_meat"]}
+{"text": "老公想唔要甜", "tags": ["less_sweet"]}
+{"text": "今日wok-fried，另外烚菜。想食齋啲", "tags": ["blanch", "more_veg", "stir"]}
+{"text": "我哋冇時間煮", "tags": ["quick"]}
+{"text": "老公想得半個鐘煮", "tags": ["quick"]}
+{"text": "今晚淥熟就算，唔該", "tags": ["blanch"]}
+{"text": "tonight 食得健康啲。用電鍋蒸 please", "tags": ["more_veg", "steam"]}
+{"text": "阿媽話steamed please", "tags": ["steam"]}
+{"text": "今晚清炒。some broth，幫我諗下", "tags": ["soup", "stir"]}
+{"text": "多點青菜，唔該", "tags": ["more_veg"]}
+{"text": "婆婆嚟食飯，蒜蓉炒", "tags": ["stir"]}
+{"text": "婆婆嚟食飯，細路等緊食 please", "tags": ["quick"]}
+{"text": "阿爸有糖尿，lots of meat", "tags": ["more_meat"]}
+{"text": "今日是但呀", "tags": []}
+{"text": "我哋少肉多菜", "tags": ["more_veg"]}
+{"text": "蒜蓉炒，另外越快越好。I'd like it steamed", "tags": ["quick", "steam", "stir"]}
+{"text": "阿爸有糖尿，隨便啦，得唔得", "tags": []}
+{"text": "tonight 爆炒。blanched vegetables and 少糖", "tags": ["blanch", "less_sweet", "stir"]}
+{"text": "阿媽話唔夠肉唔飽，得唔得", "tags": ["more_meat"]}
+{"text": "今日淥熟就算 and some broth", "tags": ["blanch", "soup"]}
+{"text": "阿仔話唔夠飽呀", "tags": ["more_meat"]}
+{"text": "今日怕甜", "tags": ["less_sweet"]}
+{"text": "tonight 不要加糖 please", "tags": ["less_sweet"]}
+{"text": "我哋what should I cook tonight啦", "tags": []}
+{"text": "淥熟就算，冇時間煮 please", "tags": ["blanch", "quick"]}
+{"text": "我哋阿仔話唔夠飽。想飲啲熱辣辣嘅啦", "tags": ["more_meat", "soup"]}
+{"text": "我哋細路等緊食，謝謝", "tags": ["quick"]}
+{"text": "阿媽話快炒一碟。steam some fish呀", "tags": ["steam", "stir"]}
+{"text": "老公想烚菜，唔要甜呀", "tags": ["blanch", "less_sweet"]}
+{"text": "阿爸有糖尿，想食齋啲，越快越好，幫我諗下", "tags": ["more_veg", "quick"]}
+{"text": "屋企四個人，青菜多啲，唔該", "tags": ["more_veg"]}
+{"text": "阿媽話烚菜", "tags": ["blanch"]}
+{"text": "婆婆嚟食飯，今晚要有湯 and 烚菜啦", "tags": ["blanch", "soup"]}
+{"text": "老公想多點青菜，唔要甜酸嗰類呀", "tags": ["less_sweet", "more_veg"]}
+{"text": "阿爸有糖尿，steam some fish please", "tags": ["steam"]}
+{"text": "今晚青菜多啲，得唔得", "tags": ["more_veg"]}
+{"text": "今晚steam some fish，謝謝", "tags": ["steam"]}
+{"text": "老公想唔夠肉唔飽 please", "tags": ["more_meat"]}
+{"text": "婆婆嚟食飯，淥熟就算", "tags": ["blanch"]}
+{"text": "今日滾水拖一拖，另外不要加糖，謝謝", "tags": ["blanch", "less_sweet"]}
+{"text": "今日蒜蓉炒 please", "tags": ["stir"]}
+{"text": "阿媽話skip the sweet sauce呀", "tags": ["less_sweet"]}
+{"text": "steam some fish，仲有20分鐘內搞掂 please", "tags": ["quick", "steam"]}
+{"text": "阿媽話趕時間 please", "tags": ["quick"]}
+{"text": "今日blanch the veg，謝謝", "tags": ["blanch"]}
+{"text": "今晚蒸條魚，得唔得", "tags": ["steam"]}
+{"text": "今日冇時間煮，多啲肉類，仲有唔要甜，謝謝", "tags": ["less_sweet", "more_meat", "quick"]}
+{"text": "婆婆嚟食飯，想食齋啲，幫我諗下", "tags": ["more_veg"]}
+{"text": "今晚少肉多菜。滾個湯", "tags": ["more_veg", "soup"]}
+{"text": "婆婆嚟食飯，想飲啲熱辣辣嘅，謝謝", "tags": ["soup"]}
+{"text": "屋企四個人，steamed please，謝謝", "tags": ["steam"]}
+{"text": "同屋企人食飯", "tags": []}
+{"text": "我哋淥熟就算，唔該", "tags": ["blanch"]}
+{"text": "有咩建議，得唔得", "tags": []}
+{"text": "屋企四個人，越快越好 and lots of meat呀", "tags": ["more_meat", "quick"]}
+{"text": "婆婆嚟食飯，大啖肉，謝謝", "tags": ["more_meat"]}
+{"text": "滾個湯，blanch the veg，同埋steamed please", "tags": ["blanch", "soup", "steam"]}
+{"text": "唔好太甜，同埋多點青菜", "tags": ["less_sweet", "more_veg"]}
+{"text": "阿爸有糖尿，沒時間，青菜多啲，得唔得", "tags": ["more_veg", "quick"]}
+{"text": "老公想不要加糖，蒸條魚，另外阿仔話唔夠飽呀", "tags": ["less_sweet", "more_meat", "steam"]}
+{"text": "今晚blanched vegetables please", "tags": ["blanch"]}
+{"text": "阿爸有糖尿，大啖肉 and 細路等緊食。用電鍋蒸", "tags": ["more_meat", "quick", "steam"]}
+{"text": "我哋今晚要有湯，食得健康啲，唔該", "tags": ["more_veg", "soup"]}
+{"text": "阿媽話有碗湯就好呀", "tags": ["soup"]}
+{"text": "阿爸有糖尿，越快越好，謝謝", "tags": ["quick"]}
+{"text": "老公想steam some fish，仲有煲老火湯。得半個鐘煮", "tags": ["quick", "soup", "steam"]}
+{"text": "tonight 隨便啦", "tags": []}
+{"text": "阿仔話唔夠飽 please", "tags": ["more_meat"]}
+{"text": "唔要甜酸嗰類，同埋冇時間煮，得唔得", "tags": ["less_sweet", "quick"]}
+{"text": "阿仔話唔夠飽", "tags": ["more_meat"]}
+{"text": "阿媽話有碗湯就好，謝謝", "tags": ["soup"]}
+{"text": "今晚得半個鐘煮", "tags": ["quick"]}
+{"text": "今日dinner for three，得唔得", "tags": []}
+{"text": "爆炒。blanched vegetables，得唔得", "tags": ["blanch", "stir"]}
+{"text": "今晚沒時間，謝謝", "tags": ["quick"]}
+{"text": "老公想少肉多菜，20分鐘內搞掂，幫我諗下", "tags": ["more_veg", "quick"]}
+{"text": "阿媽話steamed please and 多食菜，唔該", "tags": ["more_veg", "steam"]}
+{"text": "今晚爆炒，多啲肉類，唔該", "tags": ["more_meat", "stir"]}
+{"text": "蒜蓉炒 please", "tags": ["stir"]}
+{"text": "今晚steam some fish。20分鐘內搞掂，幫我諗下", "tags": ["quick", "steam"]}
+{"text": "冇時間煮 and 唔要甜酸嗰類，得唔得", "tags": ["less_sweet", "quick"]}
+{"text": "老公想爆炒，仲有沒時間啦", "tags": ["quick", "stir"]}
+{"text": "阿爸有糖尿，得半個鐘煮，另外滾個湯 and 唔要甜酸嗰類，唔該", "tags": ["less_sweet", "quick", "soup"]}
+{"text": "tonight 怕甜，唔該", "tags": ["less_sweet"]}
+{"text": "今晚大啖肉。steamed please please", "tags": ["more_meat", "steam"]}
+{"text": "阿媽話steamed please。少糖", "tags": ["less_sweet", "steam"]}
+{"text": "想飲啲熱辣辣嘅，唔要甜 and 用電鍋蒸", "tags": ["less_sweet", "soup", "steam"]}
+{"text": "唔夠肉唔飽", "tags": ["more_meat"]}
+{"text": "烚菜呀", "tags": ["blanch"]}
+{"text": "青菜多啲，仲有少糖，幫我諗下", "tags": ["less_sweet", "more_veg"]}
+{"text": "婆婆嚟食飯，steam some fish呀", "tags": ["steam"]}
+{"text": "阿媽話不要加糖啦", "tags": ["less_sweet"]}
+{"text": "我哋淥熟就算，另外大啖肉，謝謝", "tags": ["blanch", "more_meat"]}
+{"text": "水煮的，得唔得", "tags": ["blanch"]}
+{"text": "我哋不要加糖啦", "tags": ["less_sweet"]}
+{"text": "阿爸有糖尿，用電鍋蒸。怕甜", "tags": ["less_sweet", "steam"]}
+{"text": "今晚有咩建議，幫我諗下", "tags": []}
+{"text": "今晚lots of meat please", "tags": ["more_meat"]}
+{"text": "blanched vegetables，謝謝", "tags": ["blanch"]}
+{"text": "老公想趕時間 please", "tags": ["quick"]}
+{"text": "屋企四個人，滾個湯", "tags": ["soup"]}
+{"text": "今晚得半個鐘煮，同埋唔要甜酸嗰類，幫我諗下", "tags": ["less_sweet", "quick"]}
+{"text": "阿爸有糖尿，清蒸就最好", "tags": ["steam"]}
+{"text": "blanch the veg，skip the sweet sauce", "tags": ["blanch", "less_sweet"]}
+{"text": "tonight 青菜多啲，同埋唔好太甜，同埋滾個湯", "tags": ["less_sweet", "more_veg", "soup"]}
+{"text": "阿媽話同屋企人食飯，得唔得", "tags": []}
+{"text": "不要加糖，得唔得", "tags": ["less_sweet"]}
+{"text": "水煮的，仲有多啲肉類啦", "tags": ["blanch", "more_meat"]}
+{"text": "阿媽話快炒一碟", "tags": ["stir"]}
+{"text": "阿爸有糖尿，淥熟就算，謝謝", "tags": ["blanch"]}
+{"text": "婆婆嚟食飯，大啖肉 and 蒜蓉炒", "tags": ["more_meat", "stir"]}
+{"text": "skip the sweet sauce，肉食為主", "tags": ["less_sweet", "more_meat"]}
+{"text": "食得健康啲，炒個肉，謝謝", "tags": ["more_veg", "stir"]}
+{"text": "今日想飲啲熱辣辣嘅，同埋爆炒", "tags": ["soup", "stir"]}
+{"text": "tonight 多啲肉類，唔該", "tags": ["more_meat"]}
+{"text": "是但", "tags": []}
+{"text": "今晚爆炒，另外怕甜，仲有今晚要有湯，唔該", "tags": ["less_sweet", "soup", "stir"]}
+{"text": "阿媽話唔要甜 and 烚菜 please", "tags": ["blanch", "less_sweet"]}
+{"text": "老公想大啖肉", "tags": ["more_meat"]}
+{"text": "20分鐘內搞掂", "tags": ["quick"]}
+{"text": "tonight 水煮的，多食菜啦", "tags": ["blanch", "more_veg"]}
+{"text": "屋企四個人，阿仔話唔夠飽", "tags": ["more_meat"]}
+{"text": "tonight 少肉多菜，有碗湯就好", "tags": ["more_veg", "soup"]}
+{"text": "今晚清淡啲啦", "tags": ["more_veg"]}
+{"text": "屋企四個人，blanch the veg", "tags": ["blanch"]}
+{"text": "少肉多菜，另外煲老火湯，幫我諗下", "tags": ["more_veg", "soup"]}
+{"text": "阿媽話大啖肉，仲有滾個湯。沒時間 please", "tags": ["more_meat", "quick", "soup"]}
+{"text": "今晚淥熟就算，仲有wok-fried", "tags": ["blanch", "stir"]}
+{"text": "老公想蒸條魚，同埋趕時間，得唔得", "tags": ["quick", "steam"]}
+{"text": "婆婆嚟食飯，大啖肉，細路等緊食 please", "tags": ["more_meat", "quick"]}
+{"text": "今日steamed please，另外清淡啲呀", "tags": ["more_veg", "steam"]}
+{"text": "我哋煲老火湯。水煮的，唔該", "tags": ["blanch", "soup"]}
+{"text": "屋企四個人，steam some fish，謝謝", "tags": ["steam"]}
+{"text": "tonight what should I cook tonight，唔該", "tags": []}
+{"text": "阿媽話煲老火湯，細路等緊食", "tags": ["quick", "soup"]}
+{"text": "tonight 有碗湯就好呀", "tags": ["soup"]}
+{"text": "屋企四個人，blanch the veg。some broth呀", "tags": ["blanch", "soup"]}
+{"text": "今晚blanch the veg，多食菜，wok-fried", "tags": ["blanch", "more_veg", "stir"]}
+{"text": "我哋what should I cook tonight", "tags": []}
+{"text": "今晚沒時間 and 清蒸就最好，仲有烚菜，得唔得", "tags": ["blanch", "quick", "steam"]}
+{"text": "阿媽話20分鐘內搞掂，謝謝", "tags": ["quick"]}
+{"text": "今日滾水拖一拖，唔該", "tags": ["blanch"]}
+{"text": "老公想炒個肉，另外不要加糖，謝謝", "tags": ["less_sweet", "stir"]}
+{"text": "今晚多食菜", "tags": ["more_veg"]}
+{"text": "婆婆嚟食飯，四個人食飯，謝謝", "tags": []}
+{"text": "唔好太甜，另外趕時間，唔該", "tags": ["less_sweet", "quick"]}
+{"text": "阿爸有糖尿，用電鍋蒸，得唔得", "tags": ["steam"]}
+{"text": "阿爸有糖尿，淥熟就算，仲有滾個湯", "tags": ["blanch", "soup"]}
+{"text": "我哋爆炒。lots of meat，同埋烚菜", "tags": ["blanch", "more_meat", "stir"]}
+{"text": "怕甜，仲有爆炒 and 滾個湯", "tags": ["less_sweet", "soup", "stir"]}
+{"text": "婆婆嚟食飯，steam some fish，謝謝", "tags": ["steam"]}
+{"text": "唔要甜 please", "tags": ["less_sweet"]}
+{"text": "阿爸有糖尿，今晚要有湯 and 趕時間", "tags": ["quick", "soup"]}
+{"text": "我哋唔要甜，謝謝", "tags": ["less_sweet"]}
+{"text": "屋企四個人，少肉多菜", "tags": ["more_veg"]}
+{"text": "屋企四個人，烚菜，滾個湯", "tags": ["blanch", "soup"]}
+{"text": "婆婆嚟食飯，three of us tonight，幫我諗下", "tags": []}
+{"text": "婆婆嚟食飯，blanched vegetables，唔該", "tags": ["blanch"]}

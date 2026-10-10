@@ -6,6 +6,7 @@ Pages: Tonight -> Menu -> (How to cook) -> How to plate -> List
 
 from __future__ import annotations
 
+import html
 import logging
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -54,6 +55,7 @@ CSS = """
 .b-unl { background:#FFE58A; color:#6B4E00; }
 .b-cat { background:#EEF1EF; color:#1F4D3A; }
 .dish-name { font-size:1.15rem; font-weight:700; margin:0; }
+.dish-sub { font-size:.85rem; color:#6B7C72; margin:0 0 4px; }
 .photo-ph { font-size:2.4rem; text-align:center; background:#F1F5F2; border-radius:10px; padding:10px 0; }
 .patient { background:var(--amber); border-left:5px solid var(--amber-edge); border-radius:8px; padding:10px 14px; margin-top:8px; }
 .patient b { color:#7A4B00; }
@@ -169,6 +171,20 @@ def footer(basic_mode: bool) -> None:
     st.markdown(f"<div class='disclaimer'>{t('disclaimer', L)}{extra}</div>", unsafe_allow_html=True)
 
 
+def dish_title(dish: Dish, size: str = "card") -> str:
+    """Dish name in the chosen language; in English mode the Chinese name stays underneath."""
+    L = lang()
+    main = html.escape(dish.display_name(L))
+    sub = html.escape(dish.name) if L == "en" and dish.has_english() else ""
+    if size == "page":
+        out = f"<h2 style='margin-bottom:0'>{main}</h2>"
+    else:
+        out = f"<p class='dish-name'>{main}</p>"
+    if sub:
+        out += f"<p class='dish-sub'>{sub}</p>"
+    return out
+
+
 def badges(dish: Dish) -> str:
     L = lang()
     if not dish.labeled:
@@ -280,8 +296,8 @@ def _add_unlabeled(library: Library) -> None:
     name = (ss.get("w_addname") or "").strip()
     if not name:
         return
-    names_on_menu = {d.name for d in menu_dishes(library)}
-    if name in names_on_menu:
+    names_on_menu = {n.casefold() for d in menu_dishes(library) for n in (d.name, d.display_name("en"))}
+    if name.casefold() in names_on_menu:
         ss.flash.append((t("already_on_menu", L, name=name), "info"))
     elif (hit := library.by_name(name)) is not None:
         ss.menu_ids.append(hit.id)
@@ -341,7 +357,7 @@ def page_menu(library) -> None:
             with c_img:
                 photo(dish)
             with c_body:
-                st.markdown(f"<p class='dish-name'>{dish.name}</p>{badges(dish)}", unsafe_allow_html=True)
+                st.markdown(dish_title(dish) + badges(dish), unsafe_allow_html=True)
                 if not dish.labeled:
                     st.markdown(f"<div class='unl-box'>{t('unlabeled_risk', L)}</div>", unsafe_allow_html=True)
                 b1, b2, _ = st.columns([1, 1, 1])
@@ -369,8 +385,7 @@ def page_cook(library) -> None:
     if dish is None:
         go("menu")
         st.rerun()
-    st.markdown(f"## {dish.name}")
-    st.markdown(badges(dish), unsafe_allow_html=True)
+    st.markdown(dish_title(dish, "page") + badges(dish), unsafe_allow_html=True)
     with st.container(key="cover_big"):
         photo(dish, big=True)
     meta = []
@@ -383,12 +398,17 @@ def page_cook(library) -> None:
 
     if not dish.labeled:
         st.markdown(f"<div class='unl-box'>{t('unlabeled_risk', L)}</div>", unsafe_allow_html=True)
-    if dish.ingredients:
+    if L == "en" and dish.labeled and not dish.has_english():
+        st.caption(t("no_translation", L))
+    ingredients, steps = dish.display_ingredients(L), dish.display_steps(L)
+    if ingredients:
         st.markdown(f"#### {t('ingredients', L)}")
-        st.markdown("\n".join(f"- {i.name}" + (f" — {i.amount}" if i.amount else "") for i in dish.ingredients))
-    if dish.steps:
+        st.markdown("\n".join(f"- {i.name}" + (f" — {i.amount}" if i.amount else "") for i in ingredients))
+    if steps:
         st.markdown(f"#### {t('steps', L)}")
-        st.markdown("\n".join(f"{n}. {s}" for n, s in enumerate(dish.steps, start=1)))
+        st.markdown("\n".join(f"{n}. {s}" for n, s in enumerate(steps, start=1)))
+    if L == "en" and dish.has_english():
+        st.caption(t("translated_note", L))
     if not dish.ingredients and not dish.steps:
         st.caption(t("no_recipe", L))
     if dish.labeled:
@@ -406,7 +426,7 @@ def page_plate(library) -> None:
     actions = "<br>".join(f"{n}. {t('act_' + a, L)}" for n, a in enumerate(PATIENT_ACTIONS, start=1))
     for dish in dishes:
         with st.container(border=True):
-            st.markdown(f"<p class='dish-name'>{dish.name}</p>{badges(dish)}", unsafe_allow_html=True)
+            st.markdown(dish_title(dish) + badges(dish), unsafe_allow_html=True)
             p, f = st.columns(2)
             with p:
                 st.markdown(f"**{t('col_patient', L)}**")
@@ -424,7 +444,7 @@ def page_plate(library) -> None:
 
 def page_list(library) -> None:
     L = lang()
-    shopping = build_shopping_list(menu_dishes(library))
+    shopping = build_shopping_list(menu_dishes(library), lang=L)
     st.markdown(f"### {t('step_list', L)}")
     st.caption(t("list_intro", L))
     lines = []
@@ -438,10 +458,10 @@ def page_list(library) -> None:
         lines.append(f"[{t('cat_' + group, L)}]")
         for item in items:
             amount = "" if item.maybe_at_home else " + ".join(item.amounts)
-            label = item.name + (f"  ({amount})" if amount else "")
+            label = item.label + (f"  ({amount})" if amount else "")
             if item.maybe_at_home:
                 label += f"  · {t('maybe_home', L)}"
-            st.checkbox(label, key=f"chk_{group}_{item.name}", help=t("for_dishes", L, d="、".join(item.dishes)))
+            st.checkbox(label, key=f"chk_{group}_{item.name}", help=t("for_dishes", L, d=(", " if L == "en" else "、").join(item.dishes)))
             lines.append(f"- {label}")
         lines.append("")
     for name in shopping.no_list:

@@ -2,7 +2,7 @@ from datetime import timedelta
 
 import pytest
 
-from same_table.library import Dish, Ingredient, Library, make_unlabeled
+from same_table.library import Dish, DishText, Ingredient, Library, make_unlabeled
 from same_table.rules import (
     MealLog, build_shopping_list, category_targets, classify_ingredient, dish_count,
     novelty_ratio, plan_menu, seed_log, swap_dish,
@@ -155,3 +155,23 @@ def test_less_sweet_penalty(library):
     scores = adjust_scores(sims, library, Tags(less_sweet=True))
     assert scores["t06"] < 0.5  # 節瓜瘦肉湯 has 蜜棗
     assert scores["v01"] == 0.5
+
+
+def test_shopping_list_in_english(library):
+    dishes = [library.get("s01"), library.get("v01"), make_unlabeled("糖醋排骨")]
+    zh, en = build_shopping_list(dishes), build_shopping_list(dishes, lang="en")
+    for group in zh.groups:   # same merged items in each group; only the visible labels (and their order) change
+        assert sorted(i.name for i in zh.groups[group]) == sorted(i.name for i in en.groups[group])
+    labels = [i.label for g in en.groups.values() for i in g]
+    assert all(not any("一" <= c <= "鿿" for c in label) for label in labels)
+    assert en.no_list == ["糖醋排骨"]                    # a typed dish keeps the name the cook typed
+    assert library.get("s01").display_name("en") in en.groups["seafood"][0].dishes
+
+
+def test_same_label_is_one_line():
+    a = Dish("a", "甲", "veg", "stir", ingredients=(Ingredient("鹽", "1茶匙"),),
+             en=DishText("A", ingredients=(Ingredient("salt", "1 tsp"),)))
+    b = Dish("b", "乙", "veg", "stir", ingredients=(Ingredient("鹽巴", "少許"),),
+             en=DishText("B", ingredients=(Ingredient("salt", "a little"),)))
+    pantry = build_shopping_list([a, b], lang="en").groups["pantry"]
+    assert [(i.label, i.amounts, i.dishes, i.maybe_at_home) for i in pantry] == [("Salt", ["1 tsp", "a little"], ["A", "B"], True)]

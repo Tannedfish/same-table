@@ -1,0 +1,4463 @@
+{
+ "source": "English text for the dish library, keyed by dish id. Prepared offline with AI assistance from the Chinese recipes (not generated at run time; no model call in the app). Spot-check before submission.",
+ "dishes": [
+  {
+   "id": "r00622",
+   "name": "Stir-fried Salted Pork with Green Pepper",
+   "description": "Sweet green pepper balances the richness of salted pork in this simple dish to go with rice.",
+   "ingredients": [
+    {
+     "name": "green pepper",
+     "amount": "1"
+    },
+    {
+     "name": "salted pork",
+     "amount": "1 strip"
+    }
+   ],
+   "steps": [
+    "Rinse the salted pork, slice it and stir-fry in a wok.",
+    "Add the green pepper and stir-fry together.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r00207",
+   "name": "Stir-fried Chicken Cartilage with Carrot and Potato",
+   "description": "Marinated chicken cartilage stir-fried with diced carrot and potato for a hearty, kid-friendly meal.",
+   "ingredients": [
+    {
+     "name": "carrot",
+     "amount": "½"
+    },
+    {
+     "name": "potato",
+     "amount": "1"
+    },
+    {
+     "name": "marinated chicken cartilage",
+     "amount": "250 g"
+    },
+    {
+     "name": "spring onion, chopped",
+     "amount": "2 stalks"
+    },
+    {
+     "name": "garlic, minced",
+     "amount": "3 small cloves"
+    },
+    {
+     "name": "salt",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "black peppercorns",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Cut the potato and carrot into small cubes; rinse the potato to keep it from going mushy.",
+    "Keep the pieces small if cooking for young children.",
+    "Heat oil, fry the garlic until fragrant, then stir-fry the carrot and potato over medium heat.",
+    "Push the vegetables aside, sear the chicken cartilage in the middle until lightly browned on both sides (medium-low heat), then toss everything together and season with salt and black pepper.",
+    "Add the spring onion just before serving, cover briefly, then toss and plate (medium heat).",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r00645",
+   "name": "Stir-fried Cherry Valley Duck Breast",
+   "description": "A fragrant stir-fry of sliced duck breast with zucchini and green pepper.",
+   "ingredients": [
+    {
+     "name": "Cherry Valley duck breast",
+     "amount": "1 piece"
+    },
+    {
+     "name": "zucchini",
+     "amount": "1"
+    },
+    {
+     "name": "green pepper",
+     "amount": "1"
+    },
+    {
+     "name": "spring onion",
+     "amount": "a little"
+    },
+    {
+     "name": "chilli",
+     "amount": "1 small"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "a little"
+    },
+    {
+     "name": "garlic sauce",
+     "amount": "a little"
+    },
+    {
+     "name": "ketchup",
+     "amount": "a little"
+    },
+    {
+     "name": "vegetarian mushroom oyster sauce",
+     "amount": "a little"
+    },
+    {
+     "name": "rice wine",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Wash the zucchini and slice it (optionally pre-roast in the oven for 5 minutes).",
+    "Halve the green pepper, remove the seeds, wash and cut into strips (optionally pre-roast in the oven for 5 minutes).",
+    "Slice the cooked duck breast.",
+    "Wash the spring onion and cut into lengths.",
+    "Peel and mince the garlic, or use ready-minced garlic.",
+    "Wash the chilli and cut into pieces; use as much as you like for heat.",
+    "Mix the garlic sauce, vegetarian oyster sauce and a little ketchup.",
+    "Heat a little oil in the wok and stir-fry the spring onion and garlic.",
+    "Add the remaining ingredients, stir-fry evenly, then add a little garlic sauce and rice wine. Serve."
+   ]
+  },
+  {
+   "id": "r00486",
+   "name": "Twice-cooked Pork with Thirteen-spice",
+   "description": "Boiled pork belly pan-fried and stir-fried with spicy thirteen-spice powder, tofu skin and baby corn.",
+   "ingredients": [
+    {
+     "name": "boiled pork belly",
+     "amount": "250 g"
+    },
+    {
+     "name": "fresh tofu skin",
+     "amount": "100 g"
+    },
+    {
+     "name": "baby corn",
+     "amount": "30 g"
+    },
+    {
+     "name": "carrot",
+     "amount": "30 g"
+    },
+    {
+     "name": "spring onion, cut into lengths",
+     "amount": "20 g"
+    },
+    {
+     "name": "garlic oil",
+     "amount": "10 ml"
+    },
+    {
+     "name": "spicy thirteen-spice powder",
+     "amount": "5 g"
+    },
+    {
+     "name": "garlic granules",
+     "amount": "5 g"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "10 ml"
+    },
+    {
+     "name": "light brown sugar",
+     "amount": "5 g"
+    },
+    {
+     "name": "Shaoxing wine",
+     "amount": "15 ml"
+    }
+   ],
+   "steps": [
+    "Prepare the ingredients.",
+    "Slice the carrot (cut into flower shapes if you like), cut the baby corn diagonally, cut the spring onion into lengths, cut the tofu skin into small pieces and slice the pork belly about 0.3 cm thick.",
+    "Dry-fry the pork slices in a hot wok until the fat renders and the surface is golden; set aside (add a little garlic oil if not enough fat renders).",
+    "In the same wok, stir-fry the carrot and baby corn until soft, then add the tofu skin and pork and toss.",
+    "Add the soy sauce, sugar, Shaoxing wine and thirteen-spice powder and stir-fry until fragrant.",
+    "Before serving, sprinkle in the garlic granules and spring onion and toss in the residual heat."
+   ]
+  },
+  {
+   "id": "r01029",
+   "name": "Stir-fried Pork Knuckle with Garlic",
+   "description": "Pre-seasoned German pork knuckle pan-fried with green garlic and garlic for an easy festive dish.",
+   "ingredients": [
+    {
+     "name": "German pork knuckle",
+     "amount": "2"
+    },
+    {
+     "name": "green garlic",
+     "amount": "1-2 stalks"
+    },
+    {
+     "name": "garlic",
+     "amount": "1 bulb"
+    }
+   ],
+   "steps": [
+    "Cut the pork knuckle into pieces, the green garlic into lengths and the garlic into chunks.",
+    "Fry the green garlic and garlic until fragrant, then add the pork knuckle skin-side down and fry until browned before turning.",
+    "When nearly done, stir-fry everything together over high heat and serve.",
+    "The pork knuckle is already salty, so no extra seasoning is needed.",
+    "Serve while the skin is crisp."
+   ]
+  },
+  {
+   "id": "r00946",
+   "name": "Korean Spicy Stir-fried Pork Ribs",
+   "description": "Spicy, sweet Korean-style pork ribs that go well with rice or beer.",
+   "ingredients": [
+    {
+     "name": "pork ribs",
+     "amount": "600 g"
+    },
+    {
+     "name": "flour",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "shallot",
+     "amount": "1-2"
+    },
+    {
+     "name": "white sesame seeds / crushed peanuts",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "oil",
+     "amount": "2 spoons"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "cooking wine",
+     "amount": "1 spoon"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "Korean chilli powder",
+     "amount": "1 spoon"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "5 cloves"
+    },
+    {
+     "name": "minced shallot",
+     "amount": "½"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "1 spoon"
+    },
+    {
+     "name": "white pepper",
+     "amount": "1 spoon"
+    },
+    {
+     "name": "starch",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "Korean chilli paste (gochujang)",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "sugar",
+     "amount": "3 tbsp"
+    },
+    {
+     "name": "water",
+     "amount": "150 ml"
+    }
+   ],
+   "steps": [
+    "Prepare the ingredients.",
+    "Rub the ribs with flour, then rinse until the water runs clear.",
+    "Mix the ribs with the marinade ingredients, except the starch.",
+    "Mix the sauce.",
+    "Toast the sesame seeds in a non-stick pan over low heat until fragrant; set aside to cool.",
+    "Trim and peel the shallot and slice thinly.",
+    "Mix the starch into the ribs.",
+    "Crushed peanuts, sliced almonds or chopped walnuts can replace the sesame seeds; toast lightly.",
+    "Heat the wok over high heat, then add oil.",
+    "When the oil is hot, turn to medium and fry the ribs until golden on the outside (not cooked through).",
+    "Add the shallot (keep a little for garnish) and stir-fry.",
+    "Adjust the heat while frying the ribs to avoid burning.",
+    "Add the sauce, stir and cook over medium heat until about 70-80% reduced.",
+    "Stir in the sesame seeds and a little sesame oil.",
+    "Plate and top with the reserved shallot.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r01158",
+   "name": "Stir-fried Aubergine with Minced Pork",
+   "description": "Home-grown aubergine braised with minced pork for a tasty side dish.",
+   "ingredients": [
+    {
+     "name": "aubergine",
+     "amount": "2"
+    },
+    {
+     "name": "minced pork",
+     "amount": "30 g"
+    },
+    {
+     "name": "garlic",
+     "amount": "1 clove"
+    },
+    {
+     "name": "ginger, sliced",
+     "amount": "1 large slice"
+    },
+    {
+     "name": "spring onion",
+     "amount": "1 bunch"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "15 g"
+    },
+    {
+     "name": "sugar",
+     "amount": "10 g"
+    },
+    {
+     "name": "kitchen paper",
+     "amount": "5 sheets"
+    }
+   ],
+   "steps": [
+    "Stir-fry the minced pork with the garlic and ginger until lightly browned; keep kitchen paper nearby to wipe up spattered oil.",
+    "Add the aubergine, cut into lengths, and stir-fry over medium-low heat until soft.",
+    "Add the soy sauce, sugar and enough water to come two-thirds up the ingredients.",
+    "Simmer for 8 minutes, then taste a piece of aubergine to check the seasoning.",
+    "Transfer to a plate and serve."
+   ]
+  },
+  {
+   "id": "r00668",
+   "name": "Stir-fried Pork with Green Pepper",
+   "description": "A nutritious home-style stir-fry of green pepper and pork that even kids can enjoy.",
+   "ingredients": [
+    {
+     "name": "green pepper",
+     "amount": "3"
+    },
+    {
+     "name": "minced pork loin",
+     "amount": "1 bowl"
+    },
+    {
+     "name": "garlic",
+     "amount": "3 cloves"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "seasoning sauce",
+     "amount": "2 tsp"
+    },
+    {
+     "name": "water",
+     "amount": "1 bowl"
+    },
+    {
+     "name": "yellow wine or rice wine",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "white pepper",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Marinate the minced pork with the wine, soy sauce and white pepper for 5 minutes; wash and shred the green pepper and mince the garlic.",
+    "Heat oil, fry the garlic until fragrant, then add the pork and stir-fry.",
+    "Add the water and seasoning sauce, stir, cover and simmer until flavourful.",
+    "Before serving, drizzle the soy sauce around the edge of the wok, toss and plate."
+   ]
+  },
+  {
+   "id": "r00030",
+   "name": "Steamed Pork and Chinese Yam Meatballs",
+   "description": "Minced pork kneaded with mashed Chinese yam, carrot and celery, shaped into balls and steamed.",
+   "ingredients": [
+    {
+     "name": "minced pork",
+     "amount": "½ catty (300 g)"
+    },
+    {
+     "name": "mashed Chinese yam",
+     "amount": "4 taels (150 g)"
+    },
+    {
+     "name": "carrot, finely chopped",
+     "amount": "a little"
+    },
+    {
+     "name": "celery, diced",
+     "amount": "a little"
+    },
+    {
+     "name": "salt",
+     "amount": "to taste"
+    },
+    {
+     "name": "rice wine",
+     "amount": "to taste"
+    },
+    {
+     "name": "egg white",
+     "amount": "1"
+    },
+    {
+     "name": "white pepper",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Steam the Chinese yam and mash with a fork, leaving some small chunks for texture.",
+    "Add the marinade to the minced pork and knead well.",
+    "Finely chop a little carrot and dice one stalk of celery.",
+    "Add them to the pork, knead and slap the mixture until springy, then shape into balls.",
+    "Steam in an electric cooker with 1 cup of water until cooked.",
+    "Plate and pour over the cooking juices."
+   ]
+  },
+  {
+   "id": "r01728",
+   "name": "Stir-fried Pork with Chinese Chives and Enoki",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "Chinese chives",
+     "amount": "1 bunch"
+    },
+    {
+     "name": "enoki mushroom",
+     "amount": "1 pack"
+    },
+    {
+     "name": "sliced pork",
+     "amount": "200 g"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "chicken powder",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "oyster sauce",
+     "amount": "1.5 tbsp"
+    },
+    {
+     "name": "sugar",
+     "amount": "1 spoon"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1 spoon"
+    },
+    {
+     "name": "rice wine",
+     "amount": "1 spoon"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "1 spoon"
+    }
+   ],
+   "steps": [
+    "Marinate the pork slices with the seasoning for 10 minutes.",
+    "Wash the chives and enoki and cut into lengths.",
+    "Heat oil, fry the garlic until fragrant, add the pork and stir-fry until half cooked, then add the chives and enoki.",
+    "Add the sugar, oyster sauce and chicken powder and stir-fry until the chives are done to your liking."
+   ]
+  },
+  {
+   "id": "r00190",
+   "name": "Stir-fried Smoked Duck with Green Garlic",
+   "description": "Smoked duck and green garlic stir-fried with pressed tofu for a savoury, aromatic dish.",
+   "ingredients": [
+    {
+     "name": "Yilan smoked duck",
+     "amount": "1 pack"
+    },
+    {
+     "name": "green garlic",
+     "amount": "2 stalks"
+    },
+    {
+     "name": "pressed tofu",
+     "amount": "4 pieces"
+    }
+   ],
+   "steps": [
+    "Slice the pressed tofu; trim the green garlic and cut diagonally into lengths.",
+    "Fry the pressed tofu in a dry wok until the surface changes colour.",
+    "Add the smoked duck and stir-fry to release its fat.",
+    "Add the green garlic and stir-fry until cooked.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r00358",
+   "name": "Century Egg Salad",
+   "description": "A refreshing, tangy and spicy cold century egg dish.",
+   "ingredients": [
+    {
+     "name": "century egg",
+     "amount": "3"
+    },
+    {
+     "name": "spring onion",
+     "amount": "2 stalks"
+    },
+    {
+     "name": "chilli",
+     "amount": "2"
+    },
+    {
+     "name": "onion",
+     "amount": "¼"
+    },
+    {
+     "name": "beef tomato",
+     "amount": "5 slices (to taste)"
+    },
+    {
+     "name": "coriander",
+     "amount": "to taste"
+    },
+    {
+     "name": "white sesame seeds",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1.5 tbsp"
+    },
+    {
+     "name": "white vinegar",
+     "amount": "1.5 tbsp"
+    },
+    {
+     "name": "black vinegar",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "chilli oil",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Mince the garlic; use half for the sauce and half for fried garlic.",
+    "Finely chop the spring onion, coriander and chilli, combine with the garlic for the sauce, then add the sesame seeds.",
+    "Add the soy sauce, black vinegar, white vinegar and chilli oil and mix well.",
+    "Prepare some vegetables to plate with the eggs.",
+    "Slice the tomato and arrange on a plate.",
+    "Shred some cucumber and onion.",
+    "Soak the shredded onion in ice water to remove its sharpness.",
+    "Rinse the century eggs in their shells and boil for 1 minute.",
+    "For firmer eggs, start in cold water and simmer 3-5 minutes after boiling; for fully set yolks, about 10 minutes.",
+    "For fried garlic: put oil and garlic in a cold pan and heat.",
+    "Watch the garlic closely; once golden, turn off the heat and drain on kitchen paper.",
+    "Peel the eggs and rinse off any shell fragments with drinking water.",
+    "Cut each egg into quarters.",
+    "Place the eggs, onion and cucumber on the tomato slices, pour over the sauce and sprinkle with fried garlic.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r00872",
+   "name": "Spicy Stir-fried Dried Cabbage with Pork",
+   "description": "Spicy dried cabbage stir-fried with minced pork, a great accompaniment to rice.",
+   "ingredients": [
+    {
+     "name": "minced pork",
+     "amount": "40g"
+    },
+    {
+     "name": "dried cabbage",
+     "amount": "30g"
+    },
+    {
+     "name": "garlic",
+     "amount": "4 cloves"
+    },
+    {
+     "name": "chilli",
+     "amount": "4 slices"
+    },
+    {
+     "name": "chilli sauce with goose fat",
+     "amount": "½ tsp"
+    },
+    {
+     "name": "rice wine",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    },
+    {
+     "name": "white pepper",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Weigh the dried cabbage.",
+    "Soak in water for 20 minutes, then squeeze dry.",
+    "Heat a little oil and stir-fry the minced pork.",
+    "Add the minced garlic and the chilli sauce.",
+    "Fry until the oil turns red, then splash in the rice wine and stir-fry.",
+    "Add the cabbage and chilli slices and season with salt and pepper.",
+    "Store-bought dried cabbage works well."
+   ]
+  },
+  {
+   "id": "r00643",
+   "name": "Scrambled Eggs with Tomato and Butter",
+   "description": "Soft, savoury eggs scrambled with tomato and butter.",
+   "ingredients": [
+    {
+     "name": "beef tomato",
+     "amount": "½"
+    },
+    {
+     "name": "butter",
+     "amount": "1 small knob"
+    },
+    {
+     "name": "eggs",
+     "amount": "3"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Dice the tomato.",
+    "Beat the eggs.",
+    "Heat oil, melt the butter, then add the tomato and stir-fry.",
+    "Over low heat, add the egg and stir evenly.",
+    "Season with salt.",
+    "Turn off the heat while the egg is still slightly wet,",
+    "so it doesn't overcook.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r00369",
+   "name": "Cucumber and Shredded Chicken Salad",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "chicken breast",
+     "amount": "2 pieces"
+    },
+    {
+     "name": "cucumber",
+     "amount": "1.5"
+    },
+    {
+     "name": "sesame dressing",
+     "amount": "½ bottle"
+    },
+    {
+     "name": "bowl or plate",
+     "amount": "1"
+    },
+    {
+     "name": "large metal bowl",
+     "amount": "1"
+    }
+   ],
+   "steps": [
+    "Trim the ends of the cucumber and cut into thin strips.",
+    "Shred the steamed chicken breast by hand.",
+    "Arrange the cucumber and chicken and drizzle with sesame dressing."
+   ]
+  },
+  {
+   "id": "r00058",
+   "name": "Steamed Egg with Tofu and Chicken",
+   "description": "A simple, low-calorie, high-protein steamed dish.",
+   "ingredients": [
+    {
+     "name": "egg",
+     "amount": "1"
+    },
+    {
+     "name": "tofu",
+     "amount": "1 block"
+    },
+    {
+     "name": "chicken breast, sliced",
+     "amount": "½ piece"
+    },
+    {
+     "name": "shelled edamame",
+     "amount": "to taste"
+    },
+    {
+     "name": "chopped spring onion",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "low-sodium soy sauce",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "black peppercorns",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Rinse the tofu (silken or firm both work), press out some water, then mash it in a bowl with a spoon.",
+    "Add the egg, soy sauce to taste and frozen edamame, and mix well.",
+    "Top with the sliced chicken, sprinkle with black pepper and steam over boiling water for about 20 minutes.",
+    "Sprinkle with spring onion before serving.",
+    "Add other vegetables you like, such as broccoli or mushrooms, if desired."
+   ]
+  },
+  {
+   "id": "r01049",
+   "name": "Stir-fried Romaine Lettuce with Minced Pork",
+   "description": "Romaine lettuce stir-fried with carrot and a savoury minced pork sauce.",
+   "ingredients": [
+    {
+     "name": "minced pork",
+     "amount": "30 g"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "20 g"
+    },
+    {
+     "name": "sugar",
+     "amount": "20 g"
+    },
+    {
+     "name": "carrot",
+     "amount": "½"
+    },
+    {
+     "name": "romaine lettuce",
+     "amount": "1 pack"
+    },
+    {
+     "name": "kitchen paper",
+     "amount": "5 sheets"
+    },
+    {
+     "name": "garlic",
+     "amount": "2 cloves"
+    },
+    {
+     "name": "ginger, sliced",
+     "amount": "2 large slices"
+    }
+   ],
+   "steps": [
+    "Stir-fry the carrot, ginger and garlic; wipe up any spattered oil with kitchen paper.",
+    "Add the lettuce, cut into lengths, stir-fry until soft, then add a little water and simmer.",
+    "Add the pork sauce (fry the minced pork until browned, then simmer with soy sauce, water, sugar and pepper for 10 minutes).",
+    "Transfer to a plate, lined with kitchen paper if you like."
+   ]
+  },
+  {
+   "id": "r00041",
+   "name": "Braised Bamboo Shoots with Pork Belly",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "bamboo shoot",
+     "amount": "1 large"
+    },
+    {
+     "name": "pork belly strips",
+     "amount": "as needed"
+    },
+    {
+     "name": "soybean paste",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "thick soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "sugar",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "garlic",
+     "amount": "5 cloves"
+    },
+    {
+     "name": "chilli",
+     "amount": "1"
+    },
+    {
+     "name": "pepper",
+     "amount": "a little"
+    },
+    {
+     "name": "rice wine",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "sugar",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "potato starch",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Prepare the pork belly strips.",
+    "Mix the pork with 1 tsp soy sauce, 1 tsp sugar, 1 tsp potato starch, 1 tsp rice wine and a little pepper (optional); marinate for 10 minutes.",
+    "Cut the bamboo shoot into strips, mince the garlic and slice the chilli.",
+    "Heat a little oil, fry the garlic until fragrant, then add the pork and fry until browned.",
+    "Fry to the crispness you like; rendering the fat makes it less greasy, and the later simmering keeps it tender.",
+    "Add the bamboo shoot, stir-fry, then add the seasoning.",
+    "Seasoning: thick soy sauce, sugar, soybean paste and soy sauce (mainly for colour).",
+    "Taste and adjust, then add water to cover, bring to the boil over high heat, cover and simmer over medium-low heat for 10-15 minutes.",
+    "Uncover and reduce the sauce (leave some if you like it saucy).",
+    "Serve.",
+    "Done."
+   ]
+  },
+  {
+   "id": "r00914",
+   "name": "Stir-fried Beef Offal with Green Garlic",
+   "description": "Ready-cooked beef offal stir-fried with green garlic, great with rice or drinks.",
+   "ingredients": [
+    {
+     "name": "cooked beef offal",
+     "amount": "to taste"
+    },
+    {
+     "name": "green garlic",
+     "amount": "1-2 stalks"
+    },
+    {
+     "name": "garlic",
+     "amount": "2-5 cloves"
+    },
+    {
+     "name": "chilli",
+     "amount": "2-3"
+    },
+    {
+     "name": "spring onion",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Cut the green garlic into lengths, slice the garlic and chilli, and cut the spring onion into lengths.",
+    "Stir-fry the green garlic, garlic and chilli until fragrant.",
+    "Add the beef offal and stir-fry.",
+    "Season with salt, soy sauce and rice wine to taste.",
+    "Stir-fry for about 3-5 minutes and serve."
+   ]
+  },
+  {
+   "id": "r00365",
+   "name": "Stir-fried Salted Pork with Celtuce",
+   "description": "Steamed salted pork tossed with salt-cured celtuce for a quick, crunchy dish.",
+   "ingredients": [
+    {
+     "name": "salted pork (cooked, shredded)",
+     "amount": "150g"
+    },
+    {
+     "name": "celtuce",
+     "amount": "300g (peeled weight)"
+    },
+    {
+     "name": "salt (for curing the celtuce)",
+     "amount": "½ tsp"
+    }
+   ],
+   "steps": [
+    "Prepare and wash the ingredients; peel the celtuce and remove the tough fibres.",
+    "Slice or cut the celtuce into pieces, rub with salt and leave for 30 minutes.",
+    "Drain off the water released by the celtuce.",
+    "Heat oil and stir-fry the salted pork until slightly crisp.",
+    "Add the celtuce and stir-fry until bright green and glossy.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r00046",
+   "name": "Stir-fried Chicken Breast with Sugar Snap Peas",
+   "description": "A light, low-calorie stir-fry of chicken breast and crisp sugar snap peas.",
+   "ingredients": [
+    {
+     "name": "sugar snap peas",
+     "amount": "150 g"
+    },
+    {
+     "name": "carrot",
+     "amount": "¼"
+    },
+    {
+     "name": "chicken breast",
+     "amount": "1 piece"
+    },
+    {
+     "name": "garlic",
+     "amount": "2 cloves"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "0.5 tbsp"
+    },
+    {
+     "name": "salt",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "pepper",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Butterfly the chicken breast to an even thickness, then cut into strips.",
+    "Trim and string the sugar snap peas and wash; slice the carrot and finely mince the garlic.",
+    "Heat oil, add the chicken and sprinkle with a little black pepper.",
+    "Stir-fry the chicken, add the soy sauce and cook through; set aside.",
+    "In the same wok, heat a little olive oil and fry the garlic and carrot until fragrant.",
+    "Add the sugar snap peas.",
+    "Stir-fry briefly, add the salt and a little water, cover and cook for 1 minute,",
+    "until the peas are cooked and bright green.",
+    "Return the chicken to the wok with its juices.",
+    "Toss, taste and adjust the seasoning."
+   ]
+  },
+  {
+   "id": "r00374",
+   "name": "Stir-fried Chayote Shoots with Mushroom and Pork",
+   "description": "Crisp chayote shoots stir-fried with fresh shiitake, minced pork, ginger and garlic.",
+   "ingredients": [
+    {
+     "name": "minced pork",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "fresh shiitake mushroom",
+     "amount": "3"
+    },
+    {
+     "name": "carrot, shredded",
+     "amount": "to taste"
+    },
+    {
+     "name": "olive oil",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "ginger, shredded",
+     "amount": "3 slices"
+    },
+    {
+     "name": "garlic",
+     "amount": "1 clove"
+    },
+    {
+     "name": "white pepper",
+     "amount": "to taste"
+    },
+    {
+     "name": "salt",
+     "amount": "to taste"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "2 drops"
+    }
+   ],
+   "steps": [
+    "Heat oil, stir-fry the minced pork until fragrant, then add the garlic, ginger and carrot and stir-fry.",
+    "Add the shiitake and stir-fry, then add the chayote shoots; season with sesame oil, white pepper and salt before serving."
+   ]
+  },
+  {
+   "id": "r01507",
+   "name": "Korean Kimchi Stir-fried Pork",
+   "description": "Black pork stir-fried with onion and kimchi for a tangy, mildly spicy Korean-style dish.",
+   "ingredients": [
+    {
+     "name": "onion",
+     "amount": "1"
+    },
+    {
+     "name": "kimchi with juice",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "Korean chilli powder (coarse)",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "to taste"
+    },
+    {
+     "name": "white sesame seeds",
+     "amount": "to taste"
+    },
+    {
+     "name": "black pork (or sliced pork)",
+     "amount": "1 pack"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Slice the onion, briefly rinse the pork and prepare the remaining ingredients.",
+    "Heat oil over medium heat and stir-fry the pork.",
+    "When the meat changes colour, add the onion and stir-fry.",
+    "Add the kimchi juice, 1 spoon of water and 1 spoon of kimchi.",
+    "Add more kimchi to taste if needed.",
+    "Stir-fry over high heat until the onion turns slightly translucent, then reduce to medium-low.",
+    "Add the chilli powder and salt and stir well.",
+    "Drizzle in sesame oil, add 1 spoon of kimchi and stir-fry for about 1 minute (don't overcook the kimchi so it stays crunchy).",
+    "Plate and sprinkle with sesame seeds."
+   ]
+  },
+  {
+   "id": "r00373",
+   "name": "Spicy Stir-fried Chicken Livers",
+   "description": "Chicken livers blanched with ginger and stir-fried with chilli, garlic and mushrooms.",
+   "ingredients": [
+    {
+     "name": "chicken liver",
+     "amount": "50 g"
+    },
+    {
+     "name": "chilli",
+     "amount": "1"
+    },
+    {
+     "name": "spring onion",
+     "amount": "3 stalks"
+    },
+    {
+     "name": "garlic",
+     "amount": "4 cloves"
+    },
+    {
+     "name": "mushrooms",
+     "amount": "30 g"
+    },
+    {
+     "name": "ginger, sliced",
+     "amount": "2 slices"
+    }
+   ],
+   "steps": [
+    "Slice the ginger and chop the other ingredients.",
+    "Blanch the chicken livers with the ginger for 2 minutes to remove any gamey smell.",
+    "Stir-fry the livers and ginger in a little sesame oil over medium-high heat.",
+    "Add the chilli, mushrooms and garlic and stir-fry over medium-low heat until the mushrooms release their liquid and turn golden.",
+    "Sprinkle with the spring onion greens.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r00742",
+   "name": "Stir-fried Cured Pork with Green Garlic",
+   "description": "Savoury cured pork with green garlic, great with rice.",
+   "ingredients": [
+    {
+     "name": "cured pork (1 strip)",
+     "amount": "1"
+    },
+    {
+     "name": "green garlic",
+     "amount": "7 stalks"
+    }
+   ],
+   "steps": [
+    "Wash the green garlic and cut into lengths.",
+    "Slice the cured pork about 0.2-0.3 cm thick.",
+    "Add just a little oil to the wok, as the pork will release fat.",
+    "Stir-fry the pork until lightly browned.",
+    "Add the green garlic and stir-fry until soft and coated in oil, then serve.",
+    "No salt is needed,",
+    "as the cured pork is already salty."
+   ]
+  },
+  {
+   "id": "r00702",
+   "name": "Foolproof Steamed Egg",
+   "description": "A silky steamed egg custard just like Japanese chawanmushi.",
+   "ingredients": [
+    {
+     "name": "eggs",
+     "amount": "3"
+    },
+    {
+     "name": "plain chicken stock",
+     "amount": "1 can"
+    }
+   ],
+   "steps": [
+    "Beat 3 eggs with the can of stock (no water added), then steam."
+   ]
+  },
+  {
+   "id": "r01792",
+   "name": "Stir-fried Carrot with Shredded Pork",
+   "description": "Fibre-rich carrot and lean shredded pork make a tasty dish that goes well with rice.",
+   "ingredients": [
+    {
+     "name": "carrot",
+     "amount": "1"
+    },
+    {
+     "name": "shredded pork",
+     "amount": "to taste"
+    },
+    {
+     "name": "garlic",
+     "amount": "2-3 cloves"
+    },
+    {
+     "name": "spring onion",
+     "amount": "3 stalks"
+    }
+   ],
+   "steps": [
+    "Shred the carrot and blanch briefly (so it needs less oil); chop the garlic and cut the spring onion whites into short lengths.",
+    "Marinate the shredded pork with a little soy sauce and set aside.",
+    "Over medium-low heat, stir-fry the garlic and spring onion whites until fragrant.",
+    "Add the carrot and pork, then season with soy sauce to taste.",
+    "Stir-fry until cooked; no extra salt needed, so the carrot's sweetness comes through.",
+    "Sprinkle with chopped spring onion and serve."
+   ]
+  },
+  {
+   "id": "r00421",
+   "name": "Stir-fried Chinese Kale with Salted Pork",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "Chinese kale",
+     "amount": "1 small bunch"
+    },
+    {
+     "name": "salted pork",
+     "amount": "a little"
+    },
+    {
+     "name": "chicken powder",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Wash the Chinese kale, peel the tough skin off the stems and cut into pieces.",
+    "Slice a little salted pork.",
+    "Heat oil in a wok and fry the salted pork until fragrant.",
+    "Add the Chinese kale and stir-fry together, then season with a little chicken powder."
+   ]
+  },
+  {
+   "id": "r00090",
+   "name": "Poached Chicken with Dipping Sauce",
+   "description": "Based on Chef James's white-cut chicken recipe.",
+   "ingredients": [
+    {
+     "name": "boneless chicken thigh",
+     "amount": "1"
+    },
+    {
+     "name": "garlic",
+     "amount": "5 cloves"
+    },
+    {
+     "name": "ginger",
+     "amount": "5 slices"
+    },
+    {
+     "name": "spring onion",
+     "amount": "2 stalks"
+    },
+    {
+     "name": "white peppercorns",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "salt",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "chilli",
+     "amount": "1"
+    },
+    {
+     "name": "coriander",
+     "amount": "1 small bunch"
+    },
+    {
+     "name": "thick soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "sugar",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "white pepper",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Slice the ginger; wash and smash the garlic (skin on); wash, smash and cut the spring onion (roots on).",
+    "Heat oil in a pot over low heat and fry the ginger, garlic and white peppercorns until fragrant.",
+    "Add the spring onion and fry until lightly coloured.",
+    "Add the salt and stir.",
+    "Add enough water to cover the chicken and bring to the boil.",
+    "Add the chicken thigh; once boiling, simmer gently on low heat for 12 minutes, then cover and rest off the heat for 10 minutes. Remove and slice.",
+    "For the sauce: mix minced garlic, chopped spring onion, chilli, coriander, thick soy sauce, soy sauce, sugar, white pepper, sesame oil and water.",
+    "Plate the chicken and pour over the sauce."
+   ]
+  },
+  {
+   "id": "r00391",
+   "name": "Stir-fried Salted Pork with Onion",
+   "description": "Salted pork is great with rice, and this is one easy way to stir-fry it.",
+   "ingredients": [
+    {
+     "name": "salted pork",
+     "amount": "1 piece"
+    },
+    {
+     "name": "onion, shredded",
+     "amount": "0.5"
+    },
+    {
+     "name": "garlic",
+     "amount": "2 cloves"
+    },
+    {
+     "name": "spring onion, chopped",
+     "amount": "2 stalks"
+    },
+    {
+     "name": "black peppercorns",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "rice wine",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Slice the salted pork to your preferred thickness; fry in a hot wok to render the fat, then add the garlic and fry until fragrant.",
+    "Add the shredded onion, 1 tbsp rice wine and black pepper to taste (add chilli if you like it spicy); stir-fry until the onion is lightly golden.",
+    "Add the spring onion, cover briefly to release its aroma, then turn off the heat.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r00360",
+   "name": "Steamed Fish with Cordia Seeds (Rice Cooker)",
+   "description": "Fresh fish steamed with fragrant pickled cordia seeds, done quickly in an electric steamer.",
+   "ingredients": [
+    {
+     "name": "fresh fish",
+     "amount": "1 whole"
+    },
+    {
+     "name": "shredded ginger",
+     "amount": "3 slices"
+    },
+    {
+     "name": "spring onion, in lengths",
+     "amount": "5 stalks"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "2 cloves"
+    },
+    {
+     "name": "pickled cordia seeds",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "salt",
+     "amount": "to taste"
+    },
+    {
+     "name": "rice wine",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "pickled cordia seed liquid",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Put 1 cup of water in the outer pot of the electric steamer and switch on; wait until it steams before adding the fish.",
+    "Clean and gut the fish; rub salt and rice wine evenly inside and out.",
+    "Place the fish on a plate and rub it with the garlic, ginger and spring onion. Pour over the cordia seeds, their liquid and the soy sauce, then steam for 15 minutes.",
+    "Test the thickest part with a chopstick; if it goes through easily, it's done."
+   ]
+  },
+  {
+   "id": "r00880",
+   "name": "Stir-fried Spinach with Shimeji Mushrooms",
+   "description": "A simple three-step dish of iron-rich spinach and shimeji mushrooms.",
+   "ingredients": [
+    {
+     "name": "shimeji mushroom",
+     "amount": "1 pack"
+    },
+    {
+     "name": "spinach",
+     "amount": "1 bunch"
+    },
+    {
+     "name": "black bean soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "bonito powder",
+     "amount": "1 pinch"
+    }
+   ],
+   "steps": [
+    "Dry-fry the shimeji mushrooms (no oil) to draw out their moisture.",
+    "Cook until lightly browned.",
+    "Add the spinach.",
+    "Season with the soy sauce and bonito powder and stir-fry.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r01723",
+   "name": "Steamed Prawns with Garlic",
+   "description": "An easy, impressive festive dish, adjusted to be less garlicky for children.",
+   "ingredients": [
+    {
+     "name": "large prawns",
+     "amount": "10"
+    },
+    {
+     "name": "silken tofu",
+     "amount": "1 box"
+    },
+    {
+     "name": "spring onion",
+     "amount": "1 stalk"
+    },
+    {
+     "name": "chilli",
+     "amount": "1"
+    },
+    {
+     "name": "shallot",
+     "amount": "3-4"
+    },
+    {
+     "name": "garlic",
+     "amount": "half a bulb"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1.5 tbsp"
+    },
+    {
+     "name": "oyster sauce",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "sugar",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "hot water",
+     "amount": "1.5 tbsp"
+    },
+    {
+     "name": "oil (for frying shallots and the hot-oil topping)",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Divide the aromatics into four bowls.",
+    "Garnish bowl: a little spring onion and chilli.",
+    "Hot-oil bowl: chopped spring onion, chilli, minced garlic and a little chopped shallot.",
+    "Sauce bowl: chopped spring onion, chilli and minced garlic.",
+    "Use 2/3 of the chopped shallot for fried shallots.",
+    "Trim off the prawns' rostrums, antennae and legs.",
+    "Slit the prawns along the back and cut the sinews.",
+    "This stops them curling up when steamed.",
+    "Put oil and the chopped shallot in a pan, then turn on the heat and fry over medium-low heat.",
+    "Watch the colour closely; if they get too dark they turn bitter.",
+    "When nearly golden, pour into a bowl through a strainer to drain the oil.",
+    "Note the residual heat will darken the shallots a little more.",
+    "Mix the soy sauce, oyster sauce, sugar and hot water with the sauce-bowl aromatics.",
+    "Cut the silken tofu into slices about 1 cm thick.",
+    "Arrange the prawns on top.",
+    "Spoon the sauce over the prawns.",
+    "Alternatively use flat rice noodles or glass noodles; pour sauce over them and steam for 1.5 minutes before adding the prawns.",
+    "Put a steaming rack and water in a pot and bring to the boil.",
+    "Only start steaming once the water is boiling, as prawns cook quickly.",
+    "Steam for 4 minutes (3 minutes for smaller prawns).",
+    "Meanwhile, reheat the shallot oil and pour it over the hot-oil bowl of aromatics.",
+    "Remove the steamed prawns.",
+    "Top with the hot oil and aromatics.",
+    "Put some fried shallots on each prawn.",
+    "Garnish with spring onion and chilli.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r01497",
+   "name": "Cold Fish Skin Salad",
+   "description": "Thick, gelatinous fish skin with a springy crunch, perfect for an appetising cold dish.",
+   "ingredients": [
+    {
+     "name": "fish skin",
+     "amount": "280g"
+    },
+    {
+     "name": "shredded ginger",
+     "amount": "15g"
+    },
+    {
+     "name": "garlic",
+     "amount": "3 cloves"
+    },
+    {
+     "name": "coriander",
+     "amount": "2 sprigs"
+    },
+    {
+     "name": "green garlic",
+     "amount": "1 stalk"
+    },
+    {
+     "name": "thick soy sauce",
+     "amount": "30g"
+    },
+    {
+     "name": "black vinegar",
+     "amount": "15g"
+    },
+    {
+     "name": "light brown sugar",
+     "amount": "10g"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "2 tbsp"
+    }
+   ],
+   "steps": [
+    "Cut the fish skin into 3 cm lengths.",
+    "Prepare the aromatics: snip the shredded ginger shorter, and smash, peel and chop the garlic.",
+    "Measure out the seasonings.",
+    "Put the fish skin and aromatics in a zip-lock bag and mix, then add the seasonings and mix again.",
+    "Seal the bag tightly and refrigerate for 2 hours.",
+    "For best flavour, chill overnight."
+   ]
+  },
+  {
+   "id": "r01172",
+   "name": "Steamed Grouper",
+   "description": "Tender, sweet fresh grouper steamed without oil for a light, healthy dish.",
+   "ingredients": [
+    {
+     "name": "grouper",
+     "amount": "1 whole"
+    },
+    {
+     "name": "rice wine",
+     "amount": "2 bottle caps"
+    },
+    {
+     "name": "spring onion",
+     "amount": "1 stalk"
+    },
+    {
+     "name": "shredded ginger",
+     "amount": "6 slices"
+    },
+    {
+     "name": "low-sodium soy sauce",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "bonito soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "seasoning soy sauce",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "mirin",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "rock sugar",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "canola oil",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "water",
+     "amount": "100 ml"
+    },
+    {
+     "name": "kitchen paper",
+     "amount": "2 sheets"
+    }
+   ],
+   "steps": [
+    "Gather the ingredients.",
+    "Scale and gut the grouper, score each side twice and pat dry with kitchen paper.",
+    "Pour rice wine over both sides to remove any fishy smell.",
+    "Top with the shredded ginger and spring onion.",
+    "Add 2/3 of a rice bowl of water to the steamer and steam the fish.",
+    "Make the sauce once the fish is steamed.",
+    "Add the low-sodium soy sauce, bonito soy sauce, seasoning soy sauce, mirin, rock sugar and oil in order, plus a little water to taste.",
+    "Only then turn on the heat to avoid burning; stir until boiling and the sugar dissolves.",
+    "Pour the sauce over the steamed fish."
+   ]
+  },
+  {
+   "id": "r00855",
+   "name": "Stir-fried Cauliflower with Shrimp",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "cauliflower",
+     "amount": "1 head"
+    },
+    {
+     "name": "shelled shrimp",
+     "amount": "10"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "chicken powder",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "salt",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Peel the cauliflower stem, break into small florets and wash.",
+    "Fry the minced garlic in hot oil until fragrant, add the cauliflower, stir-fry, then cover until cooked.",
+    "Add the shrimp and seasonings and stir-fry until cooked through."
+   ]
+  },
+  {
+   "id": "r00253",
+   "name": "Stir-fried Shrimp with Edamame",
+   "description": "Sweet shrimp, crunchy edamame and corn seasoned with garlic and olive oil.",
+   "ingredients": [
+    {
+     "name": "shelled shrimp",
+     "amount": "5"
+    },
+    {
+     "name": "edamame",
+     "amount": "2 rice-cooker cups"
+    },
+    {
+     "name": "corn kernels",
+     "amount": "0.5 rice-cooker cup"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "2 cloves"
+    },
+    {
+     "name": "olive oil",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "salt",
+     "amount": "to taste"
+    },
+    {
+     "name": "white pepper",
+     "amount": "to taste"
+    },
+    {
+     "name": "water",
+     "amount": "2 tbsp"
+    }
+   ],
+   "steps": [
+    "Heat oil in a wok, add the edamame and water and stir-fry until half cooked, then add the shrimp and cook until half done.",
+    "Add the garlic and fry until fragrant, then add the corn and stir-fry until everything is cooked.",
+    "Season with salt and white pepper before serving."
+   ]
+  },
+  {
+   "id": "r01380",
+   "name": "Stir-fried Beef Tripe with Onion and Green Garlic",
+   "description": "Beef tripe stir-fried with onion, dried squid and fragrant green garlic.",
+   "ingredients": [
+    {
+     "name": "beef tripe",
+     "amount": "1 portion"
+    },
+    {
+     "name": "green garlic",
+     "amount": "1 stalk"
+    },
+    {
+     "name": "onion",
+     "amount": "1"
+    },
+    {
+     "name": "dried squid",
+     "amount": "1 small piece"
+    },
+    {
+     "name": "pepper salt",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Rinse the tripe.",
+    "Cut the green garlic diagonally into lengths and the onion into strips.",
+    "Soak the dried squid until soft, then cut into strips (keep the soaking water).",
+    "Heat oil over medium heat and stir-fry the squid and onion until fragrant.",
+    "Add some of the squid soaking water and stir-fry.",
+    "Add the tripe and pepper salt and stir-fry over high heat.",
+    "When the onion softens slightly, add the green garlic stems.",
+    "Just before serving, add the green garlic leaves and toss.",
+    "Plate once cooked."
+   ]
+  },
+  {
+   "id": "r01559",
+   "name": "Stir-fried Cuttlefish with Celery",
+   "description": "Ask the fishmonger to clean the cuttlefish and this dish is easy.",
+   "ingredients": [
+    {
+     "name": "cuttlefish",
+     "amount": "1"
+    },
+    {
+     "name": "celery",
+     "amount": "5 bunches"
+    },
+    {
+     "name": "chilli",
+     "amount": "1"
+    },
+    {
+     "name": "garlic",
+     "amount": "2 cloves"
+    }
+   ],
+   "steps": [
+    "Have the fishmonger clean and cut the cuttlefish into pieces.",
+    "Rinse the cuttlefish; wash the celery, remove the leaves and cut into lengths; slice the chilli (a large mild one, for garnish); peel and smash the garlic.",
+    "Heat a frying pan and add some sunflower oil.",
+    "When hot, fry the garlic until fragrant, add the cuttlefish and stir-fry briefly, then add the celery, turn to low heat and season.",
+    "Finally add the chilli slices, toss briefly and serve."
+   ]
+  },
+  {
+   "id": "r01436",
+   "name": "Steamed Fish with Pickled Pineapple",
+   "description": "An easy 10-minute steamed fish that's full of flavour and great with rice.",
+   "ingredients": [
+    {
+     "name": "tilapia",
+     "amount": "2 small"
+    },
+    {
+     "name": "pickled pineapple sauce",
+     "amount": "3 tbsp"
+    }
+   ],
+   "steps": [
+    "Wash and pat dry the fish and place in a fairly deep dish (a shallow plate may overflow with juices).",
+    "Add the pickled pineapple along with its liquid.",
+    "Steam at 100°C for 10 minutes."
+   ]
+  },
+  {
+   "id": "r00624",
+   "name": "Steamed Prawns with Garlic and Glass Noodles",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "prawns",
+     "amount": "12"
+    },
+    {
+     "name": "glass noodles",
+     "amount": "2 bundles"
+    },
+    {
+     "name": "oil",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "garlic",
+     "amount": "6 cloves"
+    },
+    {
+     "name": "spring onion",
+     "amount": "1 stalk"
+    },
+    {
+     "name": "oyster sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "fish sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "white pepper",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "water",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "rice wine",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "salt",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "ginger",
+     "amount": "5 slices"
+    }
+   ],
+   "steps": [
+    "Soak the glass noodles in water for 15 minutes, then snip into short lengths.",
+    "Devein the prawns, butterfly them and marinate in spring onion and ginger water.",
+    "For the sauce: mix chopped spring onion, minced garlic, oyster sauce, fish sauce, white pepper, water, rice wine, sesame oil and salt.",
+    "Layer the noodles, prawns and sauce on a plate and steam over high heat for 5 minutes.",
+    "Pour over hot oil and serve."
+   ]
+  },
+  {
+   "id": "r01120",
+   "name": "Steamed Sea Bass with Lotus Root",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "sea bass fillet",
+     "amount": "1 pack"
+    },
+    {
+     "name": "spring onion",
+     "amount": "to taste"
+    },
+    {
+     "name": "celery",
+     "amount": "to taste"
+    },
+    {
+     "name": "lotus root",
+     "amount": "2"
+    },
+    {
+     "name": "ginger",
+     "amount": "to taste"
+    },
+    {
+     "name": "salt",
+     "amount": "to taste"
+    },
+    {
+     "name": "MSG",
+     "amount": "to taste"
+    },
+    {
+     "name": "pickled cordia seed liquid",
+     "amount": "to taste"
+    },
+    {
+     "name": "rice wine",
+     "amount": "to taste"
+    },
+    {
+     "name": "chicken stock",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Peel and slice the lotus root and lay it on a plate.",
+    "Slice the sea bass, lay it on top and marinate with the seasonings.",
+    "Cut the ginger, celery and spring onion into lengths and scatter over.",
+    "Steam with 2 cups of water in the steamer.",
+    "Remove and serve."
+   ]
+  },
+  {
+   "id": "r00437",
+   "name": "Garlic Prawns with Mixed Vegetables",
+   "description": "A quick, low-smoke home-style dish ready in 5 minutes, flavoured with scallop stock powder and crispy garlic.",
+   "ingredients": [
+    {
+     "name": "tiger prawns",
+     "amount": "8"
+    },
+    {
+     "name": "garlic",
+     "amount": "2 small cloves"
+    },
+    {
+     "name": "baby corn",
+     "amount": "4 small"
+    },
+    {
+     "name": "shimeji mushroom",
+     "amount": "half a pack"
+    },
+    {
+     "name": "broccoli",
+     "amount": "120g"
+    },
+    {
+     "name": "olive oil",
+     "amount": "3 swirls"
+    },
+    {
+     "name": "scallop stock powder",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "salt",
+     "amount": "half a tsp"
+    }
+   ],
+   "steps": [
+    "Peel and slice the garlic; wash the broccoli and baby corn and cut on the diagonal; trim the shimeji (no need to wash) and separate; shell and devein the prawns.",
+    "Heat 2 swirls of olive oil, fry the garlic and prawns until half cooked, then remove both and set aside.",
+    "Heat 1 swirl of olive oil and stir-fry all the vegetables.",
+    "When the vegetables are 70% cooked, add the prawns, garlic, 1 tbsp scallop stock powder and half a tsp salt, and stir-fry until cooked.",
+    "Plate and serve."
+   ]
+  },
+  {
+   "id": "r00692",
+   "name": "Stir-fried Cuttlefish with Shanghai Bok Choy and Ginger",
+   "description": "A quick, tasty dish using frozen cuttlefish slices from the freezer.",
+   "ingredients": [
+    {
+     "name": "frozen cuttlefish slices",
+     "amount": "150g"
+    },
+    {
+     "name": "Shanghai bok choy, leaves and stems cut separately",
+     "amount": "3 heads"
+    },
+    {
+     "name": "ginger, shredded",
+     "amount": "3 slices"
+    },
+    {
+     "name": "oil",
+     "amount": "10 ml"
+    },
+    {
+     "name": "rice wine",
+     "amount": "5 ml"
+    },
+    {
+     "name": "seasoning sauce",
+     "amount": "2/3 tbsp"
+    }
+   ],
+   "steps": [
+    "Prep:",
+    "Thaw the cuttlefish in its sealed bag under running water for about 5 minutes, then rinse and drain (halve any large slices).",
+    "Cut the Shanghai bok choy leaves and stems separately into short pieces.",
+    "Shred the ginger.",
+    "Cook:",
+    "Heat oil in a wok, fry the ginger until fragrant, add the bok choy stems and stir-fry for about 1 minute, add the cuttlefish, rice wine and seasoning sauce and toss, then add the leaves and cook until wilted.",
+    "Don't overcook the cuttlefish; finish within 2 minutes."
+   ]
+  },
+  {
+   "id": "r01554",
+   "name": "Steamed Egg and Tofu with Shrimp",
+   "description": "Get the egg-to-water ratio right, strain the egg and lay tofu underneath for a silky result.",
+   "ingredients": [
+    {
+     "name": "egg",
+     "amount": "1"
+    },
+    {
+     "name": "water",
+     "amount": "twice the egg volume"
+    },
+    {
+     "name": "silken tofu",
+     "amount": "half a box"
+    },
+    {
+     "name": "bonito powder",
+     "amount": "to taste"
+    },
+    {
+     "name": "salt",
+     "amount": "to taste"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Roughly chop the tofu and spread it in the dish; mix egg and water 1:2 with a little bonito powder (optional) and salt.",
+    "Strain the egg mixture for a smoother custard.",
+    "Halfway through steaming (when half set), arrange the shrimp on top; 10-15 minutes in total cooks them through.",
+    "Drizzle with 1-2 spoonfuls of low-sodium soy sauce and serve."
+   ]
+  },
+  {
+   "id": "r01609",
+   "name": "Pad Thai",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "flat rice noodles",
+     "amount": "200g"
+    },
+    {
+     "name": "shallot",
+     "amount": "3"
+    },
+    {
+     "name": "garlic chives",
+     "amount": "3-5 stalks"
+    },
+    {
+     "name": "bean sprouts",
+     "amount": "1 small handful"
+    },
+    {
+     "name": "carrot",
+     "amount": "1/3"
+    },
+    {
+     "name": "egg",
+     "amount": "1"
+    },
+    {
+     "name": "other toppings (e.g. chicken, prawns or tofu)",
+     "amount": "to taste"
+    },
+    {
+     "name": "palm sugar",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "tamarind juice",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "paprika",
+     "amount": "1/2 tsp"
+    },
+    {
+     "name": "fish sauce",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "oyster sauce",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Soak the noodles until soft; chop the shallots, cut the chives into lengths and shred the carrot.",
+    "Mix the sauce ingredients together.",
+    "Heat oil in a wok and stir-fry the other toppings until half cooked.",
+    "Crack in the egg and scramble.",
+    "Drain the noodles and add them to the wok with the sauce.",
+    "When the sauce is mostly absorbed, add the vegetables and toss until slightly softened."
+   ]
+  },
+  {
+   "id": "r00662",
+   "name": "Stir-fried Flying Fish Roe Sausage",
+   "description": "Fragrant and full of flavour.",
+   "ingredients": [
+    {
+     "name": "flying fish roe sausages",
+     "amount": "5"
+    },
+    {
+     "name": "spring onion",
+     "amount": "3 stalks"
+    },
+    {
+     "name": "minced garlic (for sauce)",
+     "amount": "to taste"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "a little"
+    },
+    {
+     "name": "rice wine",
+     "amount": "a little"
+    },
+    {
+     "name": "tomato ketchup",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Steam the sausages until half cooked, then slice.",
+    "Wash the spring onion and cut into lengths.",
+    "For the sauce, mix garlic, vegetarian mushroom oyster sauce and a little ketchup.",
+    "Heat oil in a wok, fry the garlic and spring onion, add the sausage and stir-fry, then add the sauce and a little rice wine.",
+    "Cook until done and serve."
+   ]
+  },
+  {
+   "id": "r01116",
+   "name": "Garlic Butter Abalone",
+   "description": "Fragrant garlic butter with springy abalone.",
+   "ingredients": [
+    {
+     "name": "shelled abalone",
+     "amount": "10"
+    },
+    {
+     "name": "butter",
+     "amount": "50g"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "8 cloves"
+    },
+    {
+     "name": "black peppercorns",
+     "amount": "to taste"
+    },
+    {
+     "name": "Italian herb seasoning",
+     "amount": "to taste"
+    },
+    {
+     "name": "salt",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Score the abalone in a crosshatch pattern.",
+    "Melt the butter, fry the garlic over low heat until fragrant, then add the abalone and stir-fry for 2 minutes.",
+    "Add the seasonings, toss and serve."
+   ]
+  },
+  {
+   "id": "r01506",
+   "name": "Steamed Black Sea Bream",
+   "description": "Fresh black sea bream steamed to keep its sweet flavour, served with a savoury sauce.",
+   "ingredients": [
+    {
+     "name": "black sea bream",
+     "amount": "1 whole"
+    },
+    {
+     "name": "chilli, shredded",
+     "amount": "1"
+    },
+    {
+     "name": "spring onion, shredded",
+     "amount": "3 stalks"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "oyster sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "water",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Shred the spring onion with a fork and soak in water; slice and shred the ginger.",
+    "Score the fish.",
+    "Lay the spring onion, ginger and chilli on the fish.",
+    "Mix the sauce and pour it over the fish.",
+    "Bring water to the boil in a pot and put in a steaming rack.",
+    "Place the fish on the rack.",
+    "Cover and steam over low heat for about 10 minutes.",
+    "Top with the remaining half of the spring onion, drizzle with sesame oil and steam for 1 more minute."
+   ]
+  },
+  {
+   "id": "r01501",
+   "name": "Stir-fried Cabbage with Canned Mackerel",
+   "description": "Cabbage and old-style canned mackerel for a homely taste.",
+   "ingredients": [
+    {
+     "name": "cabbage",
+     "amount": "1/4 head"
+    },
+    {
+     "name": "canned mackerel",
+     "amount": "1 can"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    },
+    {
+     "name": "white sesame seeds",
+     "amount": "to taste"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "3 cloves"
+    },
+    {
+     "name": "chilli powder (optional)",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "sesame oil (optional)",
+     "amount": "a little"
+    },
+    {
+     "name": "white sesame seeds",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Heat oil over medium heat and fry the garlic until fragrant.",
+    "Add the canned mackerel.",
+    "Break up the fish with a spatula.",
+    "So it spreads through the cabbage more easily.",
+    "Add the cabbage and salt and stir-fry until softened and coated.",
+    "Add the sesame oil and mix well.",
+    "Plate and sprinkle with sesame seeds."
+   ]
+  },
+  {
+   "id": "r00021",
+   "name": "Homemade Red Date Paste (No Oil, No Sugar)",
+   "description": "A smooth, naturally sweet paste made from leftover red dates, with no added sugar or frying.",
+   "ingredients": [
+    {
+     "name": "red dates",
+     "amount": "1 bag"
+    },
+    {
+     "name": "water",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Rinse the red dates and soak for 30 minutes, then steam in a rice cooker with 1 cup of water in the outer pot; let stand 15 minutes and lift the dates out with a strainer.",
+    "Remove the pits (and skins, if easy to peel) from the steamed dates.",
+    "Blend the dates in a food processor or blender with 2 tbsp water (about 1/3 the volume of dates), using only enough water to let it blend, until smooth.",
+    "Once finely blended, scoop out the date purée.",
+    "Press the purée through a fine sieve with a spoon, scraping the paste off the underside of the sieve.",
+    "Use the finest sieve you have for the smoothest paste; this step takes time.",
+    "No sugar or frying is needed; use as a filling."
+   ]
+  },
+  {
+   "id": "r00462",
+   "name": "Stir-fried Cucumber with King Oyster Mushroom and Ham",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "cucumber",
+     "amount": "2"
+    },
+    {
+     "name": "ham slices",
+     "amount": "6 slices"
+    },
+    {
+     "name": "king oyster mushroom",
+     "amount": "2"
+    },
+    {
+     "name": "chicken powder",
+     "amount": "1 spoonful"
+    },
+    {
+     "name": "salt",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "sugar",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Thinly slice the cucumbers and king oyster mushrooms; cut the ham into strips.",
+    "Stir-fry the cucumber and mushroom slices until just cooked, then add the salt and chicken powder and toss.",
+    "Add the ham and sugar and stir-fry until the ham is heated through, then serve."
+   ]
+  },
+  {
+   "id": "r00005",
+   "name": "Cold Tofu Noodle Salad",
+   "description": "A simple chilled side dish of tofu noodles with crunchy vegetables.",
+   "ingredients": [
+    {
+     "name": "tofu noodles",
+     "amount": "300 g"
+    },
+    {
+     "name": "shredded carrot",
+     "amount": "50 g"
+    },
+    {
+     "name": "Taiwanese celery",
+     "amount": "50 g"
+    },
+    {
+     "name": "wood ear fungus",
+     "amount": "3 pieces"
+    },
+    {
+     "name": "coriander",
+     "amount": "1 sprig"
+    },
+    {
+     "name": "fine rock sugar",
+     "amount": "1 spoonful"
+    },
+    {
+     "name": "seasoning sauce",
+     "amount": "2 spoonfuls"
+    },
+    {
+     "name": "salt",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "vegetarian oyster sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "1.5 tbsp"
+    },
+    {
+     "name": "light-coloured soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "white pepper",
+     "amount": "1 spoonful"
+    }
+   ],
+   "steps": [
+    "Shred the celery and wood ear fungus (soak dried wood ear until soft first).",
+    "Boil the carrot, celery and wood ear for 2-3 minutes, then plunge into iced cold water so they don't overcook.",
+    "In the same water, blanch the tofu noodles, cut into bite-sized lengths, for 3-4 minutes, then plunge into iced cold water.",
+    "Squeeze the vegetables and tofu noodles dry, toss gently with all the seasonings in a bowl, and chill in the fridge until serving."
+   ]
+  },
+  {
+   "id": "r00775",
+   "name": "Stir-fried Zucchini with Italian Herbs",
+   "description": "Crisp zucchini stir-fried in olive and sesame oil, seasoned with salt, black pepper and Italian herbs.",
+   "ingredients": [
+    {
+     "name": "zucchini",
+     "amount": "2"
+    },
+    {
+     "name": "olive oil",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "salt",
+     "amount": "to taste"
+    },
+    {
+     "name": "black pepper",
+     "amount": "to taste"
+    },
+    {
+     "name": "Italian herbs",
+     "amount": "to taste"
+    },
+    {
+     "name": "sugar",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Wash the zucchini and cut into 1 cm cubes.",
+    "Heat a wok, add the olive oil and sesame oil, and stir-fry the zucchini until it releases its juices; season with the sugar, salt, black pepper and Italian herbs."
+   ]
+  },
+  {
+   "id": "r00518",
+   "name": "Steamed Coral Grouper with Lily Bulb",
+   "description": "A colourful steamed fish fragrant with fresh lily bulb.",
+   "ingredients": [
+    {
+     "name": "leopard coral grouper",
+     "amount": "1"
+    },
+    {
+     "name": "lily bulbs",
+     "amount": "2-3"
+    },
+    {
+     "name": "spring onion",
+     "amount": "1 stalk"
+    },
+    {
+     "name": "sliced ginger",
+     "amount": "2 slices"
+    },
+    {
+     "name": "low-sodium light soy sauce",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "sugar",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "peanut oil",
+     "amount": "0.5 tsp"
+    }
+   ],
+   "steps": [
+    "Clean the fish, score it, and rub it all over with spring onion and ginger water.",
+    "Peel off the outer layer of the lily bulbs, separate into petals and rinse.",
+    "Spread half the lily petals on a plate, lay the fish on top with the ginger slices under the belly, and steam for 20 minutes from when the steam rises (for a 1800 g fish; adjust for size).",
+    "Pour off the liquid from the plate, top the fish with shredded spring onion and drizzle with the light soy sauce mixed with sugar; add a little salt only if you like it saltier.",
+    "Just before serving, heat the peanut oil and pour it over the fish."
+   ]
+  },
+  {
+   "id": "r01706",
+   "name": "Stir-fried Pressed Tofu with Green Pepper",
+   "description": "A savoury, appetising vegetarian stir-fry of green pepper and pressed tofu.",
+   "ingredients": [
+    {
+     "name": "green pepper",
+     "amount": "1/2"
+    },
+    {
+     "name": "pressed tofu",
+     "amount": "2 pieces"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1 spoonful"
+    },
+    {
+     "name": "thick soy sauce",
+     "amount": "1 spoonful"
+    },
+    {
+     "name": "black vinegar",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "ketchup",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Cut the green pepper and pressed tofu into strips.",
+    "Heat oil in a wok and stir-fry the pressed tofu first.",
+    "Add the green pepper.",
+    "Add the sauces and stir-fry until cooked (thicken with starch slurry if you like)."
+   ]
+  },
+  {
+   "id": "r01512",
+   "name": "Stir-fried King Oyster Mushroom with Chinese Yam and Mild Green Chillies",
+   "description": "A simple vegetarian stir-fry of king oyster mushroom, Chinese yam and mild green chillies.",
+   "ingredients": [
+    {
+     "name": "king oyster mushroom",
+     "amount": "6"
+    },
+    {
+     "name": "mild green chillies",
+     "amount": "6"
+    },
+    {
+     "name": "Chinese yam",
+     "amount": "100 g"
+    },
+    {
+     "name": "red chilli",
+     "amount": "2"
+    }
+   ],
+   "steps": [
+    "Roll-cut the king oyster mushrooms and fry in 1 spoonful of oil over medium heat until golden.",
+    "Add the mild green chillies and stir-fry, then add the yam, half a bowl of water, 1 tbsp soy sauce, 1 tsp salt and 1 tsp sugar.",
+    "Stir-fry for 1 more minute until the sauce reduces and the yam takes on colour; add the red chilli just before serving."
+   ]
+  },
+  {
+   "id": "r00306",
+   "name": "Stir-fried Carrot with Tofu-Skin Mock Whelk",
+   "description": "A quick stir-fry using ready-cooked carrot, seasoned with oyster sauce and chicken powder.",
+   "ingredients": [
+    {
+     "name": "shredded carrot",
+     "amount": "200 g"
+    },
+    {
+     "name": "tofu-skin mock whelk",
+     "amount": "6 slices"
+    },
+    {
+     "name": "chicken powder",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "oyster sauce",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Use ready-made stir-fried shredded carrot; blanch the mock whelk and cut into strips.",
+    "Heat a wok, add a little carrot and the oyster sauce, then stir-fry with the mock whelk and chicken powder until fragrant."
+   ]
+  },
+  {
+   "id": "r00776",
+   "name": "Stir-fried Cucumber",
+   "description": "Sweet, crisp cucumber stir-fried in olive and sesame oil.",
+   "ingredients": [
+    {
+     "name": "cucumber",
+     "amount": "3"
+    },
+    {
+     "name": "olive oil",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "salt",
+     "amount": "to taste"
+    },
+    {
+     "name": "sugar",
+     "amount": "to taste"
+    },
+    {
+     "name": "white pepper",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Wash the cucumbers and slice diagonally 0.5 cm thick.",
+    "Heat a wok, add the olive oil and sesame oil, stir-fry the cucumber, season with salt and sugar, and sprinkle with white pepper before serving."
+   ]
+  },
+  {
+   "id": "r00905",
+   "name": "Stir-fried Celtuce with Mixed Peppers",
+   "description": "A colourful stir-fry of seasonal celtuce with mixed bell peppers.",
+   "ingredients": [
+    {
+     "name": "celtuce",
+     "amount": "1 large"
+    },
+    {
+     "name": "mixed bell peppers",
+     "amount": "1"
+    },
+    {
+     "name": "salt, mushroom seasoning",
+     "amount": "to taste"
+    },
+    {
+     "name": "ginger",
+     "amount": "a few slices"
+    },
+    {
+     "name": "wood ear fungus",
+     "amount": "to taste"
+    },
+    {
+     "name": "vegetarian ham",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Slice the bell peppers, wood ear fungus, ginger and vegetarian ham on the diagonal.",
+    "Briefly fry the vegetarian ham in oil and set aside.",
+    "Roll-cut the celtuce, put in a plastic bag with 1 tsp salt, and pour off the liquid once it releases.",
+    "Stir-fry the ginger and wood ear in oil with a little water until cooked.",
+    "Add the celtuce and stir-fry over high heat for 2 minutes, then add the peppers, a splash of water to create steam, and the salt and mushroom seasoning.",
+    "Don't overcook; keep the celtuce crisp.",
+    "Finally add the vegetarian ham and serve."
+   ]
+  },
+  {
+   "id": "r01762",
+   "name": "Stir-fried Cucumber with King Oyster Mushroom",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "cucumber",
+     "amount": "2"
+    },
+    {
+     "name": "king oyster mushroom",
+     "amount": "2"
+    },
+    {
+     "name": "chicken powder",
+     "amount": "1 spoonful"
+    },
+    {
+     "name": "oyster sauce",
+     "amount": "1 spoonful"
+    },
+    {
+     "name": "sugar",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Wash and thinly slice the cucumbers and king oyster mushrooms.",
+    "Heat oil in a wok, stir-fry the mushrooms until soft, then add the cucumber, chicken powder, oyster sauce and sugar and stir-fry until done."
+   ]
+  },
+  {
+   "id": "r00875",
+   "name": "Stir-fried Dried Kohlrabi",
+   "description": "An old-fashioned stir-fry of dried kohlrabi with chilli, garlic and soy sauce, slightly spicy and crunchy.",
+   "ingredients": [
+    {
+     "name": "dried kohlrabi",
+     "amount": "2 bunches"
+    },
+    {
+     "name": "chilli",
+     "amount": "3 slices"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "2 cloves"
+    },
+    {
+     "name": "olive oil",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "oyster sauce",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "sugar",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "white pepper",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Rinse the dried kohlrabi and squeeze out the water.",
+    "Heat oil in a wok, stir-fry the kohlrabi until lightly golden, add the garlic, then the seasonings, and toss in the chilli just before serving."
+   ]
+  },
+  {
+   "id": "r00385",
+   "name": "Braised Chinese Yam with Five-Spice Pressed Tofu",
+   "description": "A light vegetarian braise of Chinese yam, vegetables and five-spice pressed tofu.",
+   "ingredients": [
+    {
+     "name": "Chinese yam",
+     "amount": "0.25"
+    },
+    {
+     "name": "cauliflower",
+     "amount": "0.25 head"
+    },
+    {
+     "name": "king oyster mushroom",
+     "amount": "1"
+    },
+    {
+     "name": "carrot",
+     "amount": "0.5"
+    },
+    {
+     "name": "tomato",
+     "amount": "1"
+    },
+    {
+     "name": "five-spice pressed tofu",
+     "amount": "4 pieces"
+    },
+    {
+     "name": "oil",
+     "amount": "1 spoonful"
+    },
+    {
+     "name": "salt",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "water",
+     "amount": "3.5 cups"
+    }
+   ],
+   "steps": [
+    "Wash the vegetables; thinly slice the pressed tofu and yam and cut the other vegetables to your liking.",
+    "Heat the oil in a pan, add the tomato, carrot and king oyster mushroom with a little water, cover and cook for 1-1.5 minutes.",
+    "Add the cauliflower and yam with about 1/2 cup water, cover and cook for 3-3.5 minutes.",
+    "Add the pressed tofu with about 1/4 cup water and 1 tsp salt, cover and cook for 1-1.5 minutes.",
+    "Serve once cooked through."
+   ]
+  },
+  {
+   "id": "r00633",
+   "name": "Cold Tofu Noodle Salad with Vegetables",
+   "description": "A home-style version of the classic noodle-shop side dish, with extra vegetables.",
+   "ingredients": [
+    {
+     "name": "tofu noodles",
+     "amount": "200 g"
+    },
+    {
+     "name": "celery",
+     "amount": "100 g"
+    },
+    {
+     "name": "carrot",
+     "amount": "50 g"
+    },
+    {
+     "name": "bean sprouts",
+     "amount": "50 g"
+    },
+    {
+     "name": "garlic",
+     "amount": "3 cloves"
+    },
+    {
+     "name": "spring onion",
+     "amount": "2 stalks"
+    },
+    {
+     "name": "salt (for blanching and seasoning)",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "sugar",
+     "amount": "a little"
+    },
+    {
+     "name": "white pepper",
+     "amount": "a little"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Cut the tofu noodles shorter, peel and shred the carrot, cut the celery stalks diagonally, crush the garlic, and pick the ends off the bean sprouts.",
+    "Boil water with salt; blanch the bean sprouts for 1 minute, then add the carrot and celery briefly and drain; blanch the tofu noodles for about 1 minute and drain. Drain everything well, season with a little salt, white pepper, sugar, minced garlic and sesame oil, and sprinkle with chopped spring onion.",
+    "In summer, chill in the fridge before serving for more flavour."
+   ]
+  },
+  {
+   "id": "r01565",
+   "name": "Vegetable Stir-fried Flat Rice Noodles",
+   "description": "A light vegetarian stir-fry of flat rice noodles with vegetables and tofu skin.",
+   "ingredients": [
+    {
+     "name": "cherry tomatoes",
+     "amount": "6"
+    },
+    {
+     "name": "carrot",
+     "amount": "0.5"
+    },
+    {
+     "name": "king oyster mushroom",
+     "amount": "3"
+    },
+    {
+     "name": "bok choy",
+     "amount": "1 bunch"
+    },
+    {
+     "name": "napa cabbage",
+     "amount": "0.25 head"
+    },
+    {
+     "name": "thick tofu skin",
+     "amount": "2 pieces"
+    },
+    {
+     "name": "flat rice noodles",
+     "amount": "1 pack"
+    },
+    {
+     "name": "oil",
+     "amount": "1 spoonful"
+    },
+    {
+     "name": "salt",
+     "amount": "1.5 tsp"
+    },
+    {
+     "name": "water",
+     "amount": "4.5 cups"
+    }
+   ],
+   "steps": [
+    "Wash the vegetables and cut them and the tofu skin to your liking.",
+    "Heat the oil in a pan and stir-fry the king oyster mushroom, cherry tomatoes and carrot until fragrant.",
+    "Add the tofu skin with about 1/4 cup water, cover and cook for 2.5-3 minutes.",
+    "Add the napa cabbage and bok choy with about 1/3 cup water, cover and cook for 4.5-5 minutes.",
+    "Boil the rice noodles in a pot of water for 0.5 minute, then add to the vegetables with a little salt and 1/3 cup water and stir-fry until cooked through.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r00639",
+   "name": "Stir-fried Cabbage and Cucumber with Ginger",
+   "description": "A quick fridge-clearing stir-fry.",
+   "ingredients": [
+    {
+     "name": "cabbage, torn into small pieces",
+     "amount": "to taste"
+    },
+    {
+     "name": "cucumber, sliced",
+     "amount": "to taste"
+    },
+    {
+     "name": "shiitake mushroom, sliced",
+     "amount": "3"
+    },
+    {
+     "name": "shredded ginger",
+     "amount": "3 slices"
+    },
+    {
+     "name": "seasoning sauce",
+     "amount": "1 spoonful"
+    },
+    {
+     "name": "oil",
+     "amount": "10 ml"
+    }
+   ],
+   "steps": [
+    "Heat a wok and add the oil.",
+    "Stir-fry the ginger until fragrant.",
+    "Add the cabbage and stir-fry for 2 minutes.",
+    "Add the cucumber and shiitake and stir-fry for 3 minutes.",
+    "Stir in the seasoning sauce and serve."
+   ]
+  },
+  {
+   "id": "r01392",
+   "name": "Salt-roasted Peanuts",
+   "description": "Crunchy peanuts dry-roasted in hot coarse salt.",
+   "ingredients": [
+    {
+     "name": "peanuts",
+     "amount": "1 catty (600 g)"
+    },
+    {
+     "name": "coarse salt",
+     "amount": "1 bowl (1 pack)"
+    }
+   ],
+   "steps": [
+    "Wash the peanuts, drain and air-dry until completely dry on the surface.",
+    "Stir-fry the coarse salt over medium-low heat until hot.",
+    "Add the peanuts.",
+    "Keep stirring constantly.",
+    "Turn to low heat and stir-fry for about 5 minutes, then cover and leave for about 3 minutes before uncovering and stirring again.",
+    "Sift out the salt, remove the peanuts and let cool until crisp."
+   ]
+  },
+  {
+   "id": "r01255",
+   "name": "Peanut Brittle",
+   "description": "A must-make snack before Chinese New Year.",
+   "ingredients": [
+    {
+     "name": "raw peanuts",
+     "amount": "1200 g"
+    },
+    {
+     "name": "oil",
+     "amount": "240 g"
+    },
+    {
+     "name": "glucose syrup or maltose",
+     "amount": "240 g"
+    },
+    {
+     "name": "white sugar",
+     "amount": "80 g"
+    },
+    {
+     "name": "white sesame seeds",
+     "amount": "80 g"
+    },
+    {
+     "name": "salt",
+     "amount": "5 g"
+    }
+   ],
+   "steps": [
+    "Pick out any sprouted or bad peanuts.",
+    "Weigh out the remaining ingredients.",
+    "80% glucose syrup is thinner and easier to pour; other strengths work too but give a darker colour.",
+    "Put the oil, syrup, sugar and salt in the wok, add the peanuts, and stir-fry slowly over medium-low heat.",
+    "Start timing once the heat is on; it usually takes about 25 minutes.",
+    "Keep stirring as the oil heats up and gradually covers the peanuts.",
+    "When the peanuts are nearly cooked (about 20 minutes), add the sesame seeds and stir-fry for another 3-5 minutes.",
+    "Check doneness by the colour of a peeled peanut.",
+    "While hot, drain off the oil, spread the mixture on baking-paper-lined trays, flatten and cut into bite-sized pieces.",
+    "This amount fills three trays (about 27 x 33 x 2 cm).",
+    "Make the brittle about 1.5 peanuts thick.",
+    "Once cool enough to touch, pack into containers to store."
+   ]
+  },
+  {
+   "id": "r01488",
+   "name": "Dry-fried Green Beans with Chopped Chilli",
+   "description": "Fiery, fragrant dry-fried green beans with chopped chilli sauce.",
+   "ingredients": [
+    {
+     "name": "green beans",
+     "amount": "400 g"
+    },
+    {
+     "name": "dried shrimp chopped chilli sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "garlic",
+     "amount": "6 cloves"
+    },
+    {
+     "name": "chilli",
+     "amount": "1"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    },
+    {
+     "name": "chicken powder",
+     "amount": "a little"
+    },
+    {
+     "name": "white pepper",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Wash the green beans and cut into long pieces.",
+    "Bring water to the boil with salt and blanch the beans for 3-5 minutes.",
+    "Heat a wok and fry the minced garlic and chopped chilli sauce until the oil turns red and fragrant.",
+    "Add the green beans and sliced chilli and stir-fry over high heat.",
+    "Season with salt (optional), chicken powder and white pepper.",
+    "Transfer to a plate and serve."
+   ]
+  },
+  {
+   "id": "r01005",
+   "name": "Stir-fried Mixed Vegetables with Italian Herbs",
+   "description": "Colourful, crisp seasonal vegetables seasoned with Italian herbs and a hint of garlic.",
+   "ingredients": [
+    {
+     "name": "baby corn",
+     "amount": "5"
+    },
+    {
+     "name": "red bell pepper",
+     "amount": "0.5"
+    },
+    {
+     "name": "yellow bell pepper",
+     "amount": "0.5"
+    },
+    {
+     "name": "zucchini",
+     "amount": "1"
+    },
+    {
+     "name": "green beans",
+     "amount": "5"
+    },
+    {
+     "name": "salt",
+     "amount": "to taste"
+    },
+    {
+     "name": "olive oil",
+     "amount": "to taste"
+    },
+    {
+     "name": "white pepper",
+     "amount": "to taste"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Dice the baby corn, zucchini, green beans and bell peppers; heat oil in a wok, add them in turn and stir-fry until mostly cooked, then add the garlic.",
+    "Season with salt before serving and toss with Italian herbs for aroma."
+   ]
+  },
+  {
+   "id": "r00231",
+   "name": "Stir-fried Sugar Snap Peas with Mushrooms",
+   "description": "A simple, healthy stir-fry of sugar snap peas, shimeji mushroom, baby corn and red bell pepper.",
+   "ingredients": [
+    {
+     "name": "sugar snap peas",
+     "amount": "2 handfuls"
+    },
+    {
+     "name": "baby corn",
+     "amount": "4"
+    },
+    {
+     "name": "red bell pepper",
+     "amount": "0.5"
+    },
+    {
+     "name": "shimeji mushroom",
+     "amount": "1/2 pack"
+    },
+    {
+     "name": "salt",
+     "amount": "to taste"
+    },
+    {
+     "name": "olive oil",
+     "amount": "to taste"
+    },
+    {
+     "name": "white pepper",
+     "amount": "to taste"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "2 cloves"
+    }
+   ],
+   "steps": [
+    "Blanch the sugar snap peas, baby corn and red bell pepper in boiling water until 70-80% cooked, then chill in iced water.",
+    "Heat a dry wok and fry the shimeji until fragrant and lightly browned.",
+    "Add the olive oil and garlic and fry until fragrant, then add the blanched vegetables and toss; season with salt and white pepper before serving."
+   ]
+  },
+  {
+   "id": "r00920",
+   "name": "Salt-roasted Peanuts",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "peanuts",
+     "amount": "400 g"
+    },
+    {
+     "name": "salt",
+     "amount": "100 g"
+    }
+   ],
+   "steps": [
+    "Put the salt and washed peanuts in a heavy pan and stir-fry constantly over medium-high heat.",
+    "After 6-7 minutes, when you hear popping, turn to low heat and keep stirring.",
+    "Stir-fry for another 6 minutes until the skins rub off easily with your fingers.",
+    "Sift out the salt with a slotted spoon.",
+    "Spread on a plate and let cool until crunchy."
+   ]
+  },
+  {
+   "id": "r00676",
+   "name": "Cold Aubergine with Garlic Dressing",
+   "description": "Bright, refreshing aubergine dressed with garlic, ginger and coriander.",
+   "ingredients": [
+    {
+     "name": "aubergine",
+     "amount": "2"
+    },
+    {
+     "name": "olive oil",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "water",
+     "amount": "to taste"
+    },
+    {
+     "name": "salt (for blanching)",
+     "amount": "to taste"
+    },
+    {
+     "name": "sugar (for blanching)",
+     "amount": "to taste"
+    },
+    {
+     "name": "crushed garlic",
+     "amount": "2 cloves"
+    },
+    {
+     "name": "grated ginger",
+     "amount": "2 slices"
+    },
+    {
+     "name": "chopped coriander",
+     "amount": "1 sprig"
+    },
+    {
+     "name": "chopped chilli",
+     "amount": "0.5"
+    },
+    {
+     "name": "oyster sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "mirin",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "sugar",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Wash the aubergines and cut into pieces.",
+    "Bring a pot of water to the boil with the olive oil, salt and sugar; add the aubergine and weigh it down with a steaming rack so it stays fully submerged. Cook until tender, drain and chill in iced water.",
+    "Mix all the seasonings and pour over the aubergine."
+   ]
+  },
+  {
+   "id": "r01378",
+   "name": "Stir-fried Celtuce with Fermented Tofu and Black Beans",
+   "description": "Crisp celtuce braised with fermented tofu and fermented black beans.",
+   "ingredients": [
+    {
+     "name": "celtuce",
+     "amount": "1"
+    },
+    {
+     "name": "fermented tofu with its liquid",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "fermented black beans",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "white sesame seeds",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Peel the tough skin and fibres off the celtuce and slice diagonally.",
+    "Rinse the fermented black beans.",
+    "Heat oil over medium-low heat, add the black beans, press them flat and stir-fry.",
+    "Add the celtuce and 1 cup water and stir-fry over high heat.",
+    "Mash the fermented tofu until smooth.",
+    "Add it to the wok, toss with the celtuce, cover and simmer over medium-low heat for 10 minutes.",
+    "When the celtuce is tender, plate and sprinkle with sesame seeds."
+   ]
+  },
+  {
+   "id": "r00867",
+   "name": "Stir-fried Tofu with Celery and Cucumber",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "celery",
+     "amount": "3 stalks"
+    },
+    {
+     "name": "cucumber",
+     "amount": "2"
+    },
+    {
+     "name": "silken tofu",
+     "amount": "1/3 block"
+    },
+    {
+     "name": "wood ear fungus",
+     "amount": "1 small piece"
+    },
+    {
+     "name": "carrot",
+     "amount": "a little"
+    },
+    {
+     "name": "garlic",
+     "amount": "2 cloves"
+    },
+    {
+     "name": "seasoning sauce",
+     "amount": "1 spoonful"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Prepare the ingredients.",
+    "Pan-fry the silken tofu until golden (so it holds together) and set aside.",
+    "Heat oil in a wok and add the sliced garlic.",
+    "Add the shredded carrot and stir-fry until just cooked.",
+    "Add the cucumber and stir-fry until just cooked.",
+    "Add the celery last (it cooks quickly), add a splash of filtered water and stir-fry until translucent.",
+    "Add the shredded wood ear and golden tofu and toss.",
+    "Add the seasoning sauce and soy sauce and stir to combine.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r01386",
+   "name": "Jellyfish Salad",
+   "description": "A tangy, crunchy cold jellyfish salad, perfect as a Lunar New Year starter.",
+   "ingredients": [
+    {
+     "name": "jellyfish",
+     "amount": "5 sheets"
+    },
+    {
+     "name": "cucumber",
+     "amount": "2"
+    },
+    {
+     "name": "chilli",
+     "amount": "2"
+    },
+    {
+     "name": "white sesame seeds",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "garlic",
+     "amount": "4 cloves"
+    },
+    {
+     "name": "salt or thick soy sauce",
+     "amount": "1/4 tsp"
+    },
+    {
+     "name": "sugar",
+     "amount": "1/2 tsp"
+    },
+    {
+     "name": "white vinegar",
+     "amount": "4 tbsp"
+    },
+    {
+     "name": "black vinegar",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "iced water",
+     "amount": "as needed"
+    }
+   ],
+   "steps": [
+    "Soak the jellyfish (dried or wet) in water, or rinse under running water.",
+    "Soak for about 5 hours, changing the water every hour, until there is no odour.",
+    "Shred the cucumbers and toss with a little salt and sugar to draw out the water.",
+    "Dip the soaked jellyfish in water at about 85°C for 5–10 seconds; any longer and it turns tough.",
+    "Then soak in iced water for 15 minutes.",
+    "Don't skip the iced water: it keeps the jellyfish crunchy.",
+    "Deseed the red chillies and cut into thin strips.",
+    "Mince the garlic.",
+    "Squeeze the water out of the cucumber.",
+    "Rinse the cucumber well in drinking water to remove the salt.",
+    "Squeeze dry and set aside.",
+    "Cut the chilled jellyfish into strips.",
+    "Cut the strips slightly wide for more bite.",
+    "Add the cucumber, chilli, sesame seeds, salt, sugar, white vinegar, black vinegar and sesame oil and mix well.",
+    "Transfer to a container and refrigerate for at least 30 minutes before serving.",
+    "For the best flavour, leave it overnight."
+   ]
+  },
+  {
+   "id": "r01503",
+   "name": "Stir-fried Celtuce with Garlic",
+   "description": "A light, appetising dish of celtuce cooked with garlic.",
+   "ingredients": [
+    {
+     "name": "celtuce",
+     "amount": "2 stalks"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "4 cloves"
+    },
+    {
+     "name": "salt",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Peel the celtuce, removing all the white fibrous skin.",
+    "Slice the celtuce diagonally.",
+    "Heat oil over medium heat and fry the minced garlic until fragrant.",
+    "Add 1 rice-cup of water and bring to the boil.",
+    "Add the celtuce.",
+    "Bring back to the boil over medium-high heat.",
+    "Cover and simmer over medium-low heat for 10 minutes, adding the salt halfway and stirring well.",
+    "Once the celtuce is cooked through, transfer to a plate."
+   ]
+  },
+  {
+   "id": "r00887",
+   "name": "Stir-fried Sea Snails with Black Pepper",
+   "description": "Springy sea snails stir-fried with black pepper for a savoury, aromatic dish.",
+   "ingredients": [
+    {
+     "name": "babylon sea snails",
+     "amount": "1 kg"
+    },
+    {
+     "name": "garlic",
+     "amount": "1 bulb"
+    },
+    {
+     "name": "chilli",
+     "amount": "1"
+    },
+    {
+     "name": "onion",
+     "amount": "0.5"
+    },
+    {
+     "name": "spring onion",
+     "amount": "3"
+    },
+    {
+     "name": "scallop stock powder",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "oyster sauce",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "sugar",
+     "amount": "2 tsp"
+    },
+    {
+     "name": "salt",
+     "amount": "0.5 tsp"
+    },
+    {
+     "name": "rice wine",
+     "amount": "2 tsp"
+    }
+   ],
+   "steps": [
+    "Soak the sea snails in salted water for 30 minutes, drain, then rub them clean with salt.",
+    "Heat oil and fry the garlic, chilli, white parts of the spring onion and onion until fragrant. Add the snails, stir-fry, then add the rice wine. Cover and cook for 3–5 minutes. Uncover, add black pepper, scallop stock powder, oyster sauce, sugar and salt and stir-fry over high heat until only a little liquid remains. Turn off the heat, toss in the spring onion greens and serve."
+   ]
+  },
+  {
+   "id": "r01253",
+   "name": "Stir-fried Baby Mustard Greens",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "baby mustard greens",
+     "amount": "1 small bunch"
+    },
+    {
+     "name": "garlic",
+     "amount": "2–3 cloves"
+    }
+   ],
+   "steps": [
+    "Wash the mustard greens and blanch in hot water until about 80% cooked.",
+    "Drain and cut into short lengths.",
+    "Heat oil over medium-low heat and fry the garlic until fragrant.",
+    "Add the mustard greens and salt and stir-fry for 2 minutes.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r01406",
+   "name": "Celtuce Salad",
+   "description": "Fresh celtuce turned into a crisp, refreshing cold dish.",
+   "ingredients": [
+    {
+     "name": "celtuce",
+     "amount": "3 stalks"
+    },
+    {
+     "name": "salt",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "garlic",
+     "amount": "5 cloves"
+    },
+    {
+     "name": "chilli",
+     "amount": "1"
+    },
+    {
+     "name": "sugar",
+     "amount": "1/2 spoon"
+    },
+    {
+     "name": "thick soy sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "1 spoon"
+    }
+   ],
+   "steps": [
+    "Buy 3 fresh celtuce stalks.",
+    "Wash and peel, removing all the fibrous skin.",
+    "Check the peeled celtuce is clean and smooth.",
+    "Cut into 6–7 cm lengths, add a little salt and toss; leave to cure for about 10 minutes.",
+    "The cured celtuce will soften.",
+    "Cut a slit down the middle of each piece, then thread one end through the slit to form a twist.",
+    "Finish twisting all the pieces.",
+    "Bring a pot of water to the boil, blanch the celtuce twists for 15 seconds, then chill in iced water and drain.",
+    "Make the sauce: minced garlic, diced chilli, sesame oil, thick soy sauce and sugar.",
+    "Toss the celtuce with the sauce and serve."
+   ]
+  },
+  {
+   "id": "r00723",
+   "name": "Celtuce Salad",
+   "description": "A light, refreshing and healthy cold celtuce side dish.",
+   "ingredients": [
+    {
+     "name": "celtuce",
+     "amount": "1 stalk"
+    },
+    {
+     "name": "salt",
+     "amount": "1 spoon"
+    },
+    {
+     "name": "sugar",
+     "amount": "0.5 spoon"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "a little"
+    },
+    {
+     "name": "white vinegar",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Peel the celtuce down to the tender core.",
+    "Cut into small pieces, toss with a little salt and leave for 10 minutes, then rinse with drinking water to remove the salt.",
+    "Mix in the seasonings and refrigerate for 1 hour before serving."
+   ]
+  },
+  {
+   "id": "r00031",
+   "name": "Stir-fried Pressed Tofu with Celery and Vegetables",
+   "description": "Fragrant celery, pressed tofu and colourful vegetables stir-fried with scallop stock powder.",
+   "ingredients": [
+    {
+     "name": "celery",
+     "amount": "1 bunch"
+    },
+    {
+     "name": "pressed tofu",
+     "amount": "3 pieces"
+    },
+    {
+     "name": "king oyster mushroom",
+     "amount": "70 g"
+    },
+    {
+     "name": "carrot",
+     "amount": "25 g"
+    },
+    {
+     "name": "bell pepper",
+     "amount": "1/4"
+    },
+    {
+     "name": "garlic",
+     "amount": "2 cloves"
+    },
+    {
+     "name": "scallop stock powder",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "salt",
+     "amount": "2 tsp"
+    }
+   ],
+   "steps": [
+    "Wash the celery and cut into lengths.",
+    "Mince the garlic; cut the king oyster mushroom, carrot, pressed tofu and bell pepper into strips.",
+    "Heat oil in a wok.",
+    "Add the minced garlic and fry until fragrant.",
+    "Add the celery and carrot, stir-fry, add a splash of water, cover and cook briefly.",
+    "Add the pressed tofu, mushroom and bell pepper and stir-fry.",
+    "Season with salt.",
+    "Add the scallop stock powder and stir well.",
+    "Keep stir-frying until everything is cooked through, then serve."
+   ]
+  },
+  {
+   "id": "r00403",
+   "name": "Zucchini Salad",
+   "description": "Thinly sliced salted zucchini dressed with vinegar, sesame oil and pepper, great as a side dish or for lunch boxes.",
+   "ingredients": [
+    {
+     "name": "zucchini",
+     "amount": "2"
+    },
+    {
+     "name": "shredded carrot",
+     "amount": "as needed"
+    },
+    {
+     "name": "vinegar (fruit or white vinegar)",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "white pepper",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "salt",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Slice the zucchini thinly with a mandoline.",
+    "A mandoline makes this quick and even.",
+    "Cut the carrot into fine shreds and add.",
+    "Toss with a little salt and leave for 5 minutes.",
+    "Squeeze out the water firmly and discard it.",
+    "Season.",
+    "Add white pepper, salt, sesame oil and vinegar.",
+    "Mix well.",
+    "Taste.",
+    "Add more salt if needed, or more sesame oil if the flavour is too light.",
+    "Adjust to your taste.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r00120",
+   "name": "Shredded Cabbage Salad",
+   "description": "A crisp, refreshing cold salad of shredded seasonal cabbage.",
+   "ingredients": [
+    {
+     "name": "cabbage",
+     "amount": "4 leaves"
+    },
+    {
+     "name": "spring onion",
+     "amount": "2"
+    },
+    {
+     "name": "salt",
+     "amount": "0.5 tsp"
+    },
+    {
+     "name": "sugar",
+     "amount": "0.5 tsp"
+    }
+   ],
+   "steps": [
+    "Shred the cabbage and chop the spring onion.",
+    "Toss gently with salt and leave for about 10 minutes to draw out the water.",
+    "Add the sugar and spring onion and mix, or shake together in a lidded container."
+   ]
+  },
+  {
+   "id": "r01472",
+   "name": "Stir-fried Bok Choy with Garlic",
+   "description": "Quick-cooking bok choy stir-fried over high heat with a little salt, ready in 5 minutes with no water needed.",
+   "ingredients": [
+    {
+     "name": "bok choy",
+     "amount": "200 g"
+    },
+    {
+     "name": "garlic",
+     "amount": "3 cloves"
+    },
+    {
+     "name": "vegetable oil",
+     "amount": "1 spoon"
+    },
+    {
+     "name": "salt",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Wash and cut the bok choy; slice or chop the garlic.",
+    "Put the oil and garlic in a frying pan (no need to wait for the oil to heat).",
+    "Once the oil is hot and the garlic sizzles, add the bok choy over high heat and stir-fry for 10 seconds. Add the salt and stir-fry for 30 seconds, until all the leaves are glossy.",
+    "Don't overcook; the water left from washing is enough, so no need to add any."
+   ]
+  },
+  {
+   "id": "r00661",
+   "name": "Oyster and Clam Soup with Pickled Mustard Greens",
+   "description": "A light, briny soup of plump oysters and clams, flavoured with pickled mustard greens, ginger and white pepper.",
+   "ingredients": [
+    {
+     "name": "fresh oysters",
+     "amount": "1 pack"
+    },
+    {
+     "name": "clams",
+     "amount": "15"
+    },
+    {
+     "name": "pickled mustard greens",
+     "amount": "3 leaves"
+    },
+    {
+     "name": "spring onion, cut into lengths",
+     "amount": "2"
+    },
+    {
+     "name": "shredded ginger",
+     "amount": "to taste"
+    },
+    {
+     "name": "salt",
+     "amount": "to taste"
+    },
+    {
+     "name": "water",
+     "amount": "as needed"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "2 drops"
+    },
+    {
+     "name": "olive oil",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "white pepper",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Gently wash the oysters with flour or salt, then rinse clean and set aside.",
+    "Wash the pickled mustard greens and shred.",
+    "Heat oil, fry the spring onion and ginger until fragrant, then add hot water and the mustard greens and cook for 3–5 minutes until aromatic.",
+    "Add rice wine and the clams; when the first clam opens, add the oysters. Once all clams are open and the oysters are firm, season with salt, sesame oil and white pepper and turn off the heat."
+   ]
+  },
+  {
+   "id": "r00219",
+   "name": "Hot and Sour Soup",
+   "description": "A classic hot and sour soup, here using leftover chicken and salmon instead of shredded pork.",
+   "ingredients": [
+    {
+     "name": "shredded carrot",
+     "amount": "60g"
+    },
+    {
+     "name": "wood ear fungus",
+     "amount": "2 pieces (about 60g)"
+    },
+    {
+     "name": "firm tofu",
+     "amount": "½ block"
+    },
+    {
+     "name": "duck blood curd",
+     "amount": "½ block"
+    },
+    {
+     "name": "dried bamboo shoots",
+     "amount": "20g"
+    },
+    {
+     "name": "spring onion",
+     "amount": "2"
+    },
+    {
+     "name": "garlic",
+     "amount": "5 cloves"
+    },
+    {
+     "name": "eggs",
+     "amount": "2"
+    },
+    {
+     "name": "salmon / shredded chicken or shredded pork",
+     "amount": "50g each"
+    },
+    {
+     "name": "shallot",
+     "amount": "2 tbsp (about 30g)"
+    },
+    {
+     "name": "black / white pepper",
+     "amount": "1 tsp each (about 5g each)"
+    },
+    {
+     "name": "thick soy sauce",
+     "amount": "1 tbsp (30g)"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "2 tbsp (about 60g)"
+    },
+    {
+     "name": "light brown sugar",
+     "amount": "1 tbsp (about 30g)"
+    },
+    {
+     "name": "potato starch",
+     "amount": "8 tbsp"
+    },
+    {
+     "name": "water",
+     "amount": "16 tbsp (starch 1 : water 2)"
+    }
+   ],
+   "steps": [
+    "Cut the ingredients into strips of the same thickness.",
+    "Separate the spring onion whites (for frying) and greens (to add before serving); slice the garlic or leave whole.",
+    "Tear the chicken breast and salmon into shreds in place of shredded pork.",
+    "Heat 2 tbsp oil in a wok, fry the carrot, spring onion whites and garlic until fragrant, then add 2000 ml water.",
+    "Add the prepared ingredients.",
+    "When the water boils, add the salmon and chicken.",
+    "Add all the seasonings and check the taste before adding the starch slurry.",
+    "Stir in the starch slurry, bring back to the boil over medium heat, then drizzle in the beaten eggs; after a few seconds push gently from the bottom to form egg ribbons.",
+    "Drizzle with a little black vinegar before serving."
+   ]
+  },
+  {
+   "id": "r00417",
+   "name": "Pork Rib Soup with Chinese Yam and Gac Fruit",
+   "description": "A nourishing pork rib soup with Chinese yam, shiitake mushrooms and lycopene-rich gac fruit.",
+   "ingredients": [
+    {
+     "name": "pork ribs",
+     "amount": "1 rack"
+    },
+    {
+     "name": "Chinese yam",
+     "amount": "200 g"
+    },
+    {
+     "name": "dried shiitake mushroom",
+     "amount": "5"
+    },
+    {
+     "name": "gac fruit",
+     "amount": "200 g"
+    },
+    {
+     "name": "scallop stock powder",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "salt",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "sliced ginger",
+     "amount": "3 slices"
+    }
+   ],
+   "steps": [
+    "Prepare the ingredients; blanch the pork ribs to remove blood and peel the Chinese yam.",
+    "Halve the gac fruit, remove the black seeds and scoop out the flesh around them with a spoon; freeze any extra flesh in small bags.",
+    "Soak the shiitake mushrooms until soft and cut into suitable pieces.",
+    "Put the Chinese yam, pork ribs and mushrooms in a pot, add water to cover, and cook in an electric cooker with 2 cups of water in the outer pot.",
+    "On a stove, simmer for 10–15 minutes after boiling instead.",
+    "When the cooker switches off, move the pot to the stove, add the gac fruit flesh and cook for 5 minutes; it cooks quickly, so don't overcook.",
+    "Season with salt and scallop stock powder.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r00270",
+   "name": "Savoury Rainbow Glutinous Rice Balls",
+   "description": "Colourful glutinous rice balls in a savoury soup with crown daisy, shiitake mushrooms and dried shrimp.",
+   "ingredients": [
+    {
+     "name": "rainbow glutinous rice balls",
+     "amount": "1 serving"
+    },
+    {
+     "name": "shiitake mushroom",
+     "amount": "1"
+    },
+    {
+     "name": "dried shrimp",
+     "amount": "6"
+    },
+    {
+     "name": "fried shallots",
+     "amount": "a little"
+    },
+    {
+     "name": "crown daisy",
+     "amount": "2 bunches"
+    },
+    {
+     "name": "shredded pork",
+     "amount": "a little"
+    },
+    {
+     "name": "sea salt",
+     "amount": "a little"
+    },
+    {
+     "name": "white pepper",
+     "amount": "a little"
+    },
+    {
+     "name": "vegetable oil",
+     "amount": "a little"
+    },
+    {
+     "name": "potato starch",
+     "amount": "a little"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "a little"
+    },
+    {
+     "name": "white pepper",
+     "amount": "a little"
+    },
+    {
+     "name": "sugar",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Make chicken bone stock in a deep pot.",
+    "Prepare the ingredients.",
+    "Soak the shiitake mushroom and shred it; wash the crown daisy.",
+    "Prepare the rice balls.",
+    "Marinate the shredded pork with potato starch, soy sauce, white pepper and a little sugar.",
+    "Set the marinated pork aside.",
+    "Heat oil in a pan and fry the dried shrimp until fragrant.",
+    "Add the shiitake and fry until fragrant.",
+    "Add the pork and stir-fry.",
+    "Add the fried shallots and chicken stock and simmer.",
+    "Meanwhile, boil water in another pot, add the rice balls, and when they float, turn off the heat and scoop them out.",
+    "Add the crown daisy, season with sea salt and white pepper, then ladle into bowls with the rice balls.",
+    "Serve.",
+    "Enjoy the savoury rice balls.",
+    "Serve hot."
+   ]
+  },
+  {
+   "id": "r01382",
+   "name": "Easy Japanese Dashi Hot Pot",
+   "description": "A quick hot pot with a light Japanese dashi broth made from stock bags.",
+   "ingredients": [
+    {
+     "name": "cabbage",
+     "amount": "1/4 head"
+    },
+    {
+     "name": "crown daisy",
+     "amount": "250g"
+    },
+    {
+     "name": "pork balls",
+     "amount": "8"
+    },
+    {
+     "name": "white beech mushrooms",
+     "amount": "1 pack"
+    },
+    {
+     "name": "baby corn",
+     "amount": "8"
+    },
+    {
+     "name": "daikon",
+     "amount": "1/2"
+    },
+    {
+     "name": "pork wontons",
+     "amount": "1 box"
+    },
+    {
+     "name": "fish dumplings",
+     "amount": "1 box"
+    },
+    {
+     "name": "water",
+     "amount": "2000ml"
+    },
+    {
+     "name": "Japanese dashi stock bags",
+     "amount": "4 bags"
+    }
+   ],
+   "steps": [
+    "Use Japanese dashi stock bags for the broth.",
+    "Dried anchovy-flavoured stock bags work well.",
+    "Bring 2000 ml water to the boil in a pot.",
+    "Add the 4 stock bags and simmer for 3 minutes.",
+    "Remove the stock bags.",
+    "Ratio of water to stock bags:",
+    "500 ml water per bag.",
+    "Peel the daikon, cut into chunks and simmer in the broth for 15 minutes.",
+    "Meanwhile, prepare the other ingredients.",
+    "Wash the cabbage.",
+    "Trim and wash the crown daisy.",
+    "Wash the baby corn.",
+    "Trim the white beech mushrooms and separate them (no need to wash).",
+    "Bring a pot of water to the boil.",
+    "Add 1 spoon of salt, blanch the cabbage and set aside.",
+    "Blanch the crown daisy and set aside.",
+    "Meanwhile, for the hot pot broth:",
+    "add the baby corn, mushrooms and pork balls and cook for 5–10 minutes.",
+    "Boil water in another small pot.",
+    "Blanch the meat slices to remove scum.",
+    "Remove and set aside.",
+    "Add the dumplings and wontons to the broth and cook through.",
+    "Finally add the cooked vegetables and meat and bring to a gentle simmer.",
+    "Serve the hot pot."
+   ]
+  },
+  {
+   "id": "r00244",
+   "name": "Napa Cabbage and Egg Soup",
+   "description": "A simple, hearty soup of napa cabbage and egg.",
+   "ingredients": [
+    {
+     "name": "napa cabbage (small)",
+     "amount": "1"
+    },
+    {
+     "name": "egg",
+     "amount": "1"
+    },
+    {
+     "name": "water",
+     "amount": "3 bowls"
+    },
+    {
+     "name": "spring onion",
+     "amount": "1"
+    },
+    {
+     "name": "oil",
+     "amount": "a little"
+    },
+    {
+     "name": "salt",
+     "amount": "1 spoon"
+    },
+    {
+     "name": "sesame oil",
+     "amount": "a little"
+    },
+    {
+     "name": "pepper",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Cut the spring onion into lengths and the cabbage into small pieces.",
+    "Heat oil and fry the egg.",
+    "Once cooked, break the egg into small pieces and push to one side.",
+    "Add the spring onion and stir-fry with the egg until fragrant (about 20 seconds).",
+    "Add the cabbage and stir-fry briefly.",
+    "Add 3 bowls of water and 1 spoon of salt; once boiling, simmer on low heat for 5 minutes.",
+    "Transfer to a serving bowl.",
+    "Sprinkle with a little pepper and sesame oil.",
+    "For a spicy version, stir-fry with chilli or sprinkle with chilli powder."
+   ]
+  },
+  {
+   "id": "r00861",
+   "name": "Mock Crab Roe Mustard Greens and Tofu Soup",
+   "description": "A thick vegetarian soup of mustard greens and tofu, with carrot and pumpkin standing in for crab roe.",
+   "ingredients": [
+    {
+     "name": "carrot",
+     "amount": "60g"
+    },
+    {
+     "name": "mustard greens",
+     "amount": "120g"
+    },
+    {
+     "name": "pumpkin",
+     "amount": "20g"
+    },
+    {
+     "name": "ginger",
+     "amount": "3g"
+    },
+    {
+     "name": "onion",
+     "amount": "30g"
+    },
+    {
+     "name": "enoki mushroom",
+     "amount": "30g"
+    },
+    {
+     "name": "fresh shiitake mushroom",
+     "amount": "20g"
+    },
+    {
+     "name": "silken tofu",
+     "amount": "half a box"
+    },
+    {
+     "name": "water",
+     "amount": "500g"
+    },
+    {
+     "name": "potato starch slurry",
+     "amount": "as needed"
+    },
+    {
+     "name": "salt",
+     "amount": "to taste"
+    },
+    {
+     "name": "Shaoxing wine",
+     "amount": "10g"
+    }
+   ],
+   "steps": [
+    "Blitz the carrot and pumpkin in a food processor; finely chop the onion and ginger; cut the enoki into lengths; shred the shiitake and tofu.",
+    "Shred the mustard greens, blanch and rinse under cold water.",
+    "Fry the carrot, pumpkin, onion and ginger until fragrant, splash in the Shaoxing wine, then add the water, enoki, shiitake and mustard greens and cook for about 5 minutes until soft.",
+    "Season, thicken with the starch slurry, and stir in the tofu."
+   ]
+  },
+  {
+   "id": "r00528",
+   "name": "Chicken Soup with Clams, Garlic and Pickled Mustard Greens",
+   "description": "A one-pot electric cooker chicken soup with sweet clams and crisp pickled mustard greens.",
+   "ingredients": [
+    {
+     "name": "pickled mustard greens",
+     "amount": "1 head"
+    },
+    {
+     "name": "clams",
+     "amount": "300 g"
+    },
+    {
+     "name": "garlic",
+     "amount": "8 cloves"
+    },
+    {
+     "name": "salt",
+     "amount": "4 tsp"
+    },
+    {
+     "name": "chicken thigh",
+     "amount": "1/2 pack"
+    }
+   ],
+   "steps": [
+    "Peel the garlic and wash the clams.",
+    "Rinse the chicken thigh under running water to remove blood.",
+    "Rinse the pickled mustard greens and cut into lengths.",
+    "Put everything in a pot, add water to cover, and cook in an electric cooker with 2 cups of water in the outer pot; when it switches off, season with salt."
+   ]
+  },
+  {
+   "id": "r00376",
+   "name": "Chicken and Shiitake Soup with Ginger, Garlic and Spring Onion",
+   "description": "A simple, nourishing chicken soup with spring onion, ginger and garlic, ideal for cold days.",
+   "ingredients": [
+    {
+     "name": "chicken thigh pieces",
+     "amount": "5-6 pieces"
+    },
+    {
+     "name": "onion",
+     "amount": "0.5"
+    },
+    {
+     "name": "fresh shiitake mushroom",
+     "amount": "4"
+    },
+    {
+     "name": "dried shiitake mushroom",
+     "amount": "6"
+    },
+    {
+     "name": "spring onion",
+     "amount": "2"
+    },
+    {
+     "name": "ginger",
+     "amount": "about two fingers' worth"
+    },
+    {
+     "name": "garlic",
+     "amount": "8 cloves"
+    },
+    {
+     "name": "pepper salt",
+     "amount": "to taste"
+    },
+    {
+     "name": "black pepper",
+     "amount": "to taste"
+    },
+    {
+     "name": "garlic paste",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Soak the dried shiitake until soft; slice the fresh shiitake; slice the onion; cut the spring onion into lengths; lightly crush the garlic; peel and shred the ginger (or just wash it).",
+    "Boil a pot of water and cook the chicken until no blood remains; it needn't be fully cooked.",
+    "Turn off the heat, skim off the scum and set aside.",
+    "Heat oil and fry the ginger, garlic and spring onion whites until lightly golden.",
+    "Add the onion and stir-fry until translucent, keeping the heat moderate so nothing burns.",
+    "Push to one side, add the chicken skin-side down and brown lightly.",
+    "Brown the chicken lightly on all sides and stir.",
+    "Add the fresh shiitake, the dried shiitake with their soaking water and the chicken blanching water (adjust the amount to taste), cover and simmer over medium-low heat.",
+    "Season with garlic paste, pepper salt and black pepper, then top with spring onion."
+   ]
+  },
+  {
+   "id": "r01523",
+   "name": "Pork Rib Soup with Chinese Yam",
+   "description": "A sweet, nourishing soup of pork ribs and Chinese yam.",
+   "ingredients": [
+    {
+     "name": "pork spare ribs",
+     "amount": "1 portion"
+    },
+    {
+     "name": "Chinese yam",
+     "amount": "1"
+    },
+    {
+     "name": "corn",
+     "amount": "1 cob"
+    },
+    {
+     "name": "rice wine",
+     "amount": "1 tbsp"
+    }
+   ],
+   "steps": [
+    "Blanch the pork ribs.",
+    "Remove after about 3 minutes.",
+    "Cut the Chinese yam.",
+    "Put the ribs and yam in a pot.",
+    "Add water.",
+    "Cover the ingredients with water.",
+    "Add the corn (optional).",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r01264",
+   "name": "Pork Rib Soup with Pickled Cucumber",
+   "description": "A clear pork rib soup with pickled cucumber, inspired by a Michelin-recommended Taipei eatery.",
+   "ingredients": [
+    {
+     "name": "pork ribs (with cartilage)",
+     "amount": "4"
+    },
+    {
+     "name": "pickled cucumber",
+     "amount": "1 can"
+    },
+    {
+     "name": "black pepper",
+     "amount": "generous amount"
+    },
+    {
+     "name": "white pepper",
+     "amount": "to taste"
+    },
+    {
+     "name": "rice wine",
+     "amount": "4 tbsp"
+    },
+    {
+     "name": "soy sauce",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "dried shiitake mushroom (optional)",
+     "amount": "5"
+    },
+    {
+     "name": "sliced ginger",
+     "amount": "8 slices"
+    }
+   ],
+   "steps": [
+    "Cut the ribs between the bones into small pieces and rinse.",
+    "Rinse the 5 dried shiitake and soak in warm water until soft.",
+    "Put the ribs in an empty pot with 4–5 slices of ginger and 2 tbsp rice wine, add water to cover, and heat over medium from cold until just simmering, then turn off the heat.",
+    "Discard the water, rinse the ribs again to remove scum, and pat dry.",
+    "Put the ribs in a clean pot, mix well with 2 tbsp soy sauce and plenty of black pepper, and leave for about 10 minutes (refrigerate in hot weather).",
+    "Adjust the soy sauce to the sweetness and saltiness of the pickled cucumber, but make sure all the ribs are coated.",
+    "Add 4 slices of ginger, the whole can of pickled cucumber, the soaked shiitake, white pepper and 2 tbsp rice wine (30 ml), then add water to cover by about 3 cm and stir.",
+    "Pressure-cook on the Soup setting (low pressure, 15 minutes), adding 5 more minutes for very tender ribs.",
+    "Without a pressure cooker, simmer on the stove or in an electric cooker until the ribs are tender.",
+    "Taste and add salt if needed.",
+    "Serve."
+   ]
+  },
+  {
+   "id": "r00034",
+   "name": "Pork Blood Soup with Pickled Mustard Greens",
+   "description": "",
+   "ingredients": [
+    {
+     "name": "pork blood curd",
+     "amount": "1 block"
+    },
+    {
+     "name": "pickled mustard greens",
+     "amount": "2 leaves"
+    },
+    {
+     "name": "pork small intestine",
+     "amount": "100 g"
+    },
+    {
+     "name": "minced garlic",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "chicken powder",
+     "amount": "1 spoon"
+    },
+    {
+     "name": "sacha sauce",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "lard",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "pepper",
+     "amount": "a little"
+    }
+   ],
+   "steps": [
+    "Wash and finely chop the pickled mustard greens. Add the pork blood to boiling water and remove once it returns to the boil; blanch the pork intestine for about 10 minutes.",
+    "Heat a little lard in a soup pot, fry the garlic until fragrant, then add the mustard greens, sacha sauce and chicken powder and stir-fry until aromatic; add water or stock.",
+    "Add the pork blood and intestine, bring to the boil and sprinkle with pepper."
+   ]
+  },
+  {
+   "id": "r00665",
+   "name": "Grouper and Clam Soup with Ginger",
+   "description": "Tender grouper and sweet clams in a ginger broth, flavoured with rice wine, white pepper and sesame oil.",
+   "ingredients": [
+    {
+     "name": "grouper fillet",
+     "amount": "15 small pieces"
+    },
+    {
+     "name": "clams (purged)",
+     "amount": "10"
+    },
+    {
+     "name": "spring onion, cut into lengths",
+     "amount": "2"
+    },
+    {
+     "name": "shredded ginger",
+     "amount": "to taste"
+    },
+    {
+     "name": "garlic",
+     "amount": "5 cloves"
+    },
+    {
+     "name": "salt",
+     "amount": "to taste"
+    },
+    {
+     "name": "water",
+     "amount": "as needed"
+    },
+    {
+     "name": "olive oil",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "rice wine",
+     "amount": "1 tsp"
+    },
+    {
+     "name": "white pepper",
+     "amount": "to taste"
+    }
+   ],
+   "steps": [
+    "Heat oil and fry the ginger, spring onion and garlic until fragrant.",
+    "Add hot water and bring to the boil, then add the grouper, clams and rice wine. The fish is cooked when a chopstick pierces it easily; turn off the heat once the clams open. Sprinkle with white pepper and add a drop or two of sesame oil.",
+    "The clams are already salty, so taste the soup before adding salt."
+   ]
+  },
+  {
+   "id": "r00967",
+   "name": "Clear Braised Beef Soup",
+   "description": "A mild, rich beef soup sweetened by slow-simmered vegetables.",
+   "ingredients": [
+    {
+     "name": "beef rib fingers",
+     "amount": "1 strip"
+    },
+    {
+     "name": "salt",
+     "amount": "3 tsp"
+    },
+    {
+     "name": "rice wine",
+     "amount": "2 tbsp"
+    },
+    {
+     "name": "corn",
+     "amount": "1 cob"
+    },
+    {
+     "name": "daikon",
+     "amount": "1/4"
+    },
+    {
+     "name": "carrot",
+     "amount": "half"
+    },
+    {
+     "name": "onion",
+     "amount": "half"
+    },
+    {
+     "name": "basil leaves",
+     "amount": "4"
+    },
+    {
+     "name": "beef tomato",
+     "amount": "1"
+    }
+   ],
+   "steps": [
+    "Cut the corn, carrot, daikon, onion and tomato into chunks or slices.",
+    "Rinse the beef to remove blood and cut into chunks.",
+    "Heat oil and fry the onion until fragrant.",
+    "Add the beef and stir-fry until lightly browned.",
+    "Add the carrot, daikon and 2 tbsp rice wine and stir-fry briefly.",
+    "Add the corn, tomato and basil.",
+    "Fill the pot about 80% full with water and bring to the boil.",
+    "Reduce to low heat.",
+    "Cover and simmer on low heat for 40 minutes.",
+    "Season with salt."
+   ]
+  },
+  {
+   "id": "r01214",
+   "name": "Hakka Stir-fry Topping for Savoury Rice Balls",
+   "description": "The stir-fried topping that flavours Hakka savoury rice ball soup; it also goes well with rice.",
+   "ingredients": [
+    {
+     "name": "dried shrimp",
+     "amount": "to taste"
+    },
+    {
+     "name": "dried shiitake mushroom",
+     "amount": "6–7"
+    },
+    {
+     "name": "green garlic",
+     "amount": "1–2 stalks"
+    },
+    {
+     "name": "minced pork or shredded pork",
+     "amount": "as needed"
+    },
+    {
+     "name": "carrot",
+     "amount": "half a small bowl"
+    },
+    {
+     "name": "crown daisy",
+     "amount": "1 large bunch"
+    },
+    {
+     "name": "salt",
+     "amount": "1 tbsp"
+    },
+    {
+     "name": "white pepper",
+     "amount": "1 tsp"
+    }
+   ],
+   "steps": [
+    "Add dried shrimp to taste.",
+    "Marinate the pork in a little soy sauce; soaked tofu skin cut into strips can replace the pork.",
+    "Soak the dried shiitake and shred; slice the green garlic diagonally, reserving some green parts to add at the end.",
+    "Heat oil and stir-fry the pork until about 80% cooked.",
+    "Add the shiitake and dried shrimp and stir-fry until the shrimp is fragrant.",
+    "Add the carrot and green garlic, season with salt and white pepper and stir-fry until soft.",
+    "Bring cold water, 1 tbsp rice and a little stock cube to the boil and cook through.",
+    "Add the stir-fry and crown daisy; add a little more salt to taste."
+   ]
+  }
+ ]
+}
