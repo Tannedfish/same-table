@@ -1,0 +1,2 @@
+Mozilla Common Voice 22, Cantonese (yue), test split, via https://huggingface.co/datasets/JackyHoCL/common_voice_22_yue
+License: CC0 1.0. Selection: up_votes >= 2, down_votes == 0, seed 5240, max 2 clips per speaker.

@@ -85,3 +85,13 @@ def test_english_mode_shows_translated_dishes(library):
     at.button(key="go_list").click().run()
     labels = [c.label for c in at.checkbox]
     assert labels and not any(any("\u4e00" <= ch <= "\u9fff" for ch in label) for label in labels)
+
+
+def test_voice_section(monkeypatch):
+    from same_table import speech
+    at = run_app()
+    assert any("basic mode" in c.value or "基本模式" in c.value for c in at.caption)   # offline: voice switched off
+    monkeypatch.setattr(speech.Transcriber, "enabled", property(lambda self: True))
+    at = run_app()
+    at.button(key="transcribe").click().run()                  # nothing recorded yet
+    assert not at.exception and any("錄音" in i.value or "Record" in i.value for i in at.info)

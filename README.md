@@ -12,21 +12,25 @@ connected to HA Go.
 pip install -r requirements-dev.txt
 streamlit run app.py                         # downloads the two HF models on first run
 SAME_TABLE_OFFLINE=1 streamlit run app.py    # no downloads: keyword + char-gram fallback
-pytest -q                                    # 101 tests, offline, ~4 s
+pytest -q                                    # 118 tests, offline, ~6 s
 ```
 
 ## How it works
 
 ```
-cook input ──► Pipeline 1 (tag request) ──► Pipeline 2 (rank library) ──► rules ──► 5 pages
-             transformers.pipeline          transformers.pipeline        plain Python
+voice note ──► Pipeline 3 (speech → text) ─┐
+                                           ├─► Pipeline 1 (tag request) ──► Pipeline 2 (rank library) ──► rules ──► 5 pages
+typed text / chips ────────────────────────┘
 ```
+
+All three pipelines are Hugging Face `transformers.pipeline` objects; the rules are plain Python.
 
 | Layer | File | Job |
 |---|---|---|
 | Pipeline 1 | `same_table/tagging.py` | Sentence + chips → tags (steam / blanch / soup / stir, more-veg / more-meat, less-sweet, within-20-min). Uses zero-shot (base model) or text-classification (our fine-tune). A keyword lexicon always runs alongside it. |
 | Pipeline 2 | `same_table/retrieval.py` | `feature-extraction` encoder. Embeds the ~100 library dishes once and ranks them by cosine similarity to the request plus a weighted exact-match score (hybrid). |
 | Rules | `same_table/rules.py` | Dish-count table (1→2 … 6→8, 7+ → 8); category split; 14-day log with non-repeat; 20-min filter; three fixed patient actions; shopping-list merge that never invents ingredients. |
+| Pipeline 3 | `same_table/speech.py` | `automatic-speech-recognition`. A Cantonese voice note (recorded in the browser or uploaded: WAV, MP3, M4A, OGG, FLAC, WebM; up to 60 s) becomes text in the request box, still editable. Loaded on first use. |
 | Planner | `same_table/planner.py` | Glue code, and the single function the app calls. |
 | Library | `same_table/library.py`, `data/` | Validated dish rows. `seed_library.json` holds 30 hand-written placeholder rows. |
 | App | `app.py` | Tonight → Menu → How to cook → How to plate → List, with a zh/EN toggle and a disclaimer on every page. |
@@ -44,12 +48,13 @@ without naming the model.
 python scripts/make_training_data.py              # data/train/*.jsonl
 # then run, in this order (Colab: Runtime -> Restart & Run All):
 #   notebooks/Model1_finetune_tagger.ipynb        fine-tunes 3 candidates for Pipeline 1, picks one, uploads it
+#   notebooks/Model3_speech.ipynb                 tests 3 speech models for Pipeline 3 on 200 Cantonese clips
 #   notebooks/Model2_experiments.ipynb            tests 3 encoders for Pipeline 2, tests the whole app, writes the Excel file
 python scripts/make_submission.py --group 01 --leader 07123456    # Canvas folder layout + zip
 ```
 
-Pipeline 1 is fine-tuned (it is the pipeline closest to the objective). Pipeline 2 is not fine-tuned:
-three pre-trained encoders are tested on our own queries. Results of the committed run (CPU):
+Pipeline 1 is fine-tuned (it is the pipeline closest to the objective). Pipelines 2 and 3 are not
+fine-tuned: three pre-trained models each are tested on our own test sets. Results of the committed run (CPU):
 
 | Pipeline 1: 8 tags from a sentence | Accuracy, `trainer.evaluate()` (600 held-out-phrase sentences) | Accuracy, 108 hand-written test | CPU sec / 100 requests |
 |---|---|---|---|
@@ -78,6 +83,15 @@ tied and the shortest run time wins.
 Known limits: training sentences are template-generated (the evaluation split uses held-out phrases and
 the test set is hand-written); without fine-tuning, the encoder only matches plain character matching on
 literal ingredient queries and its gain is on paraphrases; the paraphrase set is small (24).
+
+| Pipeline 3: Cantonese speech to text (200 Common Voice clips, 167 speakers) | Character accuracy | Sentences with no error | CPU sec / clip |
+|---|---|---|---|
+| **`alvanlii/whisper-small-cantonese` (picked)** | **0.921** | 0.59 | 2.9 |
+| `safecantonese/whisper-base-yue-hk-mdccl` | 0.838 | 0.32 | 0.9 |
+| `scottykwok/wav2vec2-large-xlsr-cantonese` | 0.727 | 0.09 | 1.2 |
+
+The test clips are general read Cantonese, not cooking requests; the five voice-note rows in the Excel
+file check the whole chain (speech → tags → menu) on the deployed app.
 
 ## Settings for the deployed app (course rule: app model = notebook model)
 
@@ -128,7 +142,7 @@ dishes, so hand-pick extra 蒸 rows if you want the Steam chip to have choices.
 
 ## Deploy (Streamlit Community Cloud)
 
-1. Push to a **public** GitHub repo.
+1. Push to a **public** GitHub repo. `packages.txt` installs `ffmpeg`, which voice notes in M4A/WebM need.
 2. On share.streamlit.io, create a new app with main file `app.py`.
 3. Add the secrets above.
 

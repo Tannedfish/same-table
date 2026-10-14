@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/secrets.toml
+# trained weights live on the Hugging Face Hub, not in git
+artifacts/p1_*/
+artifacts/same-table-tagger/
+artifacts/p2_*/
+artifacts/tmp*/
+submission/

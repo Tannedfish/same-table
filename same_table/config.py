@@ -23,6 +23,8 @@ DEFAULT_P2_POOLING = "cls"  # bge uses CLS pooling; use "mean" for most sentence
 # The untuned bge model expects this instruction in front of short queries. Our fine-tune is trained
 # on plain queries, so the prefix is used only with the untuned default model.
 BGE_QUERY_PREFIX = "为这个句子生成表示以用于检索相关文章："
+DEFAULT_P3_MODEL = "alvanlii/whisper-small-cantonese"  # Cantonese speech recognition (voice notes)
+DEFAULT_P3_LANGUAGE = "zh"  # Whisper language token; "" for CTC models such as wav2vec2
 DEFAULT_P2_HYBRID_WEIGHT = 3.0  # tuned on 600 development queries in notebooks/Model2_experiments.ipynb
 
 
@@ -53,6 +55,8 @@ class Settings:
     p2_pooling: str
     p2_query_prefix: str
     p2_hybrid_weight: float  # weight of the character-match score added to the cosine similarity
+    p3_model_id: str
+    p3_language: str
     library_path: Path
     offline: bool  # skip model downloads, use keyword/char-gram fallbacks
     demo_mode: bool  # show one unlabeled demo dish on the menu
@@ -77,6 +81,8 @@ class Settings:
             p2_pooling=pooling,
             p2_query_prefix=_read("P2_QUERY_PREFIX", BGE_QUERY_PREFIX if p2_model == DEFAULT_P2_MODEL else ""),
             p2_hybrid_weight=float(_read("P2_HYBRID_WEIGHT", str(DEFAULT_P2_HYBRID_WEIGHT))),
+            p3_model_id=_read("P3_MODEL_ID", DEFAULT_P3_MODEL),
+            p3_language=_read("P3_LANGUAGE", DEFAULT_P3_LANGUAGE).strip(),
             library_path=library,
             offline=_flag("SAME_TABLE_OFFLINE", False),
             demo_mode=_flag("SAME_TABLE_DEMO", True),

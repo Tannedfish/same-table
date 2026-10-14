@@ -2,7 +2,8 @@
 
     python scripts/export_results.py
 
-Reads artifacts/p1_results.json (Model1 notebook) and artifacts/experiments.json (Model2 notebook).
+Reads artifacts/p1_results.json (Model1 notebook), artifacts/experiments.json (Model2 notebook) and,
+if present, artifacts/experiments_speech.json (Model3 notebook).
 Accuracy cells are Excel formulas over the per-sample sheets, so they can be audited.
 """
 
@@ -53,6 +54,8 @@ def header(ws, row, col_values):
 def main() -> None:
     p1 = json.loads((OUT / "p1_results.json").read_text(encoding="utf-8"))
     ex = json.loads((OUT / "experiments.json").read_text(encoding="utf-8"))
+    speech_file = OUT / "experiments_speech.json"
+    sp = json.loads(speech_file.read_text(encoding="utf-8")) if speech_file.exists() else None
     wb = Workbook()
 
     # ------------------------------------------------------------ P1 test sheet
@@ -86,6 +89,35 @@ def main() -> None:
     t2.row_dimensions[1].height = 48
     t2.freeze_panes = "A2"
     rank_col = {name: get_column_letter(3 + k) for k, name in enumerate(systems)}
+
+    # ---------------------------------------------------------- P3 clips sheet
+    sp_cols, n3 = {}, 0
+    if sp:
+        t3 = wb.create_sheet("P3 clips")
+        heads = {"A": "Clip (data/speech/)", "B": "Reference transcript (Common Voice)", "C": "Reference characters"}
+        for k, model in enumerate(sp["candidates"]):
+            heard, errs = get_column_letter(4 + 2 * k), get_column_letter(5 + 2 * k)
+            heads[heard], heads[errs] = f"Heard: {model}", f"Character errors: {model}"
+            sp_cols[model] = errs
+        header(t3, 1, heads)
+        for i, clip in enumerate(sp["clips"], start=2):
+            put(t3, f"A{i}", clip["file"])
+            put(t3, f"B{i}", clip["reference"])
+            first_model = next(iter(sp["candidates"]))
+            put(t3, f"C{i}", sp["outputs"][first_model]["chars"][i - 2])
+            for k, model in enumerate(sp["candidates"]):
+                out = sp["outputs"][model]
+                put(t3, f"{get_column_letter(4 + 2 * k)}{i}", out["hypotheses"][i - 2])
+                put(t3, f"{sp_cols[model]}{i}", out["edits"][i - 2])
+        n3 = len(sp["clips"]) + 1
+        t3.column_dimensions["A"].width = 26
+        t3.column_dimensions["B"].width = 34
+        t3.column_dimensions["C"].width = 12
+        for k in range(len(sp["candidates"])):
+            t3.column_dimensions[get_column_letter(4 + 2 * k)].width = 34
+            t3.column_dimensions[get_column_letter(5 + 2 * k)].width = 14
+        t3.row_dimensions[1].height = 48
+        t3.freeze_panes = "A2"
 
     # ---------------------------------------------------------- Performance sheet
     ws = wb.create_sheet("Performance", 0)
@@ -207,6 +239,44 @@ def main() -> None:
     put(ws, f"E{row}", "Step 2b: Pick the BEST model for implementation", font=BOLD)
     put(ws, f"E{row + 1}", f"{ex['p2_chosen']} is picked: highest top-5 accuracy; models within one standard error of the best are tied and the shortest run time wins.")
 
+    # Pipeline 3
+    if sp:
+        row += 4
+        c3 = sp["counts"]
+        put(ws, f"C{row}", "Step 1: Select THREE relevant and comparable pre-trained models", font=BOLD)
+        put(ws, f"E{row}", "Step 2a: Test the performance of the selected models with your own dataset", font=BOLD)
+        put(ws, f"C{row + 1}", "Pipeline 3 - Automatic speech recognition (Cantonese voice notes, not finetuned)", font=BOLD)
+        put(ws, f"E{row + 2}", "Dataset:")
+        put(ws, f"F{row + 2}", "data/speech/ (Mozilla Common Voice 22, Cantonese test split, CC0)")
+        put(ws, f"E{row + 3}", "testing samples (voice clips):")
+        put(ws, f"F{row + 3}", "=COUNTA('P3 clips'!A2:A%d)" % n3)
+        put(ws, f"E{row + 4}", "speakers / minutes of audio:")
+        put(ws, f"F{row + 4}", f"{c3['speakers']} speakers / {c3['minutes']} min")
+        row += 6
+        header(ws, row, {"D": "Model name", "E": "Performance (character accuracy = 1 - character error rate)",
+                         "F": "Run time (in sec. per clip, CPU)", "G": "Sentence accuracy (no error)", "H": "Parameters (millions)"})
+        ws.row_dimensions[row].height = 48
+        row += 1
+        for k, model in enumerate(sp["candidates"], start=1):
+            r = sp["results"][model]
+            col = sp_cols[model]
+            fill = PICK_FILL if model == sp["chosen"] else None
+            put(ws, f"C{row}", f"Model {k}", box=True, fill=fill)
+            put(ws, f"D{row}", model, box=True, fill=fill)
+            put(ws, f"E{row}", f"=1-SUM('P3 clips'!{col}2:{col}{n3})/SUM('P3 clips'!C2:C{n3})", fmt="0.000", box=True, fill=fill)
+            put(ws, f"F{row}", round(r["seconds_per_clip"], 2), fmt="0.00", box=True, fill=fill)
+            put(ws, f"G{row}", f"=COUNTIF('P3 clips'!{col}2:{col}{n3},0)/COUNT('P3 clips'!{col}2:{col}{n3})", fmt="0.000", box=True, fill=fill)
+            put(ws, f"H{row}", round(r["params_M"], 1), fmt="0.0", box=True, fill=fill)
+            row += 1
+        put(ws, f"D{row}", "Each model runs through the app's Transcriber (16 kHz audio; Whisper decodes greedily in Chinese). Errors ignore "
+                           "punctuation, spaces and simplified/traditional differences. Source: notebooks/Model3_speech.ipynb; "
+                           "accuracy cells are formulas over sheet 'P3 clips'.", wrap=True)
+        ws.merge_cells(f"D{row}:H{row}")
+        ws.row_dimensions[row].height = 44
+        row += 2
+        put(ws, f"E{row}", "Step 2b: Pick the BEST model for implementation", font=BOLD)
+        put(ws, f"E{row + 1}", f"{sp['chosen']} is picked: highest character accuracy; models within one standard error of the best are tied and the shortest run time wins.")
+
     # Overall performance (right-hand block)
     put(ws, "J8", "Step 3: Implement the App and deploy it to Streamlit Cloud", font=BOLD)
     put(ws, "J9", "1. Deployment")
@@ -237,6 +307,27 @@ def main() -> None:
                             "(type Correct or Incorrect). Green rows = picked models.", wrap=True)
     ws.merge_cells(f"L{last + 6}:N{last + 6}")
     ws.row_dimensions[last + 6].height = 32
+
+    if sp:   # voice notes: recorded by the team on the deployed app
+        v0 = last + 9
+        put(ws, f"J{v0}", f"3. Voice-note tests on Streamlit Cloud (pipeline 3: {sp['chosen']})", font=BOLD)
+        header(ws, v0 + 1, {"J": "Test", "K": "Say this into the app (Cantonese)", "L": "Expected tags",
+                            "M": "Text heard (fill in)", "N": "Correct or not (fill in)"})
+        voice = [("今晚想食清蒸魚，唔好太甜", "steam, less_sweet"), ("好趕時間，炒兩個餸就得", "quick, stir"),
+                 ("想煲個湯，多啲菜", "soup, more_veg"), ("屋企三個男仔，肉要多啲", "more_meat"),
+                 ("灼個菜心，再蒸個水蛋", "blanch, steam")]
+        for i, (say, tags) in enumerate(voice):
+            r = v0 + 2 + i
+            put(ws, f"J{r}", f"Voice test {i + 1}", box=True)
+            put(ws, f"K{r}", say, box=True)
+            put(ws, f"L{r}", tags, box=True)
+            put(ws, f"M{r}", None, fill=INPUT_FILL, box=True)
+            put(ws, f"N{r}", None, fill=INPUT_FILL, box=True)
+        vl = v0 + 1 + len(voice)
+        put(ws, f"L{vl + 2}", "Voice accuracy (Streamlit Cloud):", font=BOLD)
+        put(ws, f"N{vl + 2}", f'=IF(COUNTA(N{v0 + 2}:N{vl})=0,"not checked yet",COUNTIF(N{v0 + 2}:N{vl},"Correct")/COUNTA(N{v0 + 2}:N{vl}))', fmt="0.00")
+        put(ws, f"L{vl + 3}", "Correct = after 'Turn into text' and 'Plan tonight's menu', the 'Understood' line on the Menu page shows exactly the expected tags.", wrap=True)
+        ws.merge_cells(f"L{vl + 3}:N{vl + 3}")
 
     for col, width in {"A": 2, "B": 2, "C": 12, "D": 50, "E": 30, "F": 24, "G": 18, "H": 22, "I": 14,
                        "J": 14, "K": 46, "L": 70, "M": 26, "N": 28}.items():

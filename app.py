@@ -29,6 +29,7 @@ from same_table.rules import (
     seed_log,
     swap_dish,
 )
+from same_table.speech import AUDIO_TYPES, SpeechError, Transcriber
 from same_table.tagging import CHIPS, Tagger
 
 logging.basicConfig(level=logging.INFO)
@@ -86,6 +87,11 @@ def get_tagger(_settings: Settings) -> Tagger:
 @st.cache_resource(show_spinner=False)
 def get_retriever(_settings: Settings, _library: Library) -> Retriever:
     return Retriever(_settings, _library).load()
+
+
+@st.cache_resource(show_spinner=False)
+def get_transcriber(_settings: Settings) -> Transcriber:
+    return Transcriber(_settings)  # the speech model loads on the first voice note, not at start-up
 
 
 # --------------------------------------------------------------------- state
@@ -245,7 +251,43 @@ def donut(counts: dict[str, int]) -> None:
 
 
 # --------------------------------------------------------------------- pages
-def page_tonight(library, tagger, retriever) -> None:
+def _transcribe(transcriber: Transcriber) -> None:
+    """Callback: voice note -> text appended to the request box (runs before the box is drawn)."""
+    ss, L = st.session_state, lang()
+    clip = ss.get("w_voice_rec") or ss.get("w_voice_file")
+    if clip is None:
+        ss.flash.append((t("voice_none", L), "info"))
+        return
+    try:
+        with st.spinner(t("voice_working", L)):
+            heard = transcriber.transcribe(clip.getvalue())
+    except SpeechError as exc:
+        ss.flash.append((t("voice_err_" + str(exc), L), "warning"))
+        return
+    except Exception as exc:  # model or runtime failure: keep the app usable
+        ss.flash.append((t("error_generic", L, e=exc), "warning"))
+        return
+    if not heard:
+        ss.flash.append((t("voice_err_nothing", L), "warning"))
+        return
+    combined = f"{ss.get('text', '')} {heard}".strip()[:300]
+    ss.text = ss.w_text = combined
+    ss.flash.append((t("voice_heard", L, text=heard), "success"))
+
+
+def voice_note(transcriber: Transcriber) -> None:
+    L = lang()
+    with st.expander(t("voice_title", L), expanded=False):
+        if not transcriber.enabled:
+            st.caption(t("voice_off", L))
+            return
+        st.caption(t("voice_help", L))
+        st.audio_input(t("voice_record", L), key="w_voice_rec", sample_rate=16000)
+        st.file_uploader(t("voice_upload", L), type=list(AUDIO_TYPES), key="w_voice_file", max_upload_size=10)
+        st.button(t("voice_btn", L), key="transcribe", on_click=_transcribe, args=(transcriber,), icon=":material/mic:")
+
+
+def page_tonight(library, tagger, retriever, transcriber) -> None:
     L, ss = lang(), st.session_state
     persist("w_people", "people")
     persist("w_text", "text")
@@ -257,6 +299,7 @@ def page_tonight(library, tagger, retriever) -> None:
 
     st.text_area(t("request", L), key="w_text", placeholder=t("request_ph", L), max_chars=300, height=90)
     ss.text = ss.w_text
+    voice_note(transcriber)
     st.pills(t("chips", L), options=list(CHIPS), selection_mode="multi", key="w_chips",
              format_func=lambda c: t("chip_" + c, L))
     ss.chips = list(ss.w_chips or [])
@@ -348,6 +391,10 @@ def page_menu(library) -> None:
     extra = f" (+{len(dishes) - n_lib})" if len(dishes) > n_lib else ""
     st.markdown(f"### {t('menu_header', L, p=res.people, n=f'{n_lib}{extra}', pct=pct)}")
     st.caption(t("menu_header_note", L))
+    understood = sorted(res.tags.methods) + ([res.tags.balance] if res.tags.balance != "balanced" else []) \
+        + [flag for flag in ("less_sweet", "quick") if getattr(res.tags, flag)]
+    shown = " · ".join(t("chip_" + tag, L) for tag in understood) or t("understood_none", L)
+    st.markdown(f"<p class='dish-sub'>{t('understood', L)}: <b>{html.escape(shown)}</b></p>", unsafe_allow_html=True)
     for note in res.plan.notes:
         st.info(t("note_" + note, L, k=res.plan.shortfall))
 
@@ -485,12 +532,13 @@ def main() -> None:
     with st.spinner(t("loading", st.session_state.get("lang", "zh"))):
         tagger = get_tagger(settings)
         retriever = get_retriever(settings, library)
+    transcriber = get_transcriber(settings)
     init_state(library)
 
     page = st.session_state.page if st.session_state.page in PAGES else "tonight"
     header(page)
     if page == "tonight":
-        page_tonight(library, tagger, retriever)
+        page_tonight(library, tagger, retriever, transcriber)
     elif page == "menu":
         page_menu(library)
     elif page == "cook":
