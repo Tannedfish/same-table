@@ -11,7 +11,7 @@
    "paraphrase_p@5": 0.47500000000000003,
    "paraphrase_p@5_english": 0.6000000000000001,
    "dev_top5_accuracy": 0.91,
-   "seconds_per_100_queries": 0.025921638999989227,
+   "seconds_per_100_queries": 0.2381407755000282,
    "params_M": 0.0
   },
   "BAAI/bge-small-zh-v1.5": {
@@ -23,7 +23,7 @@
    "dev_top5_accuracy": 0.905,
    "top5_accuracy_dense_only": 0.72,
    "paraphrase_p@5_dense_only": 0.44166666666666665,
-   "seconds_per_100_queries": 2.261508144000004,
+   "seconds_per_100_queries": 0.977008957999999,
    "params_M": 23.95392
   },
   "shibing624/text2vec-base-chinese": {
@@ -35,7 +35,7 @@
    "dev_top5_accuracy": 0.9033333333333333,
    "top5_accuracy_dense_only": 0.595,
    "paraphrase_p@5_dense_only": 0.4750000000000001,
-   "seconds_per_100_queries": 5.89116620050001,
+   "seconds_per_100_queries": 2.338926734499978,
    "params_M": 102.267648
   },
   "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2": {
@@ -47,7 +47,7 @@
    "dev_top5_accuracy": 0.8916666666666667,
    "top5_accuracy_dense_only": 0.3,
    "paraphrase_p@5_dense_only": 0.6083333333333333,
-   "seconds_per_100_queries": 2.7185410370000227,
+   "seconds_per_100_queries": 1.0439355985000134,
    "params_M": 117.65376
   }
  },
@@ -1696,9 +1696,9 @@
    "target": "客家鹹湯圓的“炒料”"
   }
  ],
- "p1_model": "Tannedfish/same-table-tagger",
- "p1_app_accuracy": 0.8888888888888888,
- "p1_app_seconds_per_100": 11.225709881481471,
+ "p1_model": "Tannedfish95/same-table-tagger",
+ "p1_app_accuracy": 0.8518518518518519,
+ "p1_app_seconds_per_100": 1.0366056481481574,
  "app_tests": [
   {
    "people": 4,
@@ -1814,11 +1814,11 @@
    "people": 5,
    "input": "we want more meat tonight and a soup",
    "expected tags": "more_meat, soup",
-   "tags found": "more_meat, soup",
-   "menu": "蒜苗炒臘肉 / 洋蔥炒鹹豬肉 / 韭菜肉片炒金針菇 / 蒜蓉蒸蝦 / 鹽炒花生 / 小黃瓜炒杏鮑菇及火腿片 / *蔥薑蒜* 香菇雞湯",
+   "tags found": "more_veg, soup",
+   "menu": "涼拌小黃瓜雞絲 / 芥藍菜炒鹹豬肉 / 蒜蓉蒸蝦 / 小黃瓜炒杏鮑菇及火腿片 / 清炒小芥菜 / 鹽炒花生 / 酸菜豬血湯",
    "notes": "",
-   "result": "Correct",
-   "failed checks": ""
+   "result": "Incorrect",
+   "failed checks": "tags"
   },
   {
    "people": 2,
@@ -1894,14 +1894,14 @@
    "people": 4,
    "input": "雪櫃有雞胸同菠菜",
    "expected tags": "(none)",
-   "tags found": "more_veg",
-   "menu": "涼拌小黃瓜雞絲 / 菠菜炒鴻禧菇 / 薑絲高麗菜炒小黃瓜 / 芹菜鮮蔬炒豆乾 / 蒜炒菜心 / 鹹菜蒜頭蛤蠣雞湯（電鍋/一鍋到底）",
+   "tags found": "(none)",
+   "menu": "涼拌小黃瓜雞絲 / 炒櫻桃鴨胸 / 菠菜炒鴻禧菇 / 小黃瓜炒杏鮑菇 / 小黃瓜炒杏鮑菇及火腿片 / 鹹菜蒜頭蛤蠣雞湯（電鍋/一鍋到底）",
    "notes": "",
-   "result": "Incorrect",
-   "failed checks": "tags"
+   "result": "Correct",
+   "failed checks": ""
   }
  ],
  "app_accuracy": 0.9,
- "app_seconds_per_request": 0.05429751245000034,
- "device": "cpu"
+ "app_seconds_per_request": 0.0175459232000037,
+ "device": "cuda"
 }

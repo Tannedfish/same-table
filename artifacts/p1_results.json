@@ -9,7 +9,7 @@
   "epochs": 3,
   "learning_rate": 5e-05,
   "batch_size": 16,
-  "device": "cpu"
+  "device": "cuda"
  },
  "candidates": {
   "Model 1": "hfl/rbt3",
@@ -18,40 +18,40 @@
  },
  "results": {
   "hfl/rbt3": {
-   "eval_accuracy": 0.5783333333333334,
-   "eval_tag_accuracy": 0.9222916666666666,
-   "eval_macro_f1": 0.7799778347714142,
-   "eval_seconds": 2.9747024540001803,
-   "train_seconds": 214.9456324419998,
-   "test_accuracy": 0.8518518518518519,
-   "test_tag_accuracy": 0.9768518518518519,
-   "test_macro_f1": 0.9314184754034378,
-   "cpu_seconds_per_100_requests": 0.8877224555556461,
-   "params_M": 38.482952
+   "eval_accuracy": 0.595,
+   "eval_tag_accuracy": 0.929,
+   "eval_macro_f1": 0.803,
+   "eval_seconds": 0.299,
+   "train_seconds": 16.606,
+   "test_accuracy": 0.8148148148148148,
+   "test_tag_accuracy": 0.976,
+   "test_macro_f1": 0.927,
+   "cpu_seconds_per_100_requests": 2.97,
+   "params_M": 38.483
   },
   "hfl/rbt6": {
-   "eval_accuracy": 0.6416666666666667,
-   "eval_tag_accuracy": 0.9297916666666667,
-   "eval_macro_f1": 0.8091660676037302,
-   "eval_seconds": 5.608711300000323,
-   "train_seconds": 395.00289748399973,
-   "test_accuracy": 0.8888888888888888,
-   "test_tag_accuracy": 0.9837962962962963,
-   "test_macro_f1": 0.9553928867168336,
-   "cpu_seconds_per_100_requests": 1.7548121962961347,
-   "params_M": 59.746568
+   "eval_accuracy": 0.6033333333333334,
+   "eval_tag_accuracy": 0.922,
+   "eval_macro_f1": 0.797,
+   "eval_seconds": 0.49,
+   "train_seconds": 27.602,
+   "test_accuracy": 0.8611111111111112,
+   "test_tag_accuracy": 0.978,
+   "test_macro_f1": 0.938,
+   "cpu_seconds_per_100_requests": 5.442,
+   "params_M": 59.747
   },
   "hfl/chinese-roberta-wwm-ext": {
-   "eval_accuracy": 0.6533333333333333,
-   "eval_tag_accuracy": 0.935,
-   "eval_macro_f1": 0.8260525660460205,
-   "eval_seconds": 10.998389494000548,
-   "train_seconds": 774.7817279179999,
-   "test_accuracy": 0.8055555555555556,
-   "test_tag_accuracy": 0.96875,
-   "test_macro_f1": 0.9092964953255214,
-   "cpu_seconds_per_100_requests": 4.335889697222228,
-   "params_M": 102.2738
+   "eval_accuracy": 0.6666666666666666,
+   "eval_tag_accuracy": 0.942,
+   "eval_macro_f1": 0.847,
+   "eval_seconds": 0.974,
+   "train_seconds": 54.213,
+   "test_accuracy": 0.8518518518518519,
+   "test_tag_accuracy": 0.977,
+   "test_macro_f1": 0.933,
+   "cpu_seconds_per_100_requests": 10.784,
+   "params_M": 102.274
   }
  },
  "baselines": {
@@ -63,17 +63,17 @@
    "test_tag_accuracy": 0.9537037037037037,
    "test_macro_f1": 0.8214080723671517,
    "params_M": 0.0,
-   "eval_seconds": 0.025338785999338143
+   "eval_seconds": 0.07445797700000867
   },
   "zero-shot mDeBERTa (no training)": {
    "test_accuracy": 0.28703703703703703,
    "test_tag_accuracy": 0.8287037037037037,
-   "test_macro_f1": 0.544992953384615,
+   "test_macro_f1": 0.544769016931865,
    "params_M": 278.811651,
-   "test_seconds": 100.55802842000048
+   "test_seconds": 2560.8386913249997
   }
  },
- "chosen": "hfl/rbt6",
+ "chosen": "hfl/chinese-roberta-wwm-ext",
  "test_detail": [
   {
    "sentence": "阿爸牙唔好，想食啲軟熟嘅蒸餸，唔好太甜",
@@ -144,14 +144,14 @@
   {
    "sentence": "quick stir fry with lots of veggies",
    "expected": "stir, more_veg, quick",
-   "predicted": "stir, more_veg",
-   "correct": "Incorrect"
+   "predicted": "stir, more_veg, quick",
+   "correct": "Correct"
   },
   {
    "sentence": "we want more meat tonight and a soup",
    "expected": "soup, more_meat",
-   "predicted": "soup, more_meat",
-   "correct": "Correct"
+   "predicted": "soup, more_veg",
+   "correct": "Incorrect"
   },
   {
    "sentence": "冇特別要求",
@@ -306,8 +306,8 @@
   {
    "sentence": "six people coming over",
    "expected": "(none)",
-   "predicted": "(none)",
-   "correct": "Correct"
+   "predicted": "more_veg",
+   "correct": "Incorrect"
   },
   {
    "sentence": "surprise me",
@@ -396,13 +396,13 @@
   {
    "sentence": "三菜一湯",
    "expected": "soup",
-   "predicted": "soup",
-   "correct": "Correct"
+   "predicted": "soup, more_veg",
+   "correct": "Incorrect"
   },
   {
    "sentence": "要有魚有菜",
    "expected": "(none)",
-   "predicted": "more_veg",
+   "predicted": "blanch",
    "correct": "Incorrect"
   },
   {
@@ -414,8 +414,8 @@
   {
    "sentence": "唔食辣",
    "expected": "(none)",
-   "predicted": "(none)",
-   "correct": "Correct"
+   "predicted": "less_sweet",
+   "correct": "Incorrect"
   },
   {
    "sentence": "兩個大人一個小朋友",
@@ -426,8 +426,8 @@
   {
    "sentence": "想要白灼海鮮，唔好落醬",
    "expected": "blanch",
-   "predicted": "blanch",
-   "correct": "Correct"
+   "predicted": "blanch, less_sweet",
+   "correct": "Incorrect"
   },
   {
    "sentence": "蛋白質要夠，啲仔要長高",
@@ -468,8 +468,8 @@
   {
    "sentence": "no sweet sauces, steamed fish would be great",
    "expected": "steam, less_sweet",
-   "predicted": "steam, less_sweet",
-   "correct": "Correct"
+   "predicted": "steam, blanch, less_sweet",
+   "correct": "Incorrect"
   },
   {
    "sentence": "lots of protein, stir fried",
@@ -480,7 +480,7 @@
   {
    "sentence": "a warm broth and blanched greens",
    "expected": "blanch, soup",
-   "predicted": "blanch, more_veg",
+   "predicted": "more_veg",
    "correct": "Incorrect"
   },
   {
@@ -504,8 +504,8 @@
   {
    "sentence": "唔該整返啲家常小菜",
    "expected": "(none)",
-   "predicted": "more_veg",
-   "correct": "Incorrect"
+   "predicted": "(none)",
+   "correct": "Correct"
   },
   {
    "sentence": "阿嫲想飲老火湯",
@@ -522,8 +522,8 @@
   {
    "sentence": "白烚雞同烚菜",
    "expected": "blanch",
-   "predicted": "blanch",
-   "correct": "Correct"
+   "predicted": "(none)",
+   "correct": "Incorrect"
   },
   {
    "sentence": "想要蒸水蛋同埋灼生菜",
@@ -570,8 +570,8 @@
   {
    "sentence": "想食住家菜",
    "expected": "(none)",
-   "predicted": "more_veg",
-   "correct": "Incorrect"
+   "predicted": "(none)",
+   "correct": "Correct"
   },
   {
    "sentence": "今晚有客人",
@@ -588,8 +588,8 @@
   {
    "sentence": "我想要有汁撈飯嘅餸",
    "expected": "(none)",
-   "predicted": "less_sweet",
-   "correct": "Incorrect"
+   "predicted": "(none)",
+   "correct": "Correct"
   },
   {
    "sentence": "唔想洗咁多碗",
@@ -624,8 +624,8 @@
   {
    "sentence": "淨係想食菜，灼就得",
    "expected": "blanch, more_veg",
-   "predicted": "blanch",
-   "correct": "Incorrect"
+   "predicted": "blanch, more_veg",
+   "correct": "Correct"
   },
   {
    "sentence": "今晚簡單吃，燙個青菜煮個湯",
@@ -666,8 +666,8 @@
   {
    "sentence": "steamed egg and stir-fried greens",
    "expected": "steam, stir",
-   "predicted": "steam, stir, more_veg",
-   "correct": "Incorrect"
+   "predicted": "steam, stir",
+   "correct": "Correct"
   },
   {
    "sentence": "need dinner ready fast, soup is fine",
@@ -684,14 +684,14 @@
   {
    "sentence": "no sugar in anything please",
    "expected": "less_sweet",
-   "predicted": "less_sweet",
-   "correct": "Correct"
+   "predicted": "more_veg, less_sweet",
+   "correct": "Incorrect"
   },
   {
    "sentence": "meat lovers tonight",
    "expected": "more_meat",
-   "predicted": "more_meat",
-   "correct": "Correct"
+   "predicted": "(none)",
+   "correct": "Incorrect"
   },
   {
    "sentence": "just the usual",
@@ -702,8 +702,8 @@
   {
    "sentence": "blanched prawns and steamed fish",
    "expected": "steam, blanch",
-   "predicted": "steam, blanch",
-   "correct": "Correct"
+   "predicted": "steam, blanch, more_veg",
+   "correct": "Incorrect"
   },
   {
    "sentence": "好肚餓，快啲有得食就得",
@@ -723,5 +723,6 @@
    "predicted": "soup, less_sweet",
    "correct": "Correct"
   }
- ]
+ ],
+ "note": "Rebuilt from the printed outputs of the executed Model1 notebook (Colab GPU run); per-candidate metrics other than accuracies are rounded to 3 decimals as printed."
 }

@@ -63,8 +63,9 @@ class Settings:
 
     @classmethod
     def load(cls) -> "Settings":
-        library = Path(_read("LIBRARY_PATH", str(DATA_DIR / "library.json")))
-        if not library.exists():
+        # SAME_TABLE_LIBRARY, not LIBRARY_PATH: Colab and many Linux images set LIBRARY_PATH for the C linker
+        library = Path(_read("SAME_TABLE_LIBRARY", str(DATA_DIR / "library.json")))
+        if not library.is_file():
             library = DATA_DIR / "seed_library.json"
         task = _read("P1_TASK", DEFAULT_P1_TASK)
         if task not in {"zero-shot-classification", "text-classification"}:
